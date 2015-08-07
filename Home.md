@@ -8,17 +8,23 @@ Welcome to the HADataC wiki!
 
 ## 3.1. Web Console
 
-### 3.1.1. Measurement Faceted Search
+### Measurement Faceted Search
 
-#### 3.1.2. Measurement Spatial Search
+#### Measurement Spatial Search
 
-#### 3.1.3. Metadata Browser
+#### Metadata Browser
  
 ## 3.2. HASNetO-Loader
 
 ## 3.3. HADataC-Loader
 
-# 4. Notes
+# 4. Other HADataC Products
+
+## MOCCASN
+
+# 5. Publications
+
+# 6. Notes
 
 ## On August 7, 2015
 
