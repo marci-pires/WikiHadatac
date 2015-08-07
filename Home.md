@@ -2,9 +2,23 @@ Welcome to the HADataC wiki!
 
 # 1. Installation
 
-# 2. Usage
+# 2. Architecture
 
-# 3. Notes
+# 3. Usage
+
+## 3.1. Web Console
+
+### 3.1.1. Measurement Faceted Search
+
+#### 3.1.2. Measurement Spatial Search
+
+#### 3.1.3. Metadata Browser
+ 
+## 3.2. HASNetO-Loader
+
+## 3.3. HADataC-Loader
+
+# 4. Notes
 
 ## On August 7, 2015
 
