@@ -10,9 +10,9 @@ Welcome to the HADataC wiki!
 
 ### Measurement Faceted Search
 
-#### Measurement Spatial Search
+### Measurement Spatial Search
 
-#### Metadata Browser
+### Metadata Browser
  
 ## 3.2. HASNetO-Loader
 
