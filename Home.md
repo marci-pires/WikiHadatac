@@ -1,10 +1,10 @@
 Welcome to the HADataC wiki!
 
-# Installation
+# 1. Installation
 
-# Usage
+# 2. Usage
 
-# Notes
+# 3. Notes
 
 ## On August 7, 2015
 
