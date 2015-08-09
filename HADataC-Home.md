@@ -3,20 +3,20 @@
 ## Installing
 
 A basic HADataC installation involves the installation of a SOLR repository and a HADataC Console (i.e., the code hosted at this GitHub repository). The instructions below describe how to obtain and install these components, and test if the installation is working properly.
+
+Before anything, however, we need to verify that the host machine has a `git client` to retrieve the code, and an `sbt` utility to run the console. In the command line of your machine, verify that you have a `git` client installed in your machine:
+
+    git
  
+If you don not have git, you need to install one. Still from the command line, verify that you have `sbt` applications installed in your machine:
+
+    sbt
+
+If not, you need to install one.
+
 #### SOLR-HADataC
 
 #### HADataC-Console
-
-The commands in the list below are supposed to be issued within the machine that is going to host the HADataC Console Code.
-
-In the command line of your machine, verify that you have a `git` client installed in your machine
-
-    git
-
-If you don not have git, you need to install one. 
-
-Use git to download the HADataC Console code from GitHub:
 
 Clone HADataC code 
 
