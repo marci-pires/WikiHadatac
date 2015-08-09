@@ -9,12 +9,19 @@
 The commands in the list below are supposed to be issued within the machine that is going to host the HADataC Console Code. The code is the Github project listed under hadatac.
 
 a. Clone HADataC code from GitHub
+
 a.1. Verify that you have a `git` client. If not, install one
+
 a.2. Clone HADataC code 
+
 b. Set up HADataC configuration
+
 c. Run sbt
+
 c.1. Install that you have `sbt` installed. If not, install one
+
 c.2. Execute `sbt`
+
 c.3. Execute `run`
 
 # 2. Architecture
