@@ -12,7 +12,7 @@ Clone HADataC code from GitHub
 
 You first need to verify that you have a `git` client in your machine. If not, you need to install one. Type the following command from your command line to see if you have git:
 
-```git
+``` git
 ```
 
 Clone HADataC code 
