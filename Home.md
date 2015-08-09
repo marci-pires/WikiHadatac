@@ -1,4 +1,4 @@
-1. Welcome to the HADataC wiki!
+Welcome to the HADataC wiki!
 
 # 1. Installation
 
