@@ -36,6 +36,8 @@ Then move the contents of solrdf-home to your SOLR_HOME for the SOLR 4.10.x dire
     sudo cp -R * /var/solr4/data
     sudo chown -R solr /var/solr4/data
 
+##### Installing HADataC collections for data and dynamic metadat
+
 Next, move the contents of solr-home to your SOLR_HOME to either your SOLR 4.10.x or SOLR 5.x if you decided to use a newer version
 
     cd ../solr-home
