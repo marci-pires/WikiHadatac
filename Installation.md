@@ -1,4 +1,4 @@
-# HADataC Documentation
+# HADataC Installation
 
 ## Installing
 
