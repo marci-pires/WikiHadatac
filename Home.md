@@ -2,6 +2,21 @@ Welcome to the HADataC wiki!
 
 # 1. Installation
 
+## 1.1. SOLR-HADataC
+
+## 1.2. HADataC-Console
+
+The commands in the list below are supposed to be issued within the machine that is going to host the HADataC Console Code. The code is the Github project listed under hadatac.
+
+* Clone HADataC code from GitHub
+** Verify that you have a `git` client. If not, install one
+** Clone HADataC code 
+* Set up HADataC configuration
+* Run sbt
+** Install that you have `sbt` installed. If not, install one
+** Execute `sbt`
+** Execute `run`
+
 # 2. Architecture
 
 # 3. Usage
