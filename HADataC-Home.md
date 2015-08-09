@@ -18,7 +18,9 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 #### HADataC-Console
 
-Clone HADataC code 
+Clone HADataC code from GitHub:
+
+    git clone 
 
 Set up HADataC configuration
 
