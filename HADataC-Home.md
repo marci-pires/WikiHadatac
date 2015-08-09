@@ -18,13 +18,23 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 #### HADataC-Console
 
-Clone HADataC code from GitHub:
+The HADataC Console code can be installed in any directory in your file system. Let assume that you decided to install the code in `/home/myfolder/'. Go to your installation folder, and from there clone HADataC code from GitHub:
 
-    git clone 
+    cd /home/myfolder/
+    git clone https://github.com/paulopinheiro1234/hadatac.git
 
-Set up HADataC configuration
+After downloading HADataC, your filesystem should have a new folder called /home/myfolder/hadatac. In this folder, go to your configuration folder inside hadatac (../hadatac/conf).
 
-Run sbt
+    cd /home/myfolder/hadatac/conf
+
+Set up the following HADataC configuration files:
+
+    <edit> Application.conf
+    <edit> hadatac.conf
+    <edit> play-authenticate/mine.conf
+    <edit> play-authenticate/smtp 
+
+From your Run sbt
 
 Install that you have `sbt` installed. If not, install one
 
