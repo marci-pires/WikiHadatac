@@ -8,9 +8,11 @@ Welcome to the HADataC wiki!
 
 The commands in the list below are supposed to be issued within the machine that is going to host the HADataC Console Code. The code is the Github project listed under hadatac.
 
-a. Clone HADataC code from GitHub
+Clone HADataC code from GitHub
 
-Verify that you have a `git` client. If not, install one
+You first need to verify that you have a `git` client in your machine. If not, you need to install one. Type the following command from your command line to see if you have git:
+
+```git```
 
 Clone HADataC code 
 
