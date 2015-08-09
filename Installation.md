@@ -14,6 +14,39 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 #### SOLR-HADataC
 
+For the SOLR repository for HADataC (SOLR-HADataC), we assume that you have already the following:
+- A SOLR instance version 4.10.x
+- A SOLR instance version 5.x (optional, if you want a newer version to store the data and dynamic metadata)
+
+If you do not have SOLR already up and running, you can follow the instructions on the official Apache SOLR website here - https://cwiki.apache.org/confluence/display/solr/Taking+Solr+to+Production.
+
+HADataC defaults to the following:
+- SOLR 4.10.x runs on port 7574
+- SOLR 5.x runs on port 8983
+
+##### Installing SolRDF module
+
+First clone our solr-hadatac github
+
+    git clone https://github.com/hansidm/solr-hadatac.git
+
+Then move the contents of solrdf-home to your SOLR_HOME for the SOLR 4.10.x directory and set the right permissions (the code below user /var/solr4/data as SOLR_HOME and user solr as the solr user)
+
+    cd solr-hadatac/solrdf-home
+    sudo cp -R * /var/solr4/data
+    sudo chown -R solr /var/solr4/data
+
+Next, move the contents of solr-home to your SOLR_HOME to either your SOLR 4.10.x or SOLR 5.x if you decided to use a newer version
+
+    cd ../solr-home
+    sudo cp -R * /var/solr/data
+    sudo chown -R solr /var/solr/data
+
+To finish, restart the used SOLR instances
+
+    sudo service solr restart
+    sudo service solr4 restart
+
 #### HADataC-Console
 
 The HADataC Console code can be installed in any directory in your file system. Let assume that you decided to install the code in `/home/myfolder/'. Go to your installation folder, and from there clone HADataC code from GitHub:
