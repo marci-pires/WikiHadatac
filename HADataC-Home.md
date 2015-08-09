@@ -6,13 +6,15 @@
 
 #### HADataC-Console
 
-The commands in the list below are supposed to be issued within the machine that is going to host the HADataC Console Code. The code is the Github project listed under hadatac.
+The commands in the list below are supposed to be issued within the machine that is going to host the HADataC Console Code.
 
-Verify that you have a `git` client in your machine
+In the command line of your machine, verify that you have a `git` client installed in your machine
 
     git
 
-If you don not have git, you need to install one
+If you don not have git, you need to install one. 
+
+Use git to download the HADataC Console code from GitHub:
 
 Clone HADataC code 
 
