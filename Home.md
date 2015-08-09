@@ -1,6 +1,6 @@
 Welcome to the HADataC wiki!
 
-# 1. Installation
+# Installing
 
 ## 1.1. SOLR-HADataC
 
@@ -10,23 +10,21 @@ The commands in the list below are supposed to be issued within the machine that
 
 a. Clone HADataC code from GitHub
 
-a.1. Verify that you have a `git` client. If not, install one
+Verify that you have a `git` client. If not, install one
 
-a.2. Clone HADataC code 
+Clone HADataC code 
 
-b. Set up HADataC configuration
+Set up HADataC configuration
 
-c. Run sbt
+Run sbt
 
-c.1. Install that you have `sbt` installed. If not, install one
+Install that you have `sbt` installed. If not, install one
 
-c.2. Execute `sbt`
+Execute `sbt`
 
-c.3. Execute `run`
+Execute `run`
 
-# 2. Architecture
-
-# 3. Usage
+# Using
 
 ## 3.1. Web Console
 
@@ -40,11 +38,11 @@ c.3. Execute `run`
 
 ## 3.3. HADataC-Loader
 
-# 4. Other HADataC Products
+# Other HADataC Products
 
 ## MOCCASN
 
-# 5. Publications
+# Publications
 
 # 6. Notes
 
