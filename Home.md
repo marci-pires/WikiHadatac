@@ -10,9 +10,9 @@ The commands in the list below are supposed to be issued within the machine that
 
 a. Clone HADataC code from GitHub
 
-** Verify that you have a `git` client. If not, install one
+a.1. Verify that you have a `git` client. If not, install one
 
-** Clone HADataC code 
+a.2. Clone HADataC code 
 
 b. Set up HADataC configuration
 
