@@ -1,4 +1,4 @@
-Welcome to the HADataC wiki!
+# HADataC Console Documentation
 
 ## Installing
 
