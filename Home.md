@@ -1,10 +1,10 @@
 Welcome to the HADataC wiki!
 
-# Installing
+## Installing
 
-## 1.1. SOLR-HADataC
+#### SOLR-HADataC
 
-## 1.2. HADataC-Console
+#### HADataC-Console
 
 The commands in the list below are supposed to be issued within the machine that is going to host the HADataC Console Code. The code is the Github project listed under hadatac.
 
@@ -24,27 +24,27 @@ Execute `sbt`
 
 Execute `run`
 
-# Using
+## Using
 
-## 3.1. Web Console
+#### Web Console
 
-### Measurement Faceted Search
+Measurement Faceted Search
 
-### Measurement Spatial Search
+Measurement Spatial Search
 
-### Metadata Browser
+Metadata Browser
  
-## 3.2. HASNetO-Loader
+HASNetO-Loader
 
-## 3.3. HADataC-Loader
+HADataC-Loader
 
-# Other HADataC Products
+## Other HADataC Products
 
-## MOCCASN
+MOCCASN
 
-# Publications
+## Publications
 
-# 6. Notes
+## Notes
 
 ## On August 7, 2015
 
