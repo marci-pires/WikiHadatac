@@ -12,7 +12,7 @@ If you don not have git, you need to install one: http://git-scm.com/downloads. 
 
     sbt
 
-If not, you need to install one.
+If not, you need to install one: http://www.scala-sbt.org/.
 
 #### SOLR-HADataC
 
