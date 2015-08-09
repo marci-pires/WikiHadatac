@@ -8,7 +8,7 @@ Before anything, however, we need to verify that the host machine has a `git cli
 
     git
  
-If you don not have git, you need to install one. Still from the command line, verify that you have `sbt` applications installed in your machine:
+If you don not have git, you need to install one: http://git-scm.com/downloads. Still from the command line, verify that you have `sbt` applications installed in your machine:
 
     sbt
 
