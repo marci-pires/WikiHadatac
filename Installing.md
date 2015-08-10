@@ -35,7 +35,7 @@ Verify your Java version, it should show at least 1.7.0. If something under this
 
     cd ~/solr
     tar xvfz solr-4.10.4.tgz
-    cd solr-4.10.4.tgz
+    cd solr-4.10.4
     bin/solr start -p 7574
 
 Verify that Solr 4.10.4 is running by pointing you browser to http://localhost:7574/solr. You should see Solr administrative interface with some information.
@@ -44,7 +44,7 @@ Verify that Solr 4.10.4 is running by pointing you browser to http://localhost:7
 
     cd ~/solr
     tar xvfz solr-5.2.1.tgz
-    cd solr-5.2.1.tgz
+    cd solr-5.2.1
     bin/solr start -p 8983
 
 Verify that Solr 5.2.1 is running by pointing you browser to http://localhost:8983/solr. You should see Solr administrative interface with some information.
