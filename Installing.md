@@ -14,9 +14,10 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 #### SOLR-HADataC
 
-Let assume that SOLR-HADataC is going to be installed in `/home/mysolr/'.
+Let assume that SOLR-HADataC is going to be installed in a SOLR_HOME folder, e.g., `/home/mysolr/'.
 
 [HENRIQUE] Where do we get SOLR 4 (4.10.x) 
+
 [HENRIQUE] Where do we get SOLR 5 (5.x)
 
 For the SOLR repository for HADataC (SOLR-HADataC), we assume that you have already the following:
@@ -25,9 +26,21 @@ For the SOLR repository for HADataC (SOLR-HADataC), we assume that you have alre
 
 If you do not have SOLR already up and running, you can follow the instructions on the official Apache SOLR website here - https://cwiki.apache.org/confluence/display/solr/Taking+Solr+to+Production.
 
+[Henrique] HOW I UNZIP the TAR FILES?
+
+[Henrique] DO I NEED TO RUN SOME SCRIPT, MAKE, ETC?
+
+[Henrique] HOW DO I SET UP THE PORTS?
+
+[Henrique] HOW TO I EXEC SOLR (AND WHERE DO I ASSIGN PORTS 7574 TO SOLR4 and PORT 8983 TO SOLR5?
+
 HADataC defaults to the following:
 - SOLR 4.10.x runs on port 7574
 - SOLR 5.x runs on port 8983
+
+[Henrique] HOW DO I KNOW IF SOLR4 and SOLR5 are properly installed and running?
+
+[Henrique] HOW TO I STOP SOLR? 
 
 ##### Installing SolRDF module
 
@@ -41,7 +54,7 @@ Then move the contents of solrdf-home to your SOLR_HOME for the SOLR 4.10.x dire
     sudo cp -R * /var/solr4/data
     sudo chown -R solr /var/solr4/data
 
-##### Installing HADataC collections for data and dynamic metadat
+##### Installing HADataC collections for data and dynamic metadata
 
 Next, move the contents of solr-home to your SOLR_HOME to either your SOLR 4.10.x or SOLR 5.x if you decided to use a newer version
 
