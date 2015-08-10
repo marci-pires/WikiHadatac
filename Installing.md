@@ -14,6 +14,11 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 #### SOLR-HADataC
 
+Let assume that SOLR-HADataC is going to be installed in `/home/mysolr/'.
+
+[HENRIQUE] Where do we get SOLR 4 (4.10.x) 
+[HENRIQUE] Where do we get SOLR 5 (5.x)
+
 For the SOLR repository for HADataC (SOLR-HADataC), we assume that you have already the following:
 - A SOLR instance version 4.10.x
 - A SOLR instance version 5.x (optional, if you want a newer version to store the data and dynamic metadata)
@@ -51,7 +56,7 @@ To finish, restart the used SOLR instances
 
 #### HADataC-Console
 
-The HADataC Console code can be installed in any directory in your file system. Let assume that you decided to install the code in `/home/myfolder/'. Go to your installation folder, and from there clone HADataC code from GitHub:
+The HADataC Console code can be installed in any directory in your file system. Let assume that the HDataC Console is going to be installed in `/home/myfolder/'. We need to go to the installation folder, and from there, clone HADataC code from GitHub:
 
     cd /home/myfolder/
     git clone https://github.com/paulopinheiro1234/hadatac.git
