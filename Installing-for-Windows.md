@@ -30,18 +30,17 @@ Verify your Java version, by seraching `about java' it should show at least buil
 
 ##### Uncompress and run Solr 4.10.4
 
-    cd ~/solr
-    tar xvfz solr-4.10.4.tgz
+   
     cd solr-4.10.4
-    bin/solr start -p 7574
+    cd bin/
+    solr start -p 7574
 
 Verify that Solr 4.10.4 is running by pointing you browser to http://localhost:7574/solr. You should see Solr administrative interface with some information.
 
 ##### Uncompress and run Solr 5.2.1
 
-    cd ~/solr
-    tar xvfz solr-5.2.1.tgz
     cd solr-5.2.1
+    cd bin/
     bin/solr start -p 8983
 
 Verify that Solr 5.2.1 is running by pointing you browser to http://localhost:8983/solr. You should see Solr administrative interface with some information.
