@@ -26,7 +26,7 @@ For the SOLR repository for HADataC (SOLR-HADataC), we assume that you have alre
 
 If you do not have SOLR already up and running, you can follow the instructions on the official Apache SOLR website here - https://cwiki.apache.org/confluence/display/solr/Taking+Solr+to+Production.
 
-[Henrique] HOW I UNZIP the TAR FILES?
+[Henrique] DO I NEED TO UNZIP (OR UNTAR) THE TAR FILES?
 
 [Henrique] DO I NEED TO RUN SOME SCRIPT, MAKE, ETC?
 
