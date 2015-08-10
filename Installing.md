@@ -14,58 +14,73 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 #### SOLR-HADataC
 
-Let assume that SOLR-HADataC is going to be installed in a SOLR_HOME folder, e.g., `/home/mysolr/`.
+We assume that SOLR-HADataC is going to be installed in a directory, e.g., '/home/user/solr' as 'unmanaged services', i.e., manually taken up and down by the user. For installation as managed service, you need administrative privileges on the machine as well as knowledge about your internal network, like available ports, firewalls and such. Follow this link for more information [link].
 
-[HENRIQUE] Where do we get SOLR 4 (4.10.x) 
+##### What you will need
+1. Java VM 7+: http://java.com/en/download/ (or use your distribution's java)
+2. Solr 4.10.4: http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.tgz
+3. Solr 5.2.1: http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz
 
-[HENRIQUE] Where do we get SOLR 5 (5.x)
+Verify your Java version, it should show at least 1.7.0. If something under this appears or the program fails, you need to properly install Java 1.7+.
 
-For the SOLR repository for HADataC (SOLR-HADataC), we assume that you have already the following:
-- A SOLR instance version 4.10.x
-- A SOLR instance version 5.x (optional, if you want a newer version to store the data and dynamic metadata)
+    java -version
 
-If you do not have SOLR already up and running, you can follow the instructions on the official Apache SOLR website here - https://cwiki.apache.org/confluence/display/solr/Taking+Solr+to+Production.
+##### Download Solr
 
-[Henrique] DO I NEED TO UNZIP (OR UNTAR) THE TAR FILES?
+    cd ~/solr
+    wget http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.tgz
+    wget http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz
 
-[Henrique] DO I NEED TO RUN SOME SCRIPT, MAKE, ETC?
+##### Uncompress and run Solr 4.10.4
 
-[Henrique] HOW DO I SET UP THE PORTS?
+    cd ~/solr
+    tar xvfz solr-4.10.4.tgz
+    cd solr-4.10.4.tgz
+    bin/solr start -p 7574
 
-[Henrique] HOW TO I EXEC SOLR (AND WHERE DO I ASSIGN PORTS 7574 TO SOLR4 and PORT 8983 TO SOLR5?
+Verify that Solr 4.10.4 is running by pointing you browser to http://localhost:7574/solr. You should see Solr administrative interface with some information.
 
-HADataC defaults to the following:
-- SOLR 4.10.x runs on port 7574
-- SOLR 5.x runs on port 8983
+##### Uncompress and run Solr 5.2.1
 
-[Henrique] HOW DO I KNOW IF SOLR4 and SOLR5 are properly installed and running?
+    cd ~/solr
+    tar xvfz solr-5.2.1.tgz
+    cd solr-5.2.1.tgz
+    bin/solr start -p 8983
 
-[Henrique] HOW TO I STOP SOLR? 
+Verify that Solr 5.2.1 is running by pointing you browser to http://localhost:8983/solr. You should see Solr administrative interface with some information.
 
-##### Installing SolRDF module
+##### Install SOLR-HADataC static metadata collection
 
-First clone our solr-hadatac github
+First git clone our collections repository
 
+    cd ~/solr
     git clone https://github.com/hansidm/solr-hadatac.git
 
-Then move the contents of solrdf-home to your SOLR_HOME for the SOLR 4.10.x directory and set the right permissions (the code below user /var/solr4/data as SOLR_HOME and user solr as the solr user)
+Copy the contents of solrdf-home to your Solr 4.10.4 instance
 
     cd solr-hadatac/solrdf-home
-    sudo cp -R * /var/solr4/data
-    sudo chown -R solr /var/solr4/data
+    cp -R * ~/solr/solr-4.10.4/example/solr/
 
-##### Installing HADataC collections for data and dynamic metadata
+Restart Solr 4.10.4
 
-Next, move the contents of solr-home to your SOLR_HOME to either your SOLR 4.10.x or SOLR 5.x if you decided to use a newer version
+    cd ~/solr/solr-4.10.4
+    bin/solr restart -p 7574
 
-    cd ../solr-home
-    sudo cp -R * /var/solr/data
-    sudo chown -R solr /var/solr/data
+Check if the collection is loaded by pointing your browser to http://localhost:7574/solr and it should show no errors on the top. Click 'Core admin' on the left and you should see the 'store' collection listed.
 
-To finish, restart the used SOLR instances
+##### Install SOLR-HADataC dynamic metadata and data collections
 
-    sudo service solr restart
-    sudo service solr4 restart
+Copy the contents of solr-home to your Solr 5.2.1 instance
+
+    cd ~/solr/solr-hadatac/solrdf-home
+    cp -R * ~/solr/solr-5.2.1/server/solr/
+
+Restart Solr 5.2.1
+
+    cd ~/solr/solr-5.2.1
+    bin/solr restart -p 8983
+
+Check if the collection is loaded by pointing your browser to http://localhost:8983/solr and it should show no errors on the top. Click 'Core admin' on the left and you should see both 'sdc' and 'measurement' collections listed.
 
 #### HADataC-Console
 
