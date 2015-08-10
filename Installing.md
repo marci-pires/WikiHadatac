@@ -72,7 +72,7 @@ Check if the collection is loaded by pointing your browser to http://localhost:7
 
 Copy the contents of solr-home to your Solr 5.2.1 instance
 
-    cd ~/solr/solr-hadatac/solrdf-home
+    cd ~/solr/solr-hadatac/solr-home
     cp -R * ~/solr/solr-5.2.1/server/solr/
 
 Restart Solr 5.2.1
