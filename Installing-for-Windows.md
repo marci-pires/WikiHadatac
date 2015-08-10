@@ -6,7 +6,7 @@ Before anything, however, we need to verify that the host machine has a `git cli
 
 In `git bash` on the command line, verify that you have `sbt` applications installed in your machine:
 
-    sbt
+    $ sbt
 
 If not, you need to install one: http://www.scala-sbt.org/.
 
