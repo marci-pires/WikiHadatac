@@ -14,7 +14,7 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 #### SOLR-HADataC
 
-Let assume that SOLR-HADataC is going to be installed in a SOLR_HOME folder, e.g., `/home/mysolr/'.
+Let assume that SOLR-HADataC is going to be installed in a SOLR_HOME folder, e.g., `/home/mysolr/`.
 
 [HENRIQUE] Where do we get SOLR 4 (4.10.x) 
 
