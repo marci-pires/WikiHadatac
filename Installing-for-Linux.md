@@ -20,6 +20,7 @@ We assume that SOLR-HADataC is going to be installed in a directory, e.g., '/hom
 1. Java VM 7+: http://java.com/en/download/ (or use your distribution's java)
 2. Solr 4.10.4: http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.tgz
 3. Solr 5.2.1: http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz
+4. JTS Topology Suite: http://sourceforge.net/projects/jts-topo-suite/files/latest/download
 
 Verify your Java version, it should show at least 1.7.0. If something under this appears or the program fails, you need to properly install Java 1.7+.
 
@@ -74,6 +75,19 @@ Copy the contents of solr-home to your Solr 5.2.1 instance
 
     cd ~/solr/solr-hadatac/solr-home
     cp -R * ~/solr/solr-5.2.1/server/solr/
+
+##### Install JTS Topology Suite
+
+The Solr collections for dynamic metadata and data make use of JTS for processing georeferenced data. First, download and unzip JTS:
+
+    mkdir ~/solr/jts-1.13
+    cd ~/solr/jts-1.13
+    unzip jts-1.13.zip
+
+Copy the contents of the lib directory to your Solr 5.2.1 lib directory:
+
+    cd ~/solr/jts-1.13/lib
+    cp * ~/solr/solr-5.2.1/server/solr-webapp/webapp/WEB-INF/lib/
 
 Restart Solr 5.2.1
 
