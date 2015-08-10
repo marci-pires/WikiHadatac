@@ -4,7 +4,7 @@ A basic HADataC installation involves the installation of a SOLR repository and 
 
 Before anything, however, we need to verify that the host machine has a `git client` to retrieve the code, and an `sbt` utility to run the console. Open `git bash`. NOTE: If you do not have git, you need to install one: http://git-scm.com/downloads. 
 
-In `git bash' on the command line, verify that you have `sbt` applications installed in your machine:
+In `git bash` on the command line, verify that you have `sbt` applications installed in your machine:
 
     sbt
 
