@@ -80,7 +80,7 @@ Restart Solr 5.2.1
     cd ~/solr/solr-5.2.1
     bin/solr restart -p 8983
 
-Check if the collection is loaded by pointing your browser to http://localhost:8983/solr and it should show no errors on the top. Click 'Core admin' on the left and you should see both 'sdc' and 'measurement' collections listed.
+Check if the collections are loaded by pointing your browser to http://localhost:8983/solr and it should show no errors on the top. Click 'Core admin' on the left and you should see both 'sdc' and 'measurement' collections listed.
 
 #### HADataC-Console
 
