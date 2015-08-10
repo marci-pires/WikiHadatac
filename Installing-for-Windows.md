@@ -17,7 +17,9 @@ We assume that SOLR-HADataC is going to be installed in a directory, e.g., '/hom
 ##### What you will need
 1. Java VM 7+: http://java.com/en/download/ (or use your distribution's java)
 2. Solr 4.10.4: http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.tgz
+                http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.zip
 3. Solr 5.2.1: http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz
+               http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.zip
 
 Verify your Java version, it should show at least 1.7.0. If something under this appears or the program fails, you need to properly install Java 1.7+.
 
