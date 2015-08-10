@@ -1,6 +1,6 @@
 # HADataC Documentation
 
-* To install HADataC, visit our [Installation Page](/paulopinheiro1234/hadatac/wiki/installing)
+* To install HADataC, visit our [Linux Installation Page](/paulopinheiro1234/hadatac/wiki/Installing-for-Linux) or [Windows Installation Page](/paulopinheiro1234/hadatac/wiki/Installing-for-Windows)
 
 * To understand how to use HADataC, visit our [User Guide Page](/paulopinheiro1234/hadatac/wiki/using)
 
