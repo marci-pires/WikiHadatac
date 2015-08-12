@@ -1,10 +1,11 @@
-# User Categories and Permissions
+# User Categories and Console Functionality Permissions
 
-Administrator user
+## Administrator user
 
-Measurement owner
+## Measurement owner
 
-Guest user
+## Guest user
 
-# User registration
+# User Registration
 
+# Data Access Permission
