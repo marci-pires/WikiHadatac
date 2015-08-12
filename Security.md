@@ -1,10 +1,14 @@
 ## User Categories and Console Functionality Permissions
 
-### Administrator user
+### Administration user
 
-### Measurement owner
+An HADataC 
+
+### Data owner
 
 ### Guest user
+
+### Changing user categories
 
 ## User Registration
 
@@ -13,6 +17,8 @@
 ### Full Registration
 
 ## Data Ownership and Data Access Permissions
+
+### Users and Groups
 
 ### Changing Data Access Permissions
 
