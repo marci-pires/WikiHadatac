@@ -8,4 +8,9 @@
 
 ## User Registration
 
+### Pre-Registration
+
+### Full Registration
+
 ## Data Access Permission
+
