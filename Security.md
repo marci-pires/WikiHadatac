@@ -12,5 +12,9 @@
 
 ### Full Registration
 
-## Data Access Permission
+## Data Ownership and Data Access Permissions
+
+### Changing Data Access Permissions
+
+
 
