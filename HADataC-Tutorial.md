@@ -1,4 +1,10 @@
-## 1. Registering Sensor Network
+## 1. Download and Install HADataC
+
+### Verify SOLR Installation
+
+### Log in as administrator
+
+## 2. Registering Sensor Network
 
 ### RDF concepts and properties
 
@@ -10,7 +16,7 @@
 
 ### Verifying Sensor Network Registration
 
-## 2. Deploying and Instrument
+## 3. Deploying and Instrument
 
 ### Downloading and installing MOCCASN
 
@@ -18,16 +24,16 @@
 
 ### Verifying Instrument Deployment
 
-## 3. Generating a CVS file of Measurements
+## 4. Generating a CVS file of Measurements
 
-## 4. Generating a CCSV file from a CSV file
+## 5. Generating a CCSV file from a CSV file
 
-## 5. Uploading a CCSV file
+## 6. Uploading a CCSV file
 
-## 6. Browsing Data Collections
+## 7. Browsing Data Collections
 
-## 7. Browsing Measurements
+## 8. Browsing Measurements
 
-## 8. Downloading Measurements (as CSV, CCSV, etc)
+## 9. Downloading Measurements (as CSV, CCSV, etc)
 
-## 9. Semantic Comparison of Measurements  
+## 10. Semantic Comparison of Measurements  
