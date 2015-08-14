@@ -6,13 +6,15 @@
 
 ### Platform, Instrument, Detector and Sensing Perspective Registration
 
+#### Printing QR Codes
+
 ### Verifying Sensor Network Registration
 
 ## 2. Deploying and Instrument
 
-### Using MOCCASN
+### Downloading and installing MOCCASN
 
-### Documenting an Instrument Deployment
+### Documenting an Instrument's Deployment
 
 ### Verifying Instrument Deployment
 
