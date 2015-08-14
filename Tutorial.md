@@ -1,17 +1,17 @@
-* Registering Sensor Network
+# 1. Registering Sensor Network
 
-* Deploying and Instrument
+# 2. Deploying and Instrument
 
-* Generating a CVS file of Measurements
+# 3. Generating a CVS file of Measurements
 
-* Generating a CCSV file from a CSV file
+# 4. Generating a CCSV file from a CSV file
 
-* Uploading a CCSV file
+# 5. Uploading a CCSV file
 
-* Browsing Data Collections
+# 6. Browsing Data Collections
 
-* Browsing Measurements
+# 7. Browsing Measurements
 
-* Downloading Measurements (as CSV, CCSV, etc)
+# 8. Downloading Measurements (as CSV, CCSV, etc)
 
-* Semantic Comparison of Measurements  
+# 9. Semantic Comparison of Measurements  
