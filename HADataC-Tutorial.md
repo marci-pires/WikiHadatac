@@ -1,6 +1,20 @@
 ## 1. Registering Sensor Network
 
+### RDF concepts and properties
+
+### Entity, Characteristic and EntityCharacteristic Registration
+
+### Platform, Instrument, Detector and Sensing Perspective Registration
+
+### Verifying Sensor Network Registration
+
 ## 2. Deploying and Instrument
+
+### Using MOCCASN
+
+### Documenting an Instrument Deployment
+
+### Verifying Instrument Deployment
 
 ## 3. Generating a CVS file of Measurements
 
