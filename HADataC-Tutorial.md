@@ -1,5 +1,9 @@
 ## 1. Download and Install HADataC
 
+### Download HADataC 
+
+Download HADataC project from Github and follow the installation instructions.
+
 ### Verify SOLR Installation
 
 ### Log in as administrator
