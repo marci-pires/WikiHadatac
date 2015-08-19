@@ -1,0 +1,1 @@
+* [August 19, 2015 at 2pm EST](http://bit.ly/1PmhRsK)
