@@ -1,4 +1,5 @@
-## Regular Attendees
+## Attendees
+### Regular Attendees
 * Paulo Pinheiro (RPI-TW, RPI-CASE)
 * Henrique Santos (RPI-TW, UNIFOR)
 * Matthew Klawonn (RPI-TW, IBM)
@@ -13,10 +14,10 @@
 **UNIFOR**: Universidade de Fortaleza, Brazil<br>
 **IBM**: IBM Inc., USA
 
-## Occasional Attendees
+### Occasional Attendees
 * John Erickson (RPI-TW)
 
-## Former Attendees/Collaborators
+### Former Attendees/Collaborators
 * Laura Kinkead (External)
 
 ## Date/Time
