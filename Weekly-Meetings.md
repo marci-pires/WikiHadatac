@@ -4,8 +4,6 @@
 * Matthew Klawonn (RPI-TW, IBM)
 * Katie Chastain (RPI-TW)
 * Deborah McGuinness (RPI-TW)
-* Laura Kinkead (External)
-* John Erickson (RPI-TW)
 * Benjamin Feagin Jr. (RPI-CASE)
 * Amanda Drielly (UNIFOR)
 * Vasco Furtado (UNIFOR)
@@ -14,6 +12,12 @@
 **RPI-CASE**: RPI's Center for Architecture Science and Ecology, USA<br>
 **UNIFOR**: Universidade de Fortaleza, Brazil<br>
 **IBM**: IBM Inc., USA
+
+## Occasional Attendees
+* John Erickson (RPI-TW)
+
+## Former Attendees/Collaborators
+* Laura Kinkead (External)
 
 ## Date/Time
 * 2-3pm on Wednesdays 
