@@ -10,9 +10,9 @@
 * Amanda Drielly (UNIFOR)
 * Vasco Furtado (UNIFOR)
 
-**RPI-TW**: Rensselaer Polytechnic Institute's Tetherless World Constellation, USA
+**RPI-TW**: Rensselaer Polytechnic Institute (RPI)'s Tetherless World Constellation, USA
 
-**RPI_CASE**: Rensselaer Polytechnic Institute's Center for Architecture Science and Ecology, USA
+**RPI-CASE**: RPI's Center for Architecture Science and Ecology, USA
 
 **UNIFOR**: Universidade de Fortaleza, Brazil
 
