@@ -19,7 +19,6 @@
 * 2-3pm on Wednesdays 
 
 ## Meeting Notes
-
-([Shared folder](https://drive.google.com/open?id=0B7_sYQGgqMtGfmpHZWZOTDJGWmFfai1rVGV0ZWd0bnVuUXVBZkp5TzBaek5YSDhrYkhJNUk)) 
+([shared folder](https://drive.google.com/open?id=0B7_sYQGgqMtGfmpHZWZOTDJGWmFfai1rVGV0ZWd0bnVuUXVBZkp5TzBaek5YSDhrYkhJNUk)) 
 
 * [August 19, 2015 at 2pm EST](http://bit.ly/1WF4JEs)
