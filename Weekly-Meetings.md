@@ -1,13 +1,14 @@
 ## Regular Attendees
-* Paulo Pinheiro 
-* Henrique Santos
-* Matthew Klawonn
-* Katie Chastain
-* Deborah McGuinness
-* Laura Kinkead
-* John Erickson
-* Benjamin Feagin Jr.
-* Amanda Drielly
+* Paulo Pinheiro (RPI-TW, RPI-CASE)
+* Henrique Santos (RPI-TW, UNIFOR)
+* Matthew Klawonn (RPI-TW, IBM)
+* Katie Chastain (RPI-TW)
+* Deborah McGuinness (RPI-TW)
+* Laura Kinkead (External)
+* John Erickson (RPI-TW)
+* Benjamin Feagin Jr. (RPI-CASE)
+* Amanda Drielly (UNIFOR)
+* Vasco Furtado (UNIFOR)
 
 ## Date/Time
 * 2-3pm on Wednesdays 
