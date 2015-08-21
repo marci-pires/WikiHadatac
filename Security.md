@@ -1,6 +1,6 @@
 ## User Categories and Console Functionality Permissions
 
-HADataC users can be unregistered, pre-registered, or registered. Anyone visiting a HADataC website is initially considered an unregistered user. A user who is registered in HADatac is capable of logging into the system as a data owner. A data owner with admin permission is called an administration (or admin) user.
+HADataC users can be unregistered, pre-registered, or registered. Anyone visiting a HADataC website is initially considered an unregistered user. A user who is has been registered in the system is capable of logging into the system as a data owner. A data owner with admin permission is called an administration (or admin) user.
  
 ### Administration user
 
