@@ -1,6 +1,6 @@
 ## User Categories and Console Functionality Permissions
 
-HADataC users can be unregistered, pre-registered, or registered. Anyone visiting a HADataC website is initially considered an unregistered user. A user who is has been registered in the system is capable of logging into the system as a data owner. A data owner with admin permission is called an administration (or admin) user.
+Users are either unregistered, pre-registered, or registered. A registered user is one who went through the process of signing up for the system and confirming the authenticity of its email address. A registered user is capable of logging into the system, add data into the system, remove her data from the system, accessing her data, and changing the permission of who can access her data. A registered user may be an admin user if an admin user has granted the registered user admin permission. A user can only sign up to become a registered user if the user was previously pre-registered into the system by an administrator user. 
  
 ### Administration user
 
@@ -8,9 +8,11 @@ One standard administration user is automatically created during a HADataC insta
 
 ### Data owner
 
-A user is said to be registered if the user signed up and confirmed the authenticity of its email address by following the link in the email message sent by HADataC after the user has requested Registered users are data owners, which mean, they are capable of including data into HADataC. 
+Every registered user is considered a data owner, whether the use actually owns or not any data in the data repository. A data owner is capable of the following: uploading data and metadata into the system; recording deployment metadata; annotating data with metadata; setting the permission of who has the right of accessing their data; deleting their data from the system.  
 
 ### Guest user
+
+Every user is considered unregistered until the user logs into the system. Unregistered users can access and download publicly available data. Unregistered users cannot upload and own data in the HADataC system.
 
 ### Changing user categories
 
