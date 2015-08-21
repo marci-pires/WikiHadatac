@@ -14,11 +14,11 @@ Every registered user is considered a data owner, whether the use actually owns 
 
 Every user is considered unregistered until the user logs into the system. Unregistered users can access and download publicly available data. Unregistered users cannot upload and own data in the HADataC system.
 
-### Changing user categories
-
 ## User Registration
 
 ### Pre-Registration
+
+Admin users should fill out the HASNetO agent's spreadsheet with the relevant information about HADataC users including the list of organizations associated with users and relationship between associated organizations. An admin user should upload the spreadsheet into the system by using the metadata loader, which will transfer all the agent information into the knowledge base. Agent information added into the system includes all the relevant user pre-registration information.
 
 ### Full Registration
 
@@ -27,6 +27,5 @@ Every user is considered unregistered until the user logs into the system. Unreg
 ### Users and Groups
 
 ### Changing Data Access Permissions
-
 
 
