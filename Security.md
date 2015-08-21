@@ -1,6 +1,6 @@
 ## User Categories and Console Functionality Permissions
 
-Users are either unregistered, pre-registered, or registered. A registered user is one who went through the process of signing up for the system and confirming the authenticity of her/his email address. A registered user is capable of logging into the system and own data. An admin user has the permission of granting admin permission to any registered user. A user can only sign up to become a registered user if the user was previously pre-registered into the system by an admin user. 
+Users are either unregistered, pre-registered, or registered. A registered user is one who went through the process of signing up for the system and confirming the authenticity of her/his email address. A registered user is capable of logging into the system and own data. An admin user has the permission of granting admin permission to any registered user. A user can only sign up to become registered if the user was previously pre-registered into the system by an admin user. 
  
 ### Administration (admin) user
 
