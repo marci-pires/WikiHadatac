@@ -1,10 +1,10 @@
 ## User Categories and Console Functionality Permissions
 
-Users are either unregistered, pre-registered, or registered. A registered user is one who went through the process of signing up for the system and confirming the authenticity of its email address. A registered user is capable of logging into the system, add data into the system, remove her data from the system, accessing her data, and changing the permission of who can access her data. A registered user may be an admin user if an admin user has granted the registered user admin permission. A user can only sign up to become a registered user if the user was previously pre-registered into the system by an administrator user. 
+Users are either unregistered, pre-registered, or registered. A registered user is one who went through the process of signing up for the system and confirming the authenticity of her/his email address. A registered user is capable of logging into the system and own data. An admin user has the permission of granting admin permission to any registered user. A user can only sign up to become a registered user if the user was previously pre-registered into the system by an admin user. 
  
-### Administration user
+### Administration (admin) user
 
-One standard administration user is automatically created during a HADataC installation. This is the admin user who can pre-register new users and grant admin user status to other registered users. A user is said to be a pre-registered if the user is included into the HADataC metadata repository as a PROV Agent with the name and email addresses filled out.   
+One default administration user is automatically created during a HADataC installation. This is the admin user who can pre-register new users and grant admin status to other registered users. A user is said to be a pre-registered if the user is included into the HADataC metadata repository as a PROV Agent and has not yet signed up with the system.   
 
 ### Data owner
 
