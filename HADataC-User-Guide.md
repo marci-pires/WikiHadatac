@@ -8,9 +8,9 @@ Measurement Spatial Search
 
 [Metadata Browser](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Metadata-Browser)
  
-HASNetO-Loader
+HASNetO-Loader (also available for batch execution)
 
-HADataC-Loader
+HADataC-Loader (also available for batch execution)
 
 #### Other HADataC Products
 
