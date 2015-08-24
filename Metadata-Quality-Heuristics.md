@@ -54,6 +54,8 @@ If there is a concept or individual missing completely:
 ### Entities
 ### Characteristics
 ### EntityCharacteristics
+* Entity - exactly one
+* Characteristic - exactly one
 ### Standards
 ### Agents
 - Name
