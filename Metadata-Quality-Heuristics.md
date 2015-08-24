@@ -1,14 +1,14 @@
 ## Grades
 For each field (property):
-A - Metadata is present, complete, and correct.
-B - Metadata is present and correct, but incomplete.
-C - There is metadata, but it is incorrect.
-D - Metadata is not present, but it is known.
-E - Metadata is not present; values are unknown.
-NA - Metadata is not present but field is not necessary for this item.
+* A - Metadata is present, complete, and correct.
+* B - Metadata is present and correct, but incomplete.
+* C - There is metadata, but it is incorrect.
+* D - Metadata is not present, but it is known.
+* E - Metadata is not present; values are unknown.
+* NA - Metadata is not present but field is not necessary for this item.
 
 If there is a concept or individual missing completely:
-X - Item is omitted entirely (and therefore all fields are either D or E)
+* X - Item is omitted entirely (and therefore all fields are either D or E)
 
 ## Lists - Sensor Network
 ### Platform Models
