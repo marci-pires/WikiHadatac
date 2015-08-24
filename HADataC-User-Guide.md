@@ -6,7 +6,7 @@ Measurement Faceted Search
 
 Measurement Spatial Search
 
-[https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-Metadata-Browser-user-guide](Metadata Browser)
+[Metadata Browser](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-Metadata-Browser-user-guide)
  
 HASNetO-Loader
 
