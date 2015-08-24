@@ -15,10 +15,12 @@ X - Item is omitted entirely (and therefore all fields are either D or E)
 - Name
 - Maker
 - Description
+
 ### Platforms
 - Name
 - Serial number
 - Lat-long location
+
 ### Instrument Models
 - Name
 - Maker
@@ -27,9 +29,11 @@ X - Item is omitted entirely (and therefore all fields are either D or E)
 - Maximum number of detachable detectors
 - Maximum number of logged measurements
 - Min and max operating temperature (+ units)
+
 ### Instruments
 - Name
 - Serial number
+
 ### Detector Models
 - Name
 - Maker
@@ -41,6 +45,7 @@ X - Item is omitted entirely (and therefore all fields are either D or E)
 -- Output resolution
 -- Max response time (+ units)
 -- Min and max range of values
+
 ### Detectors
 - Name
 - Serial number
