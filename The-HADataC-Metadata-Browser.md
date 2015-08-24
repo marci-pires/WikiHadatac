@@ -10,3 +10,8 @@ The "model hierarchy" buttons show the classes for Platforms, Instruments, and D
 The "list" buttons for Platforms, Instruments, and Detectors display the individuals in a collapsible table. You may see some repeated names on the items in these lists - this indicates that multiple separate instances of the same class are registered in your sensor network. The serial numbers should be unique for each entry, though.
 
 ###What is being measured?
+HADataC utilizes the Extensible Observation Ontology (OBOE) (https://semtools.ecoinformatics.org/oboe) to help describe measurements in scientific data collections. OBOE provides a standard vocabulary that has already been accepted by scientific communitites, which facilitates data interoperability. Each measurement contains the data itself, but also carries additional information including the units of measurement for the number, the Entity observed, and the Characteristic of that Entity that is being measured. 
+
+For example, if a measurement is taken using a thermometer, we also need to know whether the measurement is in Fahrenheit, Celsius, or Kelvin. The Characteristic measured is Temperature, and the Entity is the thing whose temperature we are observing - Air, Water, some laboratory Sample, etc.
+
+Entities and Characteristics are very general. For more specificity, HADataC also has "EntityCharacteristics", which are what their name implies - a matching of an Entity and a Characteristic. In the above example, neither "Characteristic: Temperature" nor "Entity: Indoor Air" could uniquely identify a dataset of a thermometer's recordings of room temperatures, but the EntityCharacteristic pair of these can. Therefore, each EntityCharacteristic should have exactly one Entity and exactly one Characteristic.
