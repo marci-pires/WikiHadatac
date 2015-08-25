@@ -53,6 +53,13 @@ While the Model Hierarchy view gives information about the properties common to 
 - Serial Number: Detector's unique identifier.
 
 ##Entity, Characteristic, and EntityCharacteristic
+These displays show metadata for what your collection measures. These sections leverage the Extensible Observation Ontology (OBOE) to describe the Entity and Characteristic of the measurements in order to provide context for the data. In the OBOE model, the Entity is the thing being observed (such as the water in a lake, the air in a room, or a sample in a laboratory), and the Characteristic is the specific thing being measured (such as dissolved oxygen saturation, relative humidity, or color). Note that it is possible for a sensor to also be an Entity if it also logs data about itself, such as battery charge. Both Entities and Characteristics are more general concepts, and there is no one-to-one mapping between Entities and Characteristics in OBOE: two Entities may share a Characteristic (ie, water temperature and air temperature), and a single Entity may have multiple Characteristics (ie, temperature, relative humidity, and particulate matter are all possible Characteristics of air). 
 
+Entity and Characteristic displays also contain both a tree view showing the hierarchy from the OBOE ontology, including whatever extensions have been made to include concepts relevant to your data collections. As with the sensors' tree views, subtrees can be expanded/contracted by clicking on the nodes, and mousing over displays additional information in a panel on the right side.
+
+###EntityCharacteristic
+An EntityCharacteristic is, as the name suggests, a pairing of an Entity with a Characteristic. These are the more specific things that we can match to Detectors as "sensing perspectives". If a thermometer only works in water, then it has "WaterTemperature" as the EntityCharacteristic of its Sensing Perspective. This differentiates it from a different thermometer that only works in air - both measure the same Characteristic, but of different Entities. A thermometer that can be used for both AirTemperature and WaterTemperature has two Sensing Perspectives.
+
+The EntityCharacteristic view is a pair of tables that shows the matchings between Entity and Characteristic. The information in both tables is the same, but displayed differently: one with the Entity in the leftmost column, and one with the Characteristic in the leftmost column. Both are provided so that you can decide which is easier to use for your specific task. In both tables, you may sort any column alphabetically by clicking the column name.
 
 ##Standards
