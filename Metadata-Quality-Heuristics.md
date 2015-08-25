@@ -67,7 +67,9 @@ Review list of Entities to be sure that everything your project plans to observe
 A unique pairs of an Entity and a Characteristic, for describing Sensing Perspectives. There will not be an EntityCharacteristic for _every_ pairing of Entity and Characteristic, only those represented in the Sensing Perspectives.
 - Entity (Exactly one per entry)
 - Characteristic (Exactly one per entry)
+
 ### Standards
+
 ### Agents
 There are two different types of thing represented as "Agents" - People and Organizations. This graph should be connected, with the placeholder Agent node at the root. Edges in this graph represent a part-of/has-part relationship.
 - Name (For both People and Organizations)
