@@ -19,7 +19,7 @@ Ensure that there is one entry for each Platform Model. Verify that each entry h
 
 ### Platform List
 Ensure there is one entry for each Platform, and each has the following properties:
-- Name (Note that this may not be unique if there are two separate platforms of the same model)
+- Name (Note that this might not be unique if there are two separate platforms of the same model)
 - Serial number (This *must* be unique for each Platform, regardless of model)
 - Lat-long location
 
@@ -56,7 +56,7 @@ In addition, each Detector Model should have at least one Sensing Perspective. A
 
 ### Detector List
 As with other lists of individuals, verify that there is one entry for each Detector with the following information:
-- Name (May not be unique)
+- Name (Might not be unique)
 - Serial number (Must be unique)
 
 ## Lists - Measurements
