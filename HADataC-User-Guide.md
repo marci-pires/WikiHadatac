@@ -1,5 +1,15 @@
 ## Using HADataC
 
+#### HADataC Concepts
+
+Static Metadata
+
+Dynamic Metadata
+
+Collected Data (i.e., Measurements and Simulation Data)
+
+Data Collections
+
 #### Web Console
 
 Measurement Faceted Search
