@@ -10,7 +10,15 @@ Collected Data (i.e., Measurements and Simulation Data)
 
 Data Collections
 
-#### Web Console
+#### Architecture
+
+Web Console
+
+Batch functionalities
+
+Embedded SOLR repository
+
+#### Using the Web Console
 
 Measurement Faceted Search
 
@@ -22,6 +30,6 @@ Metadata management including HASNetO-Loader (also available for batch execution
 
 [Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
 
-#### Other HADataC Products
+#### Using Other HADataC Products
 
 MOCCASN
