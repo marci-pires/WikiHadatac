@@ -1,4 +1,8 @@
-## Using HADataC
+#### Installing HADataC
+
+On Linux/MacOS
+
+ON Windows
 
 #### Concepts
 
