@@ -18,6 +18,14 @@ Batch functionalities
 
 Embedded SOLR repository
 
+#### Data Governance
+
+HADataC Users
+
+Data and Metadata Privacy
+
+Data and Metadata Preservation
+
 #### Using the Web Console
 
 Measurement Faceted Search
