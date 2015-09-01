@@ -37,11 +37,13 @@ Go to the HADataC folder that has just been created through the execution of the
 
 ##### Run HADataC
 
-Most interaction with HADataC is through its web console. Since HADataC is both a web application and its own web server, you need to activate the server to enable the console in your browser.
+Most interaction with HADataC is through its web console. Since HADataC is both a web application and its own web server, you need to activate the server to enable the console in your browser. The first time you call sbt in your machine, it may be a while for the command below to respond -- it will be getting dependencies from the web.
  
     sbt run
 
 ##### Log to HADataC on your browser
+
+
 
     http://localhost:9000/hadatac/
 
