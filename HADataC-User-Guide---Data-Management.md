@@ -4,6 +4,12 @@
 
 ### For classes
 
+Static metadata classes are intended to be reused across multiple projects, and shared through HADataC.org. It is possible for one project to have its own set of classes, and to not share it outside the project. If that is the case, it is up to the project to define its own policy on how to assign URIs to classes of static metadata. 
+
+If the project is willing to share the classes, we recommend the project to consider the use of the http://hadatac.org as the base for shared resources. 
+
+(TODO: COMPLETE DESCRIPTION ON HOW TO REQUEST A HADATAC.ORG URI)
+
 ### For instances
 
 ## Dynamic metadata URI
