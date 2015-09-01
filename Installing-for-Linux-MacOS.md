@@ -30,12 +30,15 @@ From now on, we assume that you cloned HADataC repository on your home directory
 
 #### Run installation script
 
-
+Go to the HADataC folder that has just been created through the execution of the '''git clone''' command above, and execute the installation script.
+ 
     cd hadatac
     ./install_hadatac.sh
 
 ##### Run HADataC
 
+Most interaction with HADataC is through its web console. Since HADataC is both a web application and its own web server, you need to activate the server to enable the console in your browser.
+ 
     sbt run
 
 ##### Log to HADataC on your browser
