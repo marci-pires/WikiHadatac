@@ -2,7 +2,7 @@
 
 On Linux/MacOS
 
-ON Windows
+On Windows
 
 #### Concepts
 
