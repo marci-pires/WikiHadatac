@@ -1,6 +1,6 @@
 ## Using HADataC
 
-#### HADataC Concepts
+#### Concepts
 
 Static Metadata
 
