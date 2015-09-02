@@ -2,7 +2,7 @@ This tutorial guides new HADataC user through the execution of ten typical tasks
 
 ## 1. Log in as administrator
 
-When initially installed, HADataC comes with one user with administrative permission. The user's email address is '''hadatac_org.aol.com''', and the password is '''admin'''. 
+When initially installed, HADataC comes with one user with administrative permission. The user's email address is **hadatac_org.aol.com**, and the password is **admin**. We recommend that you log as the administrator and replace the password. Be careful with this especific password because there is no way of resetting it without erasing the data repository, or completing the configuration of the emailer for the HADataC, which is beyond of the scope of the tutorial. 
 
 ## 2. Registering Sensor Network
 
