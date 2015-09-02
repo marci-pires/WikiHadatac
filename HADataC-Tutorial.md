@@ -1,12 +1,8 @@
-## 1. Download and Install HADataC
+This tutorial guides new HADataC user through the execution of ten typical tasks when interacting with the framework.
 
-### Download HADataC 
+## 1. Log in as administrator
 
-Download HADataC project from Github and follow the installation instructions.
-
-### Verify SOLR Installation
-
-### Log in as administrator
+When initially installed, HADataC comes with one user with administrative permission. The user's email address is '''hadatac_org.aol.com''', and the password is '''admin'''. 
 
 ## 2. Registering Sensor Network
 
@@ -21,8 +17,6 @@ Download HADataC project from Github and follow the installation instructions.
 ### Verifying Sensor Network Registration
 
 ## 3. Deploying and Instrument
-
-### Downloading and installing MOCCASN
 
 ### Documenting an Instrument's Deployment
 
