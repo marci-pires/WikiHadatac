@@ -20,22 +20,22 @@ Be careful with this specific password because there is no way of resetting it w
 
 ### Verifying Sensor Network Registration
 
-## 3. Deploying and Instrument
+## 4. Deploying and Instrument
 
 ### Documenting an Instrument's Deployment
 
 ### Verifying Instrument Deployment
 
-## 4. Generating a CVS file of Measurements
+## 5. Generating a CVS file of Measurements
 
-## 5. Generating a CCSV file from a CSV file
+## 6. Generating a CCSV file from a CSV file
 
-## 6. Uploading a CCSV file
+## 7. Uploading a CCSV file
 
-## 7. Browsing Data Collections
+## 8. Browsing Data Collections
 
-## 8. Browsing Measurements
+## 9. Browsing Measurements
 
-## 9. Downloading Measurements (as CSV, CCSV, etc)
+## 10. Downloading Measurements (as CSV, CCSV, etc)
 
-## 10. Semantic Comparison of Measurements  
+## 11. Semantic Comparison of Measurements  
