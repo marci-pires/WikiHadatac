@@ -1,12 +1,14 @@
-This tutorial guides new HADataC user through the execution of ten typical tasks when interacting with the framework.
+This tutorial guides new HADataC users through the execution of eleven tasks that shows how the framework handles data and its metadata, and how the framework may help these users to manage and take advantage of integrated, combined collections of data and metadata.
 
-## 1. Log in as an administrator
+## 1. Registering as a Data Owner
 
 When initially installed, HADataC comes with one user with administrative permission. The user's email address is **hadatac_org.aol.com**, and the password is **admin**. We recommend that you log as the administrator and replace the password. 
 
 Be careful with this specific password because there is no way of resetting it without erasing the data repository, or completing the configuration of the emailer for the HADataC, which is beyond of the scope of the tutorial. 
 
-## 2. Registering Sensor Network
+## 2. Logging in as a Data Owner
+
+## 3. Registering Sensor Network
 
 ### RDF concepts and properties
 
