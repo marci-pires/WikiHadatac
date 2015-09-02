@@ -8,7 +8,7 @@ Be careful with this specific password because there is no way of resetting it w
 
 ## 2. Logging in as a Data Owner
 
-## 3. Registering Sensor Network
+## 3. Registering Sensor Network Metadata
 
 ### RDF concepts and properties
 
