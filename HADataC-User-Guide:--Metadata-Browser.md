@@ -47,7 +47,7 @@ The "table view" contains the same information as a flat table. Click the name o
 ##Platform, Instrument, and Detector Lists
 These displays are for viewing individual sensors. Each one is an instance of a model, which is why you may see some names repeated in the table list. For example, your project may use two thermometers of the same model; HASNetO requires that each one have its own unique identifier (typically a serial number), but because they are both the same class (eg, model), they still share certain characteristics such as manufacturer or design specifications.
 
-While the Model Hierarchy view gives information about the properties common to all individual sensors of that model, the individual Lists views shows properties specific to each single sensor. There is only a table view for these displays, and each entry can be expanded to see detailed information about that sensor.
+While the Model Hierarchy view gives information about the properties common to all individual sensors of that model, the individual Lists views shows properties specific to each single sensor. There is only a table view for these displays, and each entry can be expanded to see detailed information about that sensor. Each table can also be printed out with all entries expanded, if you require a paper copy for evaluation purposes.
 
 ![Platform List](http://lacuna.ithiltari.com/vault/hadatac/platforms.png)
 ###Platform List
