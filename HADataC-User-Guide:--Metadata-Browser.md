@@ -3,9 +3,9 @@ The Metadata Browser allows you to examine the parts of your data collection tha
 You can reach the Metadata Browser from the HADataC portal page by clicking "Browse Metadata", or, if you are already on another page, by clicking "Metadata Browser" in the black top bar.
 
 ##Platform, Instrument, and Detector Model Hierarchies
-These three displays show the models of sensors in your data collection project. They are represented as a hierarchy backed by the HASNetO and VSTOI ontologies. Sensor models are considered classes - that is, they are more general concepts rather than physical objects. The default "tree view" on these pages displays this hierarchy as an interactive tree, with less specific concepts on the left side, branching out into more specific ones towards the right. Click nodes to expand or contract subtrees (all are expanded by default), or mouse over a node for additional information.
+These three displays show the models of sensors in your data collection project. They are represented as a hierarchy backed by the HASNetO and VSTOI ontologies. Sensor models are considered classes - that is, they are general concepts rather than physical objects. The default "tree view" on these pages displays this hierarchy as an interactive tree, with broader concepts on the left side, branching out into more specific ones towards the right. Click nodes to expand or contract subtrees (all are expanded by default), or mouse over a node for additional information.
 
-The "table view" contains the same information as a flat table. Click the name of the model to expand its block entry in order to see detailed information about that sensor model.
+The "table view" contains the same information as a flat table. Click the name of the model to expand its block entry in order to see detailed information about that sensor model. The table views all have printer-friendly versions available - while you are on the table view tab, you can print from your browser in order to get a paper copy of the list with all accordion tabs expanded.
 
 ###Platform Models
 - Name: The name of the model.
