@@ -1,6 +1,7 @@
 The Metadata Browser allows you to examine the parts of your data collection that give it context, including the entities observed, the characteristics being measured, and the sensors taking the measurements. Metadata is kept as linked data in order to preserve the relationships between it and the data, and leverages ontologies already in use by other scentific communities to aid interoperability. Ontologies also provide a hierarchical structure of concepts, which can help lend insight into the organization of the sensor network collecting the data.
 
 You can reach the Metadata Browser from the HADataC portal page by clicking "Browse Metadata", or, if you are already on another page, by clicking "Metadata Browser" in the black top bar.
+![HADAtaC Home with Metadata Browser link highlighted](http://lacuna.ithiltari.com/vault/hadatac/HADataCHome_small_highlighted.png)
 
 ##Platform, Instrument, and Detector Model Hierarchies
 These three displays show the models of sensors in your data collection project. They are represented as a hierarchy backed by the HASNetO and VSTOI ontologies. Sensor models are considered classes - that is, they are general concepts rather than physical objects. The default "tree view" on these pages displays this hierarchy as an interactive tree, with broader concepts on the left side, branching out into more specific ones towards the right. Click nodes to expand or contract subtrees (all are expanded by default), or mouse over a node for additional information.
