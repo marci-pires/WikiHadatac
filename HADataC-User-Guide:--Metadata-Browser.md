@@ -12,6 +12,7 @@ The "table view" contains the same information as a flat table. Click the name o
 - Name: The name of the model.
 - Maker: The manufacturer.
 - Description: Some description of the Platform Model, such as where it is used, etc.
+***
 
 ![Instrument Model Hierarchy](http://lacuna.ithiltari.com/vault/hadatac/instrument_models.png)
 ###Instrument Models
@@ -22,6 +23,7 @@ The "table view" contains the same information as a flat table. Click the name o
 - Maximum number of detachable detectors: How many removable Detectors may be attached to this Instrument
 - Maximum number of logged measurements: How many measurements can be stored.
 - Min and max operating temperature: Temperature range inside which the Instrument is expected to function.
+***
 
 ![Detector Model Hierarchy](http://lacuna.ithiltari.com/vault/hadatac/detector_models.png)
 ###Detector Models
@@ -47,22 +49,27 @@ While the Model Hierarchy view gives information about the properties common to 
 - Name: Model name of the Platform.
 - Serial Number: Unique identifier for this Platform.
 - Lat-long location: Latitude and Longitude describing where this Platform is deployed.
+***
 
 ![Instrument List](http://lacuna.ithiltari.com/vault/hadatac/instruments.png)
 ###Instrument List
 - Name: Instrument model name.
 - Serial Number: Instrument's unique identifier.
+***
 
 ![Detector List](http://lacuna.ithiltari.com/vault/hadatac/detectors.png)
 ###Detector List
 - Name: Model name of the Detector.
 - Serial Number: Detector's unique identifier.
+***
 
 ##Entity, Characteristic, and EntityCharacteristic
 These displays show metadata for what your collection measures. These sections leverage the Extensible Observation Ontology (OBOE) to describe the Entity and Characteristic of the measurements in order to provide context for the data. In the OBOE model, the Entity is the thing being observed (such as the water in a lake, the air in a room, or a sample in a laboratory), and the Characteristic is the specific thing being measured (such as dissolved oxygen saturation, relative humidity, or color). Note that it is possible for a sensor to also be an Entity if it also logs data about itself, such as battery charge. Both Entities and Characteristics are more general concepts, and there is no one-to-one mapping between Entities and Characteristics in OBOE: two Entities may share a Characteristic (ie, water temperature and air temperature), and a single Entity may have multiple Characteristics (ie, temperature, relative humidity, and particulate matter are all possible Characteristics of air). 
 
 ![Entity Hierarchy](http://lacuna.ithiltari.com/vault/hadatac/entities.png) ![Characteristic Hierarchy](http://lacuna.ithiltari.com/vault/hadatac/characteristics.png)
+
 Entity and Characteristic displays also contain both a tree view showing the hierarchy from the OBOE ontology, including whatever extensions have been made to include concepts relevant to your data collections. As with the sensors' tree views, subtrees can be expanded/contracted by clicking on the nodes, and mousing over displays additional information in a panel on the right side.
+***
 
 ![Entity-Characteristic Table](http://lacuna.ithiltari.com/vault/hadatac/entity-characteristics.png)
 ###EntityCharacteristic
