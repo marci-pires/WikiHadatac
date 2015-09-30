@@ -68,7 +68,7 @@ After successfully cloning ADatAc, you should have a `hadatac` folder inside you
 
 Proceed with the installation, which is going to ask for your installation folder. By default, it suggests `c:\hadatac\'. If possible, use the default option. The script should copy the console code from the distribution folder to the installation folder, and also download and install SOLR.
 
-To verify the installation, go to your browser and check if both [http:\\localhost:8983\solr](http:\\localhost:8983\solr) and [http:\\localhost:7574\solr](http:\\localhost:8983\solr) are running. If not, you can try the following:
+To verify the installation, go to your browser and check if both [http://localhost:8983/solr](http://localhost:8983/solr) and [http://localhost:7574/solr](http://localhost:8983/solr) are running. If not, you can try the following:
 
     cd c:/hadatac/solr/
     run_solr4.bat restart
