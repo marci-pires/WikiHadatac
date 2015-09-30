@@ -83,5 +83,5 @@ Go to your your HADatAc installation folder and run the console code
     cd c:\hadatac\
     sbt run
 
-Wait for `sbt` to compile and execute the console code. Once the code is up and running, you should be able to access the console through your browser, at [http:\\localhost:9000\hadatac\](http:\\localhost:9000\hadatac\). 
+Wait for `sbt` to compile and execute the console code. Once the code is up and running, you should be able to access the console through your browser, at [http://localhost:9000/hadatac/](http://localhost:9000/hadatac/). 
 
