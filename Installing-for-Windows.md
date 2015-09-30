@@ -14,9 +14,11 @@ The instructions below describe how to obtain and install these components, and 
 
 ### Acquiring Git
 
-Verify that the host machine has a `git client` to retrieve the code. Open the '''cmd''' command to enter in the command mode. 
+Verify that the host machine has a `git client` to retrieve the code. Open the `cmd` command to enter in the command line mode. 
 
-Open `git bash`. NOTE: If you do not have git, you need to install one: http://git-scm.com/downloads. 
+    git bash 
+
+If you do not have git, you need to install one: http://git-scm.com/downloads. 
 
 ### Acquiring SBT
 
@@ -36,19 +38,19 @@ If something under this appears or the program fails, you need to properly insta
 
 ### Step 2: Downloading HADataC-Console
 
-The HADataC Console code can be installed in any directory in your file system. Let assume that the HDataC Console is going to be installed in `/home/hadatac/'.You also need to have a distribution folder. Let assume that '/home/myfolder' is your distribution folder. Go to your distribution folder, and from there, clone HADataC code from GitHub:
+The HADataC Console code can be installed in any directory in your file system. Let assume that the HDataC Console is going to be installed in `c:\hadatac\'.You also need to have a distribution folder. Let assume that 'c:\home\myfolder' is your distribution folder. Go to your distribution folder, and from there, clone HADataC code from GitHub:
 
-    cd /home/myfolder/
+    cd \home\myfolder\
     git clone https://github.com/paulopinheiro1234/hadatac.git
 
 ## Step 3: Running the installation script
 
-Set up the following HADataC configuration files:
+After successfully cloning ADatAc, you should have a `hadatac` folder inside your distribution folder. That is your HADatAc distribution folder. From the command line, go inside your HADatAc distribution folder and execute the installation script (the one that has the .bat suffix).
 
-    <edit> Application.conf
-    <edit> hadatac.conf
-    <edit> play-authenticate/mine.conf
-    <edit> play-authenticate/smtp 
+    cd /home/myfolder/hadatac/
+    install_hadatac.bat
+
+Proceed with the installation.
 
 ### Running HADatAc Console
 
