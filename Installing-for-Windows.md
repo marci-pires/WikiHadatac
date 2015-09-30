@@ -34,12 +34,16 @@ After downloading HADataC, your filesystem should have a new folder called /home
 
     cd /home/myfolder/hadatac/conf
 
+#### Running the installation script
+
 Set up the following HADataC configuration files:
 
     <edit> Application.conf
     <edit> hadatac.conf
     <edit> play-authenticate/mine.conf
     <edit> play-authenticate/smtp 
+
+#### Running HADatAc Console
 
 From your Run sbt
 
