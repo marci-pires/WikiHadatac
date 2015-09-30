@@ -70,7 +70,7 @@ Proceed with the installation, which is going to ask for your installation folde
 
 To verify the installation, go to your browser and check if both [http://localhost:8983/solr](http://localhost:8983/solr) and [http://localhost:7574/solr](http://localhost:8983/solr) are running. If not, you can try the following:
 
-    cd c:/hadatac/solr/
+    cd c:\hadatac\solr\
     run_solr4.bat restart
     run_solr5.bat restart
 
@@ -78,10 +78,10 @@ The `run_solr4.bat restart' script should activate `http:\\localhost:8983\solr`.
 
 ### Running HADatAc Console
 
-From your Run sbt
+Go to your your HADatAc installation folder and run the console code
 
-Install that you have `sbt` installed. If not, install one
+    cd c:\hadatac\
+    sbt run
 
-Execute `sbt`
+Wait for `sbt` to compile and execute the console code. Once the code is up and running, you should be able to access the console through your browser, at [http:\\localhost:9000\hadatac\](http:\\localhost:9000\hadatac\). 
 
-Execute `run`
