@@ -50,7 +50,9 @@ After successfully cloning ADatAc, you should have a `hadatac` folder inside you
     cd /home/myfolder/hadatac/
     install_hadatac.bat
 
-Proceed with the installation.
+Proceed with the installation, which is going to ask for your installation folder. By default, it suggests `c:\hadatac\'. If possible, use the default option. The script should copy the console code from the distribution folder to the installation folder, and also download and install SOLR.
+
+To verify the installation, go to your browser and check if `http:\\localhost:8983\solr' is running. 
 
 ### Running HADatAc Console
 
