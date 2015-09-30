@@ -71,7 +71,10 @@ Proceed with the installation, which is going to ask for your installation folde
 To verify the installation, go to your browser and check if both `http:\\localhost:8983\solr` and `http:\\localhost:7574\solr' are running. If not, you can try the following:
 
     cd c:/hadatac/solr/
-    run
+    run_solr4.bat restart
+    run_solr5.bat restart
+
+The `run_solr4.bat restart' script should activate `http:\\localhost:8983\solr'. The `run_solr5.bat restart` script should activate `http:\\localhost:7574\solr`.
 
 ### Running HADatAc Console
 
