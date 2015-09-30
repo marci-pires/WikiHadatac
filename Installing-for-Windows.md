@@ -35,11 +35,7 @@ The HADataC Console code can be installed in any directory in your file system. 
     cd /home/myfolder/
     git clone https://github.com/paulopinheiro1234/hadatac.git
 
-After downloading HADataC, your filesystem should have a new folder called /home/myfolder/hadatac. In this folder, go to your configuration folder inside hadatac (../hadatac/conf).
-
-    cd /home/myfolder/hadatac/conf
-
-### Step 3: Running the installation script
+## Step 3: Running the installation script
 
 Set up the following HADataC configuration files:
 
