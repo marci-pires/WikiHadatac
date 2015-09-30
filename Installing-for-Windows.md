@@ -12,6 +12,8 @@ The instructions below describe how to obtain and install these components, and 
 
 ## Step 1: Acquiring required software 
 
+As you are going to see, installing HADatAc proper is a pretty straightforward task. Less straightforward is the task of installing required software, considering that the installation procedure depends on what is already available in your system, and if they are installed, if their correct versions are in the windows path.
+
 ### Acquiring Git
 
 Verify that the host machine has a `git client` to retrieve the code. Open the `cmd` command to enter in the command line mode. 
@@ -30,7 +32,7 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 ### Acquiring Java SDK 1.8+
 
-Verify your Java version, by searching `about java' or typing the command below, it should show at least build 1.8.0. 
+Verify your Java version, by searching `about java' or typing the command below, it should show at least build 1.8.0. We recommend that you test the version from the command line, because we need to be sure that the correct java version is installed and set in the windows path. Also, you need to test for `javac` instead of just `java` because you need to be sure that you have Java SDK installed (not just Java JRE).
 
      $ javac -version
 
