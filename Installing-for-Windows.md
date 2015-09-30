@@ -17,7 +17,13 @@ We assume that SOLR-HADataC is going to be installed in a directory, e.g., '/hom
 ##### What you will need
 1. Java SDK 8+: http://java.com/en/download/ (or use your distribution's java)
 
-Verify your Java version, by seraching `about java' it should show at least build 1.7.0. If something under this appears or the program fails, you need to properly install Java 1.7+.
+Verify your Java version, by searching `about java' or typing the command below, it should show at least build 1.8.0. 
+
+   javac -version
+
+If something under this appears or the program fails, you need to properly install Java 1.8+
+
+
 
 #### Install SOLR-HADataC static metadata collection
 
