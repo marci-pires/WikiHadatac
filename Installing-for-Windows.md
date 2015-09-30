@@ -23,44 +23,9 @@ Verify your Java version, by searching `about java' or typing the command below,
 
 If something under this appears or the program fails, you need to properly install Java 1.8+
 
-
-
-#### Install SOLR-HADataC static metadata collection
-
-First git clone our collections repository
-
-    cd ~/solr
-    git clone https://github.com/hansidm/solr-hadatac.git
-
-Copy the contents of solrdf-home to your Solr 4.10.4 instance
-
-    cd solr-hadatac/solrdf-home
-    cp -R * ~/solr/solr-4.10.4/example/solr/
-
-Restart Solr 4.10.4
-
-    cd ~/solr/solr-4.10.4
-    bin/solr restart -p 7574
-
-Check if the collection is loaded by pointing your browser to http://localhost:7574/solr and it should show no errors on the top. Click 'Core admin' on the left and you should see the 'store' collection listed.
-
-##### Install SOLR-HADataC dynamic metadata and data collections
-
-Copy the contents of solr-home to your Solr 5.2.1 instance
-
-    cd ~/solr/solr-hadatac/solr-home
-    cp -R * ~/solr/solr-5.2.1/server/solr/
-
-Restart Solr 5.2.1
-
-    cd ~/solr/solr-5.2.1
-    bin/solr restart -p 8983
-
-Check if the collections are loaded by pointing your browser to http://localhost:8983/solr and it should show no errors on the top. Click 'Core admin' on the left and you should see both 'sdc' and 'measurement' collections listed.
-
 #### HADataC-Console
 
-The HADataC Console code can be installed in any directory in your file system. Let assume that the HDataC Console is going to be installed in `/home/myfolder/'. We need to go to the installation folder, and from there, clone HADataC code from GitHub:
+The HADataC Console code can be installed in any directory in your file system. Let assume that the HDataC Console is going to be installed in `/home/hadatac/'.You also need to have a distribution folder. Let assume that '/home/myfolder' is your distribution folder. Go to your distribution folder, and from there, clone HADataC code from GitHub:
 
     cd /home/myfolder/
     git clone https://github.com/paulopinheiro1234/hadatac.git
