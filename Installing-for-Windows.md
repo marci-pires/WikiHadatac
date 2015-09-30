@@ -15,37 +15,11 @@ If not, you need to install one: http://www.scala-sbt.org/.
 We assume that SOLR-HADataC is going to be installed in a directory, e.g., '/home/user/solr' as 'unmanaged services', i.e., manually taken up and down by the user. For installation as managed service, you need administrative privileges on the machine as well as knowledge about your internal network, like available ports, firewalls and such. Follow this link for more information [link].
 
 ##### What you will need
-1. Java VM 7+: http://java.com/en/download/ (or use your distribution's java)
-2. Solr 4.10.4: http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.zip
-3. Solr 5.2.1: http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.zip
+1. Java SDK 8+: http://java.com/en/download/ (or use your distribution's java)
 
 Verify your Java version, by seraching `about java' it should show at least build 1.7.0. If something under this appears or the program fails, you need to properly install Java 1.7+.
 
-
-##### Download Solr
-
-    cd ~/solr
-    wget http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.tgz
-    wget http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz
-
-##### Uncompress and run Solr 4.10.4
-
-   
-    cd solr-4.10.4
-    cd bin/
-    solr start -p 7574
-
-Verify that Solr 4.10.4 is running by pointing you browser to http://localhost:7574/solr. You should see Solr administrative interface with some information.
-
-##### Uncompress and run Solr 5.2.1
-
-    cd solr-5.2.1
-    cd bin/
-    bin/solr start -p 8983
-
-Verify that Solr 5.2.1 is running by pointing you browser to http://localhost:8983/solr. You should see Solr administrative interface with some information.
-
-##### Install SOLR-HADataC static metadata collection
+#### Install SOLR-HADataC static metadata collection
 
 First git clone our collections repository
 
