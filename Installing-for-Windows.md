@@ -19,7 +19,7 @@ We assume that SOLR-HADataC is going to be installed in a directory, e.g., '/hom
 
 Verify your Java version, by searching `about java' or typing the command below, it should show at least build 1.8.0. 
 
-   javac -version
+     $ javac -version
 
 If something under this appears or the program fails, you need to properly install Java 1.8+
 
