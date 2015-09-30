@@ -44,9 +44,9 @@ Verify if WGET is installed in your Windows
 
 If not, install it from 
 
-### Acquiring UNZIP for Windows
+### Acquiring WinRAR
 
-Verify if UNZIP is installed in your Windows
+Verify if WinRAR is installed in your Windows
 
     unzip
 
