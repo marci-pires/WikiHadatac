@@ -48,7 +48,7 @@ If not, install it from
 
 Verify if WinRAR is installed in your Windows
 
-    unzip
+    winrar
 
 If not, install it from 
 
