@@ -1,8 +1,11 @@
 ## Installing HADataC on Windows
 
 A basic HADataC installation involves the following three steps:
+
 1. installing required software for installing the HADatAc Console
+
 2. downloading the HADataC Console code, which is hosted at this GitHub repository, and 
+
 3. executing its installation script. 
 
 The instructions below describe how to obtain and install these components, and test if the installation is working properly.
