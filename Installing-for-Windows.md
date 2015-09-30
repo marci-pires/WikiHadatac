@@ -36,12 +36,28 @@ Verify your Java version, by searching `about java' or typing the command below,
 
 If something under this appears or the program fails, you need to properly install Java 1.8+. If that is the case, go to  http://java.com/en/download/ (or use your distribution's java)
 
-### Step 2: Downloading HADataC-Console
+## Step 2: Downloading HADataC-Console
 
 The HADataC Console code can be installed in any directory in your file system. Let assume that the HDataC Console is going to be installed in `c:\hadatac\'.You also need to have a distribution folder. Let assume that 'c:\home\myfolder' is your distribution folder. Go to your distribution folder, and from there, clone HADataC code from GitHub:
 
     cd \home\myfolder\
     git clone https://github.com/paulopinheiro1234/hadatac.git
+
+### Acquiring WGET for Windows
+
+Verify if WGET is installed in your Windows
+
+    wget
+
+If not, install it from 
+
+### Acquiring UNZIP for Windows
+
+Verify if UNZIP is installed in your Windows
+
+    unzip
+
+If not, install it from 
 
 ## Step 3: Running the installation script
 
