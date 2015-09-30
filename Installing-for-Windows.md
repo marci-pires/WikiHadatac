@@ -10,10 +10,6 @@ In `git bash` on the command line, verify that you have `sbt` applications insta
 
 If not, you need to install one: http://www.scala-sbt.org/.
 
-#### SOLR-HADataC
-
-We assume that SOLR-HADataC is going to be installed in a directory, e.g., '/home/user/solr' as 'unmanaged services', i.e., manually taken up and down by the user. For installation as managed service, you need administrative privileges on the machine as well as knowledge about your internal network, like available ports, firewalls and such. Follow this link for more information [link].
-
 ##### What you will need
 1. Java SDK 8+: http://java.com/en/download/ (or use your distribution's java)
 
