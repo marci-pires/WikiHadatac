@@ -14,7 +14,9 @@ The instructions below describe how to obtain and install these components, and 
 
 ### Acquiring Git
 
-Verify that the host machine has a `git client` to retrieve the code, and an `sbt` utility to run the console. Open `git bash`. NOTE: If you do not have git, you need to install one: http://git-scm.com/downloads. 
+Verify that the host machine has a `git client` to retrieve the code. Open the '''cmd''' command to enter in the command mode. 
+
+Open `git bash`. NOTE: If you do not have git, you need to install one: http://git-scm.com/downloads. 
 
 ### Acquiring SBT
 
@@ -26,13 +28,11 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 ### Acquiring Java SDK 1.8+
 
-1. Java SDK 8+: http://java.com/en/download/ (or use your distribution's java)
-
 Verify your Java version, by searching `about java' or typing the command below, it should show at least build 1.8.0. 
 
      $ javac -version
 
-If something under this appears or the program fails, you need to properly install Java 1.8+
+If something under this appears or the program fails, you need to properly install Java 1.8+. If that is the case, go to  http://java.com/en/download/ (or use your distribution's java)
 
 ### Step 2: Downloading HADataC-Console
 
