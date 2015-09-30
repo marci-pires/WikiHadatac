@@ -2,11 +2,11 @@
 
 A basic HADataC installation involves the following three steps:
 
-1 acquiring required software for installing/running the HADatAc Console
+* acquiring required software for installing/running the HADatAc Console
 
-2 downloading the HADataC Console code from this GitHub repository, and 
+* downloading the HADataC Console code from this GitHub repository, and 
 
-3 executing its installation script. 
+* executing its installation script. 
 
 The instructions below describe how to obtain and install these components, and test if the installation is working properly.
 
