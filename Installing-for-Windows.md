@@ -1,5 +1,3 @@
-## Installing HADataC on Windows
-
 A basic HADataC installation involves the following three steps:
 
 * acquiring required software for installing/running the HADatAc Console
@@ -78,7 +76,7 @@ To verify the installation, go to your browser and check if both [http://localho
 
 The `run_solr4.bat restart' script should activate `http:\\localhost:8983\solr`. The `run_solr5.bat restart` script should activate `http:\\localhost:7574\solr`.
 
-### Running HADatAc Console
+## Step 4: Running HADatAc
 
 Go to your your HADatAc installation folder and run the console code
 
