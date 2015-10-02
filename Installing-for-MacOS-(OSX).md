@@ -47,7 +47,9 @@ In terminal type:
 
 Go to: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
 Find the version you need (most likely for mac).
-Download
+
+#### Download Java
+
 Double click the orange package and install.
 CHECK YOUR VERSION (on the terminal):
 
