@@ -101,15 +101,15 @@ If you want to get back to the start just type:
 
      cd
 
-Once you are in the hadatac folder, you can check if you are in the right folder by typing `pwd`.
+## Step 3: Installing HADatAc
 
-In terminal type: 
+Once you are in the hadatac folder (you can check if you are in the right folder by typing `pwd`), type the following:
 
       ./install_hadatac.sh
 
-This process will take a while so let it run. 
+This process will take a while so let it run. It will copy the files, download and install the two SOLR instances required by HADatAc, and initialize the instances.
 
-## Running HADatAc
+## Step 4: Running HADatAc
 
 Open your browser to verify if the SOLR installations were successful
 Open one tab with the url: [http://localhost:7574/solr/](http://localhost:7574/solr/) 
