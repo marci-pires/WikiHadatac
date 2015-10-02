@@ -1,5 +1,3 @@
-## Installing HADataC on MacOS (OSX)
-
 A basic HADataC installation involves the following three steps:
 
 * acquiring required software for installing/running the HADatAc Console
