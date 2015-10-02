@@ -1,4 +1,4 @@
-A basic HADataC installation involves the following three steps:
+A basic HADataC installation involves the following four steps:
 
 * acquiring required software for installing/running the HADatAc Console
 
