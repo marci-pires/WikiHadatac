@@ -28,10 +28,12 @@ OR copy and paste this command in terminal:
      ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ### Install sbt
-In terminal type: brew install sbt
-Let that install
-You may be prompted to install the xcode command line tools
-If so click install and let the installation finish before installing sbt again. 
+In terminal type: 
+
+     brew install sbt
+
+Let that install. You may be prompted to install the xcode command line tools.
+If so click `install` and let the installation finish before installing sbt again. 
 
 ### Install tar
 In terminal type: 
