@@ -130,6 +130,6 @@ In the terminal window type:
 Wait for confirmation message that the project is running.
 
 Browser open hadatac
-url: http://localhost:9000/hadatac/
+url: [http://localhost:9000/hadatac/](http://localhost:9000/hadatac/)
 
 Wait for page to open, it will take a while.
