@@ -1,6 +1,14 @@
-## Installing HADataC on Linux/MacOS
+## Installing HADataC on Windows
 
-A basic HADataC installation involves the installation of a SOLR repository and a HADataC Console (i.e., the code hosted at this GitHub repository). The instructions below describe how to obtain and install these components, and test if the installation is working properly.
+A basic HADataC installation involves the following three steps:
+
+* acquiring required software for installing/running the HADatAc Console
+
+* downloading the HADataC Console code from this GitHub repository, and 
+
+* executing its installation script. 
+
+The instructions below describe how to obtain and install these components, and test if the installation is working properly.
 
 #### What you will need
 
