@@ -110,5 +110,3 @@ Browser open hadatac
 url: http://localhost:9000/hadatac/
 
 Wait for page to open, it will take a while.
-
-Further instruction can be found here https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-Linux-MacOS
