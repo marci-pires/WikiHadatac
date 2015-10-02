@@ -55,8 +55,13 @@ CHECK YOUR VERSION (on the terminal):
 
 You should see Java 1.8.0, the version you have just downloaded.
 If not, you had a previous version. Proceed with the following steps to fix it:
-First run /usr/libexec/java_home -V
-Check the versions and run: export JAVA_HOME=`/usr/libexec/java_home -v <<java1.8 version from above>>`
+Run 
+     /usr/libexec/java_home -V
+
+Check the versions and run: 
+
+     export JAVA_HOME=`/usr/libexec/java_home -v <<java1.8 version from above>>`
+
 Add the above line to the file ~/.bashrc to make the change permanent
 
 ## Step 2: Cloning HADatAc-Console
