@@ -41,7 +41,12 @@ In terminal type:
 ### Install wget
 In terminal type: 
 
-     brew install wget
+     brew install git
+
+### Install git
+In terminal type: 
+
+     brew install tar
 
 ### Intall Java SDK 1.8+
 
