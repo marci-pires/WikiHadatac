@@ -1,7 +1,14 @@
-Install HADatac on machine, incl. spreadsheets. Then upload and see results. 
-Static and dynamic meta-data (unchanging and changing)
-static (e.g., instruments, environmental conditions units, 
-dynamic (e.g., 
+## Installing HADataC on MacOS (OSX)
+
+A basic HADataC installation involves the following three steps:
+
+* acquiring required software for installing/running the HADatAc Console
+
+* downloading the HADataC Console code from this GitHub repository, and 
+
+* executing its installation script. 
+
+The instructions below describe how to obtain and install these components, and test if the installation is working properly.
 
 ## Step 1: Acquiring Required Software
 
