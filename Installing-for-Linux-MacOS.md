@@ -10,7 +10,7 @@ A basic HADataC installation involves the following three steps:
 
 The instructions below describe how to obtain and install these components, and test if the installation is working properly.
 
-#### What you will need
+## Step 1 : Acquiring Required Software
 
 Before anything, however, we need to verify that the host machine has a `git client` to retrieve the code, and an `sbt` utility to run the console. In the command line of your machine, verify that you have a `git` client installed in your machine:
 
