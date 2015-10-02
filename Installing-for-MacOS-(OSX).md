@@ -19,9 +19,7 @@ This should open a terminal window that looks like a scary box where you put cod
 
 ### Install homebrew
 
-Instructions for installation can be found here:
- 
-     http://brew.sh/ 
+Instructions for installation can be found here: [http://brew.sh/](http://brew.sh/) 
 
 OR copy and paste this command in terminal: 
 
