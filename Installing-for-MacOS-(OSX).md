@@ -34,20 +34,26 @@ You may be prompted to install the xcode command line tools
 If so click install and let the installation finish before installing sbt again. 
 
 ### Install tar
-In terminal type: brew install tar
+In terminal type: 
+
+     brew install tar
 
 ### Install wget
-In terminal type: brew install wget
-Get the java jdk
+In terminal type: 
+
+     brew install wget
+
+### Intall Java SDK 1.8+
+
 Go to: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
 Find the version you need (most likely for mac).
 Download
 Double click the orange package and install.
+CHECK YOUR VERSION (on the terminal):
 
-### Intall Java SDK 1.8+
+    javac -version 
 
-CHECK YOUR VERSION:
-type java -version and javac -version on the terminal. You should see Java 1.8.0, the version you have just downloaded.
+You should see Java 1.8.0, the version you have just downloaded.
 If not, you had a previous version. Proceed with the following steps to fix it:
 First run /usr/libexec/java_home -V
 Check the versions and run: export JAVA_HOME=`/usr/libexec/java_home -v <<java1.8 version from above>>`
