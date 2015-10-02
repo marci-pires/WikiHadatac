@@ -89,16 +89,26 @@ This process will take a while so let it run.
 ## Running HADatAc
 
 Open your browser to verify if the SOLR installations were successful
-Open one tab with the url: http://localhost:7574/solr/ 
-Open another tab with the url: http://localhost:8983/solr/ 
-Go back to terminal and type: sbt
+Open one tab with the url: [http://localhost:7574/solr/](http://localhost:7574/solr/) 
+Open another tab with the url: [http://localhost:8983/solr/](http://localhost:8983/solr/) 
+
+Go back to terminal and type: 
+
+     sbt
+
 Note:Navigate to the hadatac folder using cd in the terminal window, before typing sbt
 This step will take a long time the first time.
-Run hadatac
-In the terminal window you should see [hadatac]
-In the terminal window type: run
-Wait
- Browser open hadatac
+
+In the terminal window you should see `[hadatac]`
+In the terminal window type: 
+
+     run
+
+Wait for confirmation message that the project is running.
+
+Browser open hadatac
 url: http://localhost:9000/hadatac/
+
 Wait for page to open, it will take a while.
+
 Further instruction can be found here https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-Linux-MacOS
