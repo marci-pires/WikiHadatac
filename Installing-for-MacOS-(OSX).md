@@ -14,13 +14,18 @@ The instructions below describe how to obtain and install these components, and 
 
 ### Open terminal
 
-Easiest method is to hit command+spacebar > type > terminal > enter
+Easiest method is to hit `command+spacebar > type > terminal > enter`.
 This should open a terminal window that looks like a scary box where you put code.
 
 ### Install homebrew
 
-Instructions for installation can be found here: http://brew.sh/ 
-OR copy and paste this command in terminal: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Instructions for installation can be found here:
+ 
+     http://brew.sh/ 
+
+OR copy and paste this command in terminal: 
+
+     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ### Install sbt
 In terminal type: brew install sbt
