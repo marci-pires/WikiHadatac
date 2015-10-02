@@ -82,17 +82,31 @@ Or click the below link and a zip will download the file automatically.
 https://github.com/paulopinheiro1234/hadatac/archive/master.zip
 
 Once the files is downloaded unzip the .zip file and put the hadatac folder in your local directory.
-You can get to your local directory by opening a finder window and clicking on your name in the navigation panel on the left. Ma
-In terminal navigate to the hadatac folder
-In terminal type: cd ~/hadatac
-cd is change directory. 
-If you’re lost type: pwd to find out where you are. 
-If you want to list all the files and folders around you type: ls. 
-If you want to get back to the start just type: cd
-Installing hadatac
-Once you are in the hadatac folder
-You can check if you are in the right folder by typing pwd
-In terminal type: ./install_hadatac.sh
+You can get to your local directory by opening a finder window and clicking on your name in the navigation panel on the left. In terminal navigate to the hadatac folder (in terminal type): 
+
+     cd ~/hadatac
+
+`cd` is change directory. 
+
+If you’re lost type: 
+
+     pwd 
+
+to find out where you are. 
+If you want to list all the files and folders around you type: 
+
+     ls 
+
+If you want to get back to the start just type: 
+
+     cd
+
+Once you are in the hadatac folder, you can check if you are in the right folder by typing `pwd`.
+
+In terminal type: 
+
+      ./install_hadatac.sh
+
 This process will take a while so let it run. 
 
 ## Running HADatAc
