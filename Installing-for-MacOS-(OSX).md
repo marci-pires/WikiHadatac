@@ -56,9 +56,11 @@ CHECK YOUR VERSION (on the terminal):
     javac -version 
 
 You should see Java 1.8.0, the version you have just downloaded.
-If not, you had a previous version. Proceed with the following steps to fix it:
-Run 
-     /usr/libexec/java_home -V
+If not, you had a previous version. Proceed with the following steps to fix it: 
+
+Run the following: 
+
+      /usr/libexec/java_home -V
 
 Check the versions and run: 
 
