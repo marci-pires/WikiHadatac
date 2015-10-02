@@ -1,6 +1,4 @@
-## Installing HADataC on Windows
-
-A basic HADataC installation involves the following three steps:
+A basic HADataC installation involves the following four steps:
 
 * acquiring required software for installing/running the HADatAc Console
 
@@ -45,7 +43,7 @@ Go to the HADataC folder that has just been created through the execution of the
     cd hadatac
     ./install_hadatac.sh
 
-## Running HADataC
+## Step 4: Running HADataC
 
 Most interaction with HADataC is through its web console. Since HADataC is both a web application and its own web server, you need to activate the server to enable the console in your browser. The first time you call sbt in your machine, it may be a while for the command below to respond -- it will be getting dependencies from the web.
  
