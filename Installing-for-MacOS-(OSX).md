@@ -107,6 +107,8 @@ Once you are in the hadatac folder (you can check if you are in the right folder
 
 This process will take a while so let it run. It will copy the files, download and install the two SOLR instances required by HADatAc, and initialize the instances.
 
+During the process of executing the script, you will be asked for an installation folder. If possible, just accept the installation folder suggested by the script. If not, specify a different installation directory. Keep note of what is your installation file since you will need to use it in the next step.
+
 ## Step 4: Running HADatAc
 
 Open your browser to verify if the SOLR installations were successful
