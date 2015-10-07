@@ -22,11 +22,8 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 You will also need:
 
-0. HADataC: https://github.com/paulopinheiro1234/hadatac
 1. Java JDK 8: http://java.com/en/download/ (or use your distribution's java)
-2. Solr 4.10.4: http://archive.apache.org/dist/lucene/solr/4.10.4/solr-4.10.4.tgz
-3. Solr 5.2.1: http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz
-4. JTS Topology Suite: http://sourceforge.net/projects/jts-topo-suite/files/latest/download
+2. wget
 
 ## Step 2: Cloning HADatAc-Console
 
