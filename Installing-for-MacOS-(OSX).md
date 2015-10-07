@@ -39,7 +39,7 @@ In terminal type:
 ### Install wget
 In terminal type: 
 
-     brew install git
+     brew install wget
 
 ### Install git
 In terminal type: 
