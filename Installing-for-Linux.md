@@ -30,29 +30,67 @@ You will also need:
 
 ## Step 2: Cloning HADatAc-Console
 
-Be sure to clone our Git repository
+On the terminal, go to your home directory by typing the following (`cd` is change directory) :
 
-    git clone https://github.com/paulopinheiro1234/hadatac.git
+      cd ~
 
-From now on, we assume that you cloned HADataC repository on your home directory ~. If you cloned somewhere else, be sure to change ~ for the desired location on your machine.
+Once your are in your home directory (`~` is a shortcut for your home directory), clone HADatAc code by typing the following command:
 
-## Step 3: Running installation script
+      git clone https://github.com/paulopinheiro1234/hadatac.git
 
-Go to the HADataC folder that has just been created through the execution of the '''git clone''' command above, and execute the installation script.
- 
-    cd hadatac
-    ./install_hadatac.sh
+After cloning HADatAC, you should have a hadatac folder under your home directory. Go into the hadatac directory under your home directory by typing the following:
 
-## Step 4: Running HADataC
-
-Most interaction with HADataC is through its web console. Since HADataC is both a web application and its own web server, you need to activate the server to enable the console in your browser. The first time you call sbt in your machine, it may be a while for the command below to respond -- it will be getting dependencies from the web.
- 
-    sbt run
-
-Log to HADataC on your browser
+     cd ~/hadatac
 
 
+If you’re lost type: 
 
-    http://localhost:9000/hadatac/
+     pwd 
 
-Enjoy!
+to find out where you are. 
+If you want to list all the files and folders around you type: 
+
+     ls 
+
+If you want to get back to the start just type: 
+
+     cd
+
+## Step 3: Installing HADatAc
+
+Once you are in the hadatac folder (you can check if you are in the right folder by typing `pwd`), type the following:
+
+      ./install_hadatac.sh
+
+This process will take a while so let it run. It will copy the files, download and install the two SOLR instances required by HADatAc, and initialize the instances.
+
+During the process of executing the script, you will be asked for an installation folder. If possible, just accept the installation folder suggested by the script. If not, specify a different installation directory. Keep note of what is your installation file since you will need to use it in the next step.
+
+Open your browser to verify if the SOLR installations were successful
+* Open one tab with the url: [http://localhost:7574/solr/](http://localhost:7574/solr/) 
+* Open another tab with the url: [http://localhost:8983/solr/](http://localhost:8983/solr/) 
+
+## Step 4: Running HADatAc
+
+Go back to terminal, and go to your installation folder by typing the following, after making sure that you replace the `(your hadatac installation directory)` by your actual hatadac installation directory:
+
+     cd (your hadatac installation directory)
+
+Now type the following: 
+
+     sbt
+
+Note:Navigate to the hadatac folder using cd in the terminal window, before typing sbt
+This step will take a long time the first time.
+
+In the terminal window you should see `[hadatac]`
+In the terminal window type: 
+
+     run
+
+Wait for confirmation message that the project is running.
+
+Browser open hadatac
+url: [http://localhost:9000/hadatac/](http://localhost:9000/hadatac/)
+
+Wait for page to open, it will take a while.
