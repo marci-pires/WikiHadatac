@@ -73,7 +73,7 @@ Add the above line to the file ~/.bashrc to make the change permanent
 
 ## Step 2: Cloning HADatAc-Console
 
-On the terminal, go to your home directory by typing the following:
+On the terminal, go to your home directory by typing the following (`cd` is change directory) :
 
       cd ~
 
@@ -85,7 +85,6 @@ After cloning HADatAC, you should have a hadatac folder under your home director
 
      cd ~/hadatac
 
-`cd` is change directory. 
 
 If you’re lost type: 
 
