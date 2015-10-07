@@ -77,7 +77,7 @@ On the terminal, go to your home directory by typing the following:
 
       cd ~
 
-In your home directory, clone HADatAc code using the following command:
+Once your are in your home directory (`~` is a shortcut for your home directory), clone HADatAc code by typing the following command:
 
       git clone https://github.com/paulopinheiro1234/hadatac.git
 
