@@ -44,7 +44,7 @@ In terminal type:
 ### Install git
 In terminal type: 
 
-     brew install tar
+     brew install git
 
 ### Intall Java SDK 1.8+
 
@@ -73,14 +73,15 @@ Add the above line to the file ~/.bashrc to make the change permanent
 
 ## Step 2: Cloning HADatAc-Console
 
-Google hadatac and find the github project, if you’re familiar with that process
+On the terminal, go to your home directory by typing the following:
 
-It helps keep files up to date but requires at GitHub account
-Or click the below link and a zip will download the file automatically.
-https://github.com/paulopinheiro1234/hadatac/archive/master.zip
+      cd
 
-Once the files is downloaded unzip the .zip file and put the hadatac folder in your local directory.
-You can get to your local directory by opening a finder window and clicking on your name in the navigation panel on the left. In terminal navigate to the hadatac folder (in terminal type): 
+In your home directory, clone HADatAc code using the following command:
+
+      git clone https://github.com/paulopinheiro1234/hadatac.git
+
+After cloning HADatAC, you should have a hadatac folder under your home directory.
 
      cd ~/hadatac
 
