@@ -75,13 +75,13 @@ Add the above line to the file ~/.bashrc to make the change permanent
 
 On the terminal, go to your home directory by typing the following:
 
-      cd
+      cd ~
 
 In your home directory, clone HADatAc code using the following command:
 
       git clone https://github.com/paulopinheiro1234/hadatac.git
 
-After cloning HADatAC, you should have a hadatac folder under your home directory.
+After cloning HADatAC, you should have a hadatac folder under your home directory. Go into the hadatac directory under your home directory by typing the following:
 
      cd ~/hadatac
 
