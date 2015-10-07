@@ -115,9 +115,9 @@ Open your browser to verify if the SOLR installations were successful
 
 ## Step 4: Running HADatAc
 
-Go back to terminal, and go to your installation folder by typing the following:
+Go back to terminal, and go to your installation folder by typing the following, after making sure that you replace the `(your hadatac installation directory)` by your actual hatadac installation directory:
 
-       cd (your hadatac installation directory)
+     cd (your hadatac installation directory)
 
 Now type the following: 
 
