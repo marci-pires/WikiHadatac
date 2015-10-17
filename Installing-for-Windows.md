@@ -50,8 +50,15 @@ Verify if WinRAR is installed in your Windows
 
     winrar
 
-If not, install it from 
+If not, install it from http://www.win-rar.com/predownload.html?&L=0
+then in the command line type for 32bit
 
+   set path="C:\Program Files\WinRAR\";%path% 
+
+or for 64bit 
+
+   set path="C:\Program Files (x86)\WinRAR\";%path%  
+   
 ## Step 2: Downloading HADataC-Console
 
 The HADataC Console code can be installed in any directory in your file system. Let assume that the HDataC Console is going to be installed in `c:\hadatac\'.You also need to have a distribution folder. Let assume that 'c:\home\myfolder' is your distribution folder. Go to your distribution folder, and from there, clone HADataC code from GitHub:
