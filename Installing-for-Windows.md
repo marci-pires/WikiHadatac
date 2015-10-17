@@ -53,11 +53,11 @@ Verify if WinRAR is installed in your Windows
 If not, install it from http://www.win-rar.com/predownload.html?&L=0
 then in the command line type for 32bit
 
-   set path="C:\Program Files\WinRAR\";%path% 
+    set path="C:\Program Files\WinRAR\";%path% 
 
 or for 64bit 
 
-   set path="C:\Program Files (x86)\WinRAR\";%path%  
+    set path="C:\Program Files (x86)\WinRAR\";%path%  
    
 ## Step 2: Downloading HADataC-Console
 
