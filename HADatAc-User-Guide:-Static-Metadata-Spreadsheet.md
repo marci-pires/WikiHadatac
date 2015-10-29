@@ -24,7 +24,7 @@ Each concept is a subconcept of something else. For instance, an instrument call
 
 In the case of instances, each instrument instance should have the URI of an instrument model.
 
-### What are the Values for the Rest of the Columns?
+### What are the Values for the Rest of the Columns in a Sheet?
 
 The names are often self-explanatory. The **rdfs:label** is an important exception to this rule is that property names are self-explanatory. For instance, ***rdfs:label** is a textual description of the concept or instance being described in the spreadsheet. 
  
