@@ -17,8 +17,18 @@ These are some of the rules that you most follow:
 1. Do not add or remove columns;
 2. It is okay to group create a spreadsheet that is about a single concept or instance. It is also okay to build a single spreadsheet for all concepts;
  
+### Where Can I Find the Static Metadata Spreadsheet Templates? 
+
+Use the templates below to create metadata for your scientific activities. A single spreadsheet may be used to record needed metadata.
+* Full Spreadsheet
+
+Alternatively, the three complementary spreadsheets listed below may be used to record needed metadata. It is recommended that the these spreadsheets are used and populated into HADataC following the order in the list below.
+ 
+* Agent Spreadsheet - Used to create agents (including users) and organizations (see example Agent spreadsheet)
+* Classes Spreadsheet - Used to specialize classes of the family of Human-Aware Science Ontologies (see example Class spreadsheet)
+* Instances Spreadsheet - Used to create instances of registered classes (see example Instance spreadsheet)
   
-### Which Kind of Content Am I expected to See inside of Each Sheet?
+### Which Kind of Content Am I Expected to See Inside of Each Sheet?
 
 Each sheet is either a concept kind (or class) or a list of concept instances. For instance, the sheet named InstrumentModels list the models of the instruments in a sensor network. The sheet named Instruments lists the actual instruments in the sensor network. The sheets are named according to the concepts described in the following paper (the reading of the paper is strongly suggested): 
 
