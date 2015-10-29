@@ -48,7 +48,7 @@ Values should be literals or URIs. For example, the second column is always a UR
 
 Each concept is a subconcept of something else. For instance, an instrument called _Mass Spectrometer_ is a subclass of _Spectrometer_. Thus, the value of the **rdf:subClassOf** column for the Mass Spectrometer should be the URI of the spectrometer. In that way, concepts are organized into hierarchies.
 
-In the case of instances, each instrument instance should have the URI of an instrument model.
+In the case of instances, each instance should have the URI of a concept. For instance, the value of the **a** column of a mass spectrometer should have the URI of the concept _Mass Spectrometer_. 
 
 ### What are the Values for the Rest of the Columns in a Sheet?
 
