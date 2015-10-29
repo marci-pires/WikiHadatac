@@ -76,8 +76,10 @@ The names are often self-explanatory. The **rdfs:label** is an important excepti
 ### Can I Validate My Spreadsheet?
 
 A spreadsheet validation consists of a two phases:
-1. The Parsing phase identifies syntax erros during the process of filling out the spreadsheets. The instructions for [parsing static metadata spreadsheets] (https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide:-Parsing-a-Static-Metadata-Spreadsheet) describe how to identify syntax erros and fix them.
-2. The Verification phase executes a number of basic rules to assure a minimal level of quality for the metadata captured through the use of static metadata spreadsheets. For instance, it is in the verification phase that we check if every instance has a concept URI, and if the concept URI exists. 
+
+1 The Parsing phase identifies syntax erros during the process of filling out the spreadsheets. The instructions for [parsing static metadata spreadsheets] (https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide:-Parsing-a-Static-Metadata-Spreadsheet) describe how to identify syntax erros and fix them.
+
+2 The Verification phase executes a number of basic rules to assure a minimal level of quality for the metadata captured through the use of static metadata spreadsheets. For instance, it is in the verification phase that we check if every instance has a concept URI, and if the concept URI exists. 
 
 
 (TO BE WRITTEN) 
