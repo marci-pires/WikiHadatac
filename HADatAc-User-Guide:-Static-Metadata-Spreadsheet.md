@@ -6,7 +6,7 @@ They are spreadsheets used by domain experts to document data-related [static me
 
 Each sheet is either a concept kind (or class) or a list of concept instances. For instance, the sheet named InstrumentModels list the models of the instruments in a sensor network. The sheet named Instruments lists the actual instruments in the sensor network. The sheets are named according to the concepts described in the following paper (the reading of the paper is strongly suggested): 
 
-
+Pinheiro, P., McGuinness, D.L., and Santos, H. 2015. Human-Aware Sensor Network Ontology: Semantic Support for Empirical Data Collection. In Proceedings of International Semantic Web Conference (ISWC) 2015 (October 11-15 2015, Bethlehem, PA, US).  [(PDF)](http://tw.rpi.edu/media/2015/10/12/10c35/ISWC-LISC-2015-Paper.pdf)
 
 ### What is the meaning of the URI field in the beginning of each sheet?
 
