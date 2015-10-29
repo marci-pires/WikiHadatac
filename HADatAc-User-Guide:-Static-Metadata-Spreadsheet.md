@@ -5,10 +5,18 @@ They are spreadsheets used by domain experts to document data-related [static me
 ### How Do I Build a Static Metadata Spreadsheet?
 
 Static Metadata Spreadsheets are expected to be developed from spreadsheet templates. In a template we have the following:
-* one of more sheet;
-* each sheet has a name;
+* one of more sheets;
+* each sheet has a name (a simple string);
 * each sheet has just one title row, and nothing else;
 * the title row is composed of two or more columns, each column containing a label.
+
+Once you go through the process of reading the template of a static metadata spreadsheet, you may start the process of describing your static metadata by filling out static metadata spreadsheets, one row a time. 
+
+These are some of the rules that you most follow:
+
+1. Do not add or remove columns;
+2. It is okay to group create a spreadsheet that is about a single concept or instance. It is also okay to build a single spreadsheet for all concepts;
+ 
   
 ### Which Kind of Content Am I expected to See inside of Each Sheet?
 
