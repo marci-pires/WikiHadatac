@@ -1,6 +1,14 @@
 ### What are Static Metadata Spreadsheets?
 
 They are spreadsheets used by domain experts to document data-related [static metadata](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide:--Data-Management). Like any other spreadsheet, Static Metadata Spreadsheets are composed of one or more sheets. Once spreadsheets are filled out completely, they can be parsed, and if they are syntactically correct, they can be added into HADatAc's knowledge base.  
+
+### How Do I Build a Static Metadata Spreadsheet?
+
+Static Metadata Spreadsheets are expected to be developed from spreadsheet templates. In a template we have the following:
+* one of more sheet;
+* each sheet has a name;
+* each sheet has just one title row, and nothing else;
+* the title row is composed of two or more columns, each column containing a label.
   
 ### Which Kind of Content Am I expected to See inside of Each Sheet?
 
