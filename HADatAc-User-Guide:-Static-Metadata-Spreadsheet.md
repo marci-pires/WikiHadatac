@@ -51,13 +51,15 @@ These are the URIs of some core concepts.
 - Entity:
 - Characteristic:
 
-### How Can I See My Hierarchies of Concepts?
+### How Can I See the Hierarchies of Core HADatAc Concepts?
 
 WE SHOULD HAVE AN EXAMPLE HADatAc installation -- not related to any project -- and the links to be included here should be to the metadata browser of the example installation (Henrique, can you do this?)
 
 (TO BE WRITTEN)
 
 ### How Can I Add A New Concept Under an Existing Subconcept?
+
+When browsing an hierarchy, you can inspect the concepts inside the hierarchy but hovering the mouse over the concepts. The info box on the right side of the browser would show you the details of the concept currently selected. One of the properties shown in the info box is the URI of the concept. If this is the concept that is going to be the parent of a new concept to be included, this is the URI that should be added to the **rdfs:subClassOf** property of the new concept.
 
 ### What Are the Values that I Should Use in Each Cell of a Row?
 
