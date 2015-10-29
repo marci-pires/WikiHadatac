@@ -79,4 +79,4 @@ A spreadsheet validation consists of a two phases:
 1. Parsing
 2. Verification
 
-(TO BE COMPLETED) 
+(TO BE WRITTEN) 
