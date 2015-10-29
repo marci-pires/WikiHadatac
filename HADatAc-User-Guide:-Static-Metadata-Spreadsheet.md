@@ -42,6 +42,15 @@ Every concept and instance in a sensor network should have a name, and the name 
 
 The header of the second column tells you if a sheet is about concepts or instances. If the sheet is about classes the header is **rdf:subClassOf**. If the sheet is about instances the header is **a**.
 
+If a sheet is about a concept, the concept is from the Human-Aware Sensor Network Ontology (HASNetO), which is available at [http://hadatac.org/ont/hasneto/](http://hadatac.org/ont/hasneto/).
+
+These are the URIs of some core concepts. 
+- Platform Model: 
+- Instrument Model:
+- Detector Model:
+- Entity:
+- Characteristic:
+
 ### What Are the Values that I Should Use in Each Cell of a Row?
 
 Values should be literals or URIs. For example, the second column is always a URI. 
