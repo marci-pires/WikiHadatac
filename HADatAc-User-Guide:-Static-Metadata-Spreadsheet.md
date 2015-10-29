@@ -19,14 +19,14 @@ These are some of the rules that you most follow:
  
 ### Where Can I Find the Static Metadata Spreadsheet Templates? 
 
-Use the templates below to create metadata for your scientific activities. A single spreadsheet may be used to record needed metadata.
-* Full Spreadsheet
+Use the templates below to create metadata for your scientific activities. A single static spreadsheet template may be used to record needed basic metadata.
+* [Full Spreadsheet Template]()
 
 Alternatively, the three complementary spreadsheets listed below may be used to record needed metadata. It is recommended that the these spreadsheets are used and populated into HADataC following the order in the list below.
  
-* Agent Spreadsheet - Used to create agents (including users) and organizations (see example Agent spreadsheet)
-* Classes Spreadsheet - Used to specialize classes of the family of Human-Aware Science Ontologies (see example Class spreadsheet)
-* Instances Spreadsheet - Used to create instances of registered classes (see example Instance spreadsheet)
+* [Agent Spreadsheet Template]() - Used to create agents (including users) and organizations (see example Agent spreadsheet)
+* [Classes Spreadsheet Template]() - Used to specialize classes of the family of Human-Aware Science Ontologies (see example Class spreadsheet)
+* [Instances Spreadsheet Template]() - Used to create instances of registered classes (see example Instance spreadsheet)
   
 ### Which Kind of Content Am I Expected to See Inside of Each Sheet?
 
