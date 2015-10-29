@@ -2,9 +2,11 @@
 
 They are spreadsheets used by domain experts to document data-related static metadata. Like any other spreadsheet, Static Metadata Spreadsheets are composed of one or more sheets. Once spreadsheets are filled out completely, they can be parsed, and if they are syntactically correct, they can be added into HADatAc's knowledge base.  
   
-### What is the meaning of each sheet?
+### Which Kind of Content Am I expected to See inside Each Sheet?
 
-Each sheet is either a concept kind (or class) or a list of concept instances. For instance, the sheet named InstrumentModels list the models of the instruments in a sensor network. The sheet named Instruments lists the actual instruments in the sensor network. 
+Each sheet is either a concept kind (or class) or a list of concept instances. For instance, the sheet named InstrumentModels list the models of the instruments in a sensor network. The sheet named Instruments lists the actual instruments in the sensor network. The sheets are named according to the concepts described in the following paper (the reading of the paper is strongly suggested): 
+
+
 
 ### What is the meaning of the URI field in the beginning of each sheet?
 
