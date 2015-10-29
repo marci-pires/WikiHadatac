@@ -12,6 +12,8 @@ If the project shares classes, we recommend the project to consider the use of t
 
 ### For instances
 
+Static metadata instances are intended to be privately shared within projects. For instance, the serial number of instruments are not something that is of interest to other projects. Every HADatAc installation has a host URI, e.g., http://example.org. The URI of a HADataC installation is typically the host URI followed with /hadatac/ (trailing slash is needed), e.g., http://example.org/hadatac/. URIs of instances are often stored in a folder within the host machine, which is associated with a given URL in case the project decides to share their instances. For instance, we can create a folder meta (http://example.org/meta/).   
+
 ## Dynamic metadata URI
 
 Every HADatAc installation has a host URI, e.g., http://example.org. The URI of a HADataC installation is typically the host URI followed with /hadatac/ (trailing slash is needed), e.g., http://example.org/hadatac/
