@@ -51,6 +51,14 @@ These are the URIs of some core concepts.
 - Entity:
 - Characteristic:
 
+### How Can I See My Hierarchies of Concepts?
+
+WE SHOULD HAVE AN EXAMPLE HADatAc installation -- not related to any project -- and the links to be included here should be to the metadata browser of the example installation (Henrique, can you do this?)
+
+(TO BE WRITTEN)
+
+### How Can I Add A New Concept Under an Existing Subconcept?
+
 ### What Are the Values that I Should Use in Each Cell of a Row?
 
 Values should be literals or URIs. For example, the second column is always a URI. 
@@ -62,4 +70,11 @@ In the case of instances, each instance should have the URI of a concept. For in
 ### What are the Values for the Rest of the Columns in a Sheet?
 
 The names are often self-explanatory. The **rdfs:label** is an important exception to this rule is that property names are self-explanatory. For instance, ***rdfs:label** is a textual description of the concept or instance being described in the spreadsheet. 
- 
+
+### Can I Validate My Spreadsheet?
+
+A spreadsheet validation consists of a two phases:
+1. Parsing
+2. Verification
+
+(TO BE COMPLETED) 
