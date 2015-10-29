@@ -1,4 +1,4 @@
-### What are Static Metadata Spreadsheets?
+****### What are Static Metadata Spreadsheets?
 
 They are spreadsheets used by domain experts to document data-related [static metadata](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide:--Data-Management). Like any other spreadsheet, Static Metadata Spreadsheets are composed of one or more sheets. Once spreadsheets are filled out completely, they can be parsed, and if they are syntactically correct, they can be added into HADatAc's knowledge base.  
   
@@ -10,8 +10,12 @@ Pinheiro, P., McGuinness, D.L., and Santos, H. 2015. Human-Aware Sensor Network 
 
 ### What is the Meaning of the hasURI Column At the Beginning of Each Sheet?
 
-Every concept and instance in a sensor network should have a name, and the name of concepts and instances are URIs (unified resource identifiers). The first column is named '''hasURI''' and contains the URI of the concept or instance described in the row of the sheet. If the sheet contains concepts, the first column identifies the URI of each concept that is going to be registered in HADatAc. If the sheet contains instances, the first column identifies the URI of each actual instances registered in HADatAc.
+Every concept and instance in a sensor network should have a name, and the name of concepts and instances are URIs (unified resource identifiers). The first column is named **hasURI** and contains the URI of the concept or instance described in the row of the sheet. If the sheet contains concepts, the first column identifies the URI of each concept that is going to be registered in HADatAc. If the sheet contains instances, the first column identifies the URI of each actual instances registered in HADatAc.
 
 ### How Do I Know if a Sheet is Used to Describe Concepts or Instances?
 
-The header of the second column tells you if a sheet is about concepts or instances. If the sheet is about classes the header is '''rdf:subClassOf'''. If the sheet is about instances the header is '''a'''.   
+The header of the second column tells you if a sheet is about concepts or instances. If the sheet is about classes the header is **rdf:subClassOf**. If the sheet is about instances the header is **a**.
+
+### What Are the Values that I Should Use in Each Cell of a Row?
+
+ 
