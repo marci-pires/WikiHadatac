@@ -1,4 +1,4 @@
-# On the HADataC use of URIs
+# On the HADatAc use of URIs
 
 ## Static metadata URI
 
