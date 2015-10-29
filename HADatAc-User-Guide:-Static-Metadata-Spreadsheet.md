@@ -18,4 +18,13 @@ The header of the second column tells you if a sheet is about concepts or instan
 
 ### What Are the Values that I Should Use in Each Cell of a Row?
 
+Values should be literals or URIs. For example, the second column is always a URI. 
+
+Each concept is a subconcept of something else. For instance, an instrument called _Mass Spectrometer_ is a subclass of _Spectrometer_. Thus, the value of the **rdf:subClassOf** column for the Mass Spectrometer should be the URI of the spectrometer. In that way, concepts are organized into hierarchies.
+
+In the case of instances, each instrument instance should have the URI of an instrument model.
+
+### What are the Values for the Rest of the Columns?
+
+The names are often self-explanatory. The **rdfs:label** is an important exception to this rule is that property names are self-explanatory. For instance, ***rdfs:label** is a textual description of the concept or instance being described in the spreadsheet. 
  
