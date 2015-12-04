@@ -16,9 +16,7 @@ To Parse data from a csv do the following:
 1.	If it is successfully loaded you will receive a message that the file has been loaded with date and time the file was loaded.
 2.	Select “ok”
 
-### How Do I know If Something Is Wrong
-
-### Where Is the Error?
+### How Do I know If Something Is Wrong and Where Is the Error?
 When you upload the CCSV if you receive errors the problem is most likely with the data in the csv. See the "How to Fix it?" section below. 
 
 ### How to Fix It?
