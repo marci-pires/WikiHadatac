@@ -6,7 +6,8 @@ A basic HADataC installation involves the following four steps:
 
 * executing its installation script. 
 
-The instructions below describe how to obtain and install these components, and test if the installation is working properly.
+* (proxy setting if to be used on server)
+
 
 ## Step 1 : Acquiring Required Software
 
@@ -27,7 +28,7 @@ You will also need:
 
 ## Step 2: Cloning HADatAc-Console
 
-On the terminal, go to your home directory by typing the following (`cd` is change directory) :
+On the terminal, go to your home directory (or the directory you want to install hadatac) :
 
       cd ~
 
@@ -39,19 +40,6 @@ After cloning HADatAC, you should have a hadatac folder under your home director
 
      cd ~/hadatac
 
-
-If you’re lost type: 
-
-     pwd 
-
-to find out where you are. 
-If you want to list all the files and folders around you type: 
-
-     ls 
-
-If you want to get back to the start just type: 
-
-     cd
 
 ## Step 3: Installing HADatAc
 
@@ -91,3 +79,20 @@ Browser open hadatac
 url: [http://localhost:9000/hadatac/](http://localhost:9000/hadatac/)
 
 Wait for page to open, it will take a while.
+
+If you are installing hadatac on the server, you would also want to do the proxy setting
+go to the apache folder on your server, for example:
+
+     cd etc/apache2
+
+in the /sites-available folder, add the following to the conf file:
+
+     ProxyRequests Off
+
+       <Proxy *>
+               Order deny,allow
+               Allow from all
+       </Proxy>
+
+       ProxyPass /hadatac http://127.0.0.1:9000/hadatac
+   ProxyPassReverse /hadatac http://127.0.0.1:9000/hadatac
