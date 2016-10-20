@@ -95,4 +95,4 @@ in the /sites-available folder, add the following to the conf file:
        </Proxy>
 
        ProxyPass /hadatac http://127.0.0.1:9000/hadatac
-   ProxyPassReverse /hadatac http://127.0.0.1:9000/hadatac
+       ProxyPassReverse /hadatac http://127.0.0.1:9000/hadatac
