@@ -10,23 +10,8 @@ Once you are pre-registered, which may be confirmed by the administrator who can
 
 ## 2. Logging in as a Data Owner
 
-## 3. Registering Sensor Network Metadata
+## 3. Uploading Data
 
-### RDF concepts and properties
-
-### Entity, Characteristic and EntityCharacteristic Registration
-
-### Platform, Instrument, Detector and Sensing Perspective Registration
-
-#### Printing QR Codes
-
-### Verifying Sensor Network Registration
-
-## 4. Deploying and Instrument
-
-### Documenting an Instrument's Deployment
-
-### Verifying Instrument Deployment
 
 ## 5. Generating a CVS file of Measurements
 
