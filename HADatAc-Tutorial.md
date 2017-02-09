@@ -12,17 +12,6 @@ Once you are pre-registered, which may be confirmed by the administrator who can
 
 ## 3. Uploading Data
 
+## 4. Browsing Data
 
-## 5. Generating a CVS file of Measurements
-
-## 6. Generating a CCSV file from a CSV file
-
-## 7. Uploading a CCSV file
-
-## 8. Browsing Data Collections
-
-## 9. Browsing Measurements
-
-## 10. Downloading Measurements (as CSV, CCSV, etc)
-
-## 11. Semantic Comparison of Measurements  
+## 5. Downloading Data
