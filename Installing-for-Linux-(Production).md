@@ -48,11 +48,11 @@ After cloning HADatAC, you should have a hadatac folder under your home director
 
 ## Step 3: Installing HADatAc
 
-Once you are in the hadatac folder (you can check if you are in the right folder by typing `pwd`), type the following:
+Once you are in /data/git/hadatac (you can check if you are in the right folder by typing `pwd`), type the following:
 
-      ./install_hadatac.sh
+      ./production_install_hadatac.sh
 
-This process will take a while so let it run. It will copy the files, download and install the two SOLR instances required by HADatAc, and initialize the instances.
+This process will take a while so let it run. It will download and install a SOLR instance, a Blazegraph instance, and initialize the instance.
 
 During the process of executing the script, you will be asked for an installation folder. Use <b>/data/hadatac</b> as installation folder
 
