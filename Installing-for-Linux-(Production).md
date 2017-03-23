@@ -28,9 +28,15 @@ You will also need:
 
 ## Step 2: Cloning HADatAc Code
 
+The commands in this section are to be issued by root user
+
+Create both /data and /data/git folders:
+
+      mkdir -R /data/git
+
 On the terminal, go to your home directory (or the directory you want to install hadatac) :
 
-      cd ~
+      cd /data/git
 
 Once your are in your home directory (`~` is a shortcut for your home directory), clone HADatAc code by typing the following command:
 
@@ -38,8 +44,7 @@ Once your are in your home directory (`~` is a shortcut for your home directory)
 
 After cloning HADatAC, you should have a hadatac folder under your home directory. Go into the hadatac directory under your home directory by typing the following:
 
-     cd ~/hadatac
-
+     cd /data/git/hadatac
 
 ## Step 3: Installing HADatAc
 
