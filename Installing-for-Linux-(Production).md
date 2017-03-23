@@ -23,7 +23,7 @@ If not, you need to install one: http://www.scala-sbt.org/.
 
 You will also need:
 
-1. Java JDK 8: http://java.com/en/download/ (or use your distribution's java)
+1. Java JDK 8: http://java.com/en/download/ (or use your distribution's java) (<b>MAKE SURE THE MACHINE IS NOT RUNNING JAVA 9</b>)
 2. wget
 
 ## Step 2: Cloning HADatAc Code
