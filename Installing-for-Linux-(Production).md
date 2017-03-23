@@ -34,7 +34,7 @@ Create both /data and /data/git folders:
 
       mkdir -R /data/git
 
-On the terminal, go to your home directory (or the directory you want to install hadatac) :
+Go to git directory :
 
       cd /data/git
 
@@ -54,7 +54,7 @@ Once you are in the hadatac folder (you can check if you are in the right folder
 
 This process will take a while so let it run. It will copy the files, download and install the two SOLR instances required by HADatAc, and initialize the instances.
 
-During the process of executing the script, you will be asked for an installation folder. If possible, just accept the installation folder suggested by the script. If not, specify a different installation directory. Keep note of what is your installation file since you will need to use it in the next step.
+During the process of executing the script, you will be asked for an installation folder. Use <b>/data/hadatac</b> as installation folder
 
 Open your browser to verify if the SOLR installations were successful
 * Open another tab with the url: [http://localhost:8983/solr/](http://localhost:8983/solr/) 
