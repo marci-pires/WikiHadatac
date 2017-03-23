@@ -61,9 +61,9 @@ Open your browser to verify if the SOLR installations were successful
 
 ## Step 4: Deploy HADatAc
 
-Go back to terminal, and go to your installation folder by typing the following, after making sure that you replace the `(your hadatac installation directory)` by your actual hatadac installation directory:
+Go back to hadatac folder:
 
-     cd 
+     cd /data/git/hadatac
 
 Now type the following: 
 
