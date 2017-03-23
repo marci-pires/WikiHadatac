@@ -56,8 +56,11 @@ This process will take a while so let it run. It will download and install a SOL
 
 During the process of executing the script, you will be asked for an installation folder. Use <b>/data/hadatac</b> as installation folder
 
-Open your browser to verify if the SOLR installations were successful
+Open your browser to verify if the SOLR installation was successful
 * Open another tab with the url: [http://localhost:8983/solr/](http://localhost:8983/solr/) 
+
+Open your browser to verify if the Blazegraph installation was successful
+* Open another tab with the url: [http://localhost:8080/bigdata/](http://localhost:8983/bigdata/) 
 
 ## Step 4: Deploy HADatAc
 
