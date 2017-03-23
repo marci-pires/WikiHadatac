@@ -26,7 +26,7 @@ You will also need:
 1. Java JDK 8: http://java.com/en/download/ (or use your distribution's java)
 2. wget
 
-## Step 2: Cloning HADatAc-Console
+## Step 2: Cloning HADatAc Code
 
 On the terminal, go to your home directory (or the directory you want to install hadatac) :
 
