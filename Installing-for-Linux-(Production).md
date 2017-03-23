@@ -46,7 +46,7 @@ After cloning HADatAC, you should have a hadatac folder under your home director
 
      cd /data/git/hadatac
 
-## Step 3: Installing HADatAc
+## Step 3: Deploying HADatAc Database-dependencies
 
 Once you are in /data/git/hadatac (you can check if you are in the right folder by typing `pwd`), type the following:
 
@@ -62,7 +62,7 @@ Open your browser to verify if the SOLR installation was successful
 Open your browser to verify if the Blazegraph installation was successful
 * Open another tab with the url: [http://localhost:8080/bigdata/](http://localhost:8983/bigdata/) 
 
-## Step 4: Deploy HADatAc
+## Step 4: Deploying HADatAc
 
 Go back to hadatac folder:
 
