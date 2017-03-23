@@ -59,33 +59,22 @@ During the process of executing the script, you will be asked for an installatio
 Open your browser to verify if the SOLR installations were successful
 * Open another tab with the url: [http://localhost:8983/solr/](http://localhost:8983/solr/) 
 
-## Step 4: Running HADatAc
+## Step 4: Deploy HADatAc
 
 Go back to terminal, and go to your installation folder by typing the following, after making sure that you replace the `(your hadatac installation directory)` by your actual hatadac installation directory:
 
-     cd (your hadatac installation directory)
+     cd 
 
 Now type the following: 
 
-     sbt
-
-Note:Navigate to the hadatac folder using cd in the terminal window, before typing sbt
-This step will take a long time the first time.
-
-In the terminal window you should see `[hadatac]`
-In the terminal window type: 
-
-     run
-
-Wait for confirmation message that the project is running.
+     ./deploy_hadatac.sh
 
 Browser open hadatac
 url: [http://localhost:9000/hadatac/](http://localhost:9000/hadatac/)
 
 Wait for page to open, it will take a while.
 
-If you are installing hadatac on the server, you would also want to do the proxy setting
-go to the apache folder on your server, for example:
+Finally, we need to setup the proxy configuration
 
      cd etc/apache2
 
