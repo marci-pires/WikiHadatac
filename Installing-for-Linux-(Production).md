@@ -32,7 +32,7 @@ The commands in this section are to be issued by root user
 
 Create both /data and /data/git folders:
 
-      mkdir -R /data/git
+      mkdir -p /data/git
 
 Go to git directory :
 
