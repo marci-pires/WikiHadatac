@@ -81,17 +81,17 @@ Wait for page to open, it will take a while.
 
 ## Step 5. Setting up proxy configuration
 
-In the instruction below we use apache2 for proxying hadatac from 'localhost:9000' into '(domain)/hadatac'
+In the instruction below we use apache2 for proxying hadatac from `localhost:9000` into `(domain)/hadatac`
 
-Assuming that apache2 is installed, change to apache2 folder in /etc
+Assuming that apache2 is installed, change to `apache2` folder in `/etc`
 
      cd etc/apache2
 
-in the /sites-available folder, edit the conf file. Look for 
+in the `/sites-available` folder, edit the conf file. Look for 
 
     <VirtualHost *:80>
 
-Right before the closing tag </VirtualHost>, add the following content:
+Right before the closing tag `</VirtualHost>`, add the following content:
 
      ProxyRequests Off
 
@@ -105,4 +105,4 @@ Right before the closing tag </VirtualHost>, add the following content:
 
 Save the file.
 
-go to http://(domain)/hadatac, where '(domain)' is the name of your domain
+Go to `http://(domain)/hadatac`, where `(domain)` is the name of your domain
