@@ -1,12 +1,14 @@
-A basic HADatAc installation involves the following four steps:
+A basic HADatAc installation involves the following five steps:
 
 * acquiring required software for installing/running the HADatAc Console
 
-* downloading the HADatAc Console code from this GitHub repository, and 
+* downloading HADatAc code from this GitHub repository 
 
-* executing its installation script. 
+* deploying HADatAc database dependencies 
 
-* (proxy setting if to be used on server)
+* deploying HADatAc
+
+* proxy setting
 
 
 ## Step 1 : Acquiring Required Software
@@ -77,18 +79,30 @@ url: [http://localhost:9000/hadatac/](http://localhost:9000/hadatac/)
 
 Wait for page to open, it will take a while.
 
-Finally, we need to setup the proxy configuration
+## Step 5. Setting up proxy configuration
+
+In the instruction below we use apache2 for proxying hadatac from 'localhost:9000' into '(domain)/hadatac'
+
+Assuming that apache2 is installed, change to apache2 folder in /etc
 
      cd etc/apache2
 
-in the /sites-available folder, add the following to the conf file:
+in the /sites-available folder, edit the conf file. Look for 
+
+    <VirtualHost *:80>
+
+Right before the closing tag </VirtualHost>, add the following content:
 
      ProxyRequests Off
 
-       <Proxy *>
-               Order deny,allow
-               Allow from all
-       </Proxy>
+     <Proxy *>
+         Order deny,allow
+         Allow from all
+     </Proxy>
 
-       ProxyPass /hadatac http://127.0.0.1:9000/hadatac
-       ProxyPassReverse /hadatac http://127.0.0.1:9000/hadatac
+     ProxyPass /hadatac http://127.0.0.1:9000/hadatac
+     ProxyPassReverse /hadatac http://127.0.0.1:9000/hadatac
+
+Save the file.
+
+go to http://(domain)/hadatac, where '(domain)' is the name of your domain
