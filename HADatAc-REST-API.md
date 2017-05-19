@@ -1,3 +1,5 @@
+Users need to acquire a token inside of HADatAc to request a service token
+
 ## List of Studies
 
 /hadatac/apiStudy/download
