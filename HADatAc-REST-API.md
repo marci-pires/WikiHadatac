@@ -1,4 +1,4 @@
-Users need to acquire a token inside of HADatAc to request a service token
+Users need to acquire a token inside of HADatAc to download metadata/data programmatically. Tokens are created for the user asking for a token. 
 
 ## List of Studies
 
