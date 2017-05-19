@@ -1,12 +1,18 @@
+## List of Studies
+
 /hadatac/apiStudy/download
 
 * input: token
 * output: list of study URIs and Study names
 
+## List of Study's Variables
+
 /hadatac/apiStudyVariable/download
 
 * input: token, study URI
 * output: list of variable URIs and Variable names
+
+## List of Study Variable's Values
 
 /hadatac/apiStudyVariableData/download
 
