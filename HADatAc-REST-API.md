@@ -1,4 +1,4 @@
-Users need to acquire a token inside of HADatAc to download metadata/data programmatically. Tokens are created for the user asking for a token. 
+Users need to acquire a token inside of HADatAc to download metadata/data programmatically. Tokens provide the same level of access to HADatAc as the level of access of the user requesting the token.
 
 ## List of Studies
 
