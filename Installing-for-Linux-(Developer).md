@@ -23,6 +23,11 @@ If not, you need to install one: http://www.scala-sbt.org/.
 You will also need:
 
 1. Java JDK 8: http://java.com/en/download/ (or use your distribution's java)
+      sudo apt-get install default-jdk
+      sudo add-apt-repository ppa:webupd8team/java
+      sudo apt-get update
+      sudo apt-get install oracle-java8-installer
+
 2. wget
 
 ## Step 2: Cloning HADatAc-Console
