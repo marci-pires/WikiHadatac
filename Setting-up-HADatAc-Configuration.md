@@ -10,6 +10,8 @@ You may not need to set up email configuration if you are using HADatAc for deve
 
 ## Setting up autoccsv.config
 
+Raw files and metadata files that are uploaded into HADatAc are managed as part of the overall content of the app. This configuration file tells the app where those files go when are initially uploaded and where they are stored after they are processed.
+
 ## Setting up namespaces.properties
 
 ## Setting up labkey.config
