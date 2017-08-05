@@ -4,9 +4,9 @@ A significant amount of time and effort is often spent organizing data before th
 
 * To install and/or upgrade HADatAc, visit our [Linux Installation Page](/paulopinheiro1234/hadatac/wiki/Installing-for-Linux-(Developer)) or [MAC OS Installation Page](/paulopinheiro1234/hadatac/wiki/Installing-for-MacOS-(OSX)) (We have managed to install HADatAc on Windows in the past although we have stopped supporting this option)
 
-* To setup HADatAc, visit our page [Setting up HADatAc Configuration](/paulopinheiro1234/hadatac/wiki/Setting-up-HADatAc-Configuration).
+* To setup HADatAc, visit our page [Setting up HADatAc Configuration](/paulopinheiro1234/hadatac/wiki/Setting-up-HADatAc-Configuration). 
 
-* To understand how to use HADatAc, visit our [User Guide Page](/paulopinheiro1234/hadatac/wiki/HADataC User Guide)
+*To understand how to use HADatAc, visit our [User Guide Page](/paulopinheiro1234/hadatac/wiki/HADataC User Guide)
 
 * To see the latest technical and logistical issues related to HADatAc development, visit our [Notes Page](/paulopinheiro1234/hadatac/wiki/notes)
 
