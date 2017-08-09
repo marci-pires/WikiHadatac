@@ -4,11 +4,9 @@ Assuming that HADatAc is installed at "[HADatAc]", configuration files are locat
 
 This is the main configuration file and tells the system.
 
-hadatac {
-
-	console {
-	    
-	    # the application's base host URL
+#hadatac.conf
+	  
+# the application's base host URL
 		host="http://localhost:9000"
 		
 		# the url that the application is deployed
