@@ -4,28 +4,21 @@ Assuming that HADatAc is installed at "[HADatAc]", configuration files are locat
 
 This is the main configuration file and tells the system.
 
-#hadatac.conf
+## hadatac.conf
 	  
 # the application's base host URL
-		host="http://localhost:9000"
+  example: host="http://localhost:9000"
 		
-		# the url that the application is deployed
-		host_deploy="http://localhost:9000"
+# the url that the application is deployed
+  example: host_deploy="http://localhost:9000"
 		
-		# the base url that the application uses to send email
-		base_url="127.0.0.1:9000"
+# the base url that the application uses to send email
+  example: base_url="127.0.0.1:9000"
 		
-		# the kb's base host URL -- usually, the application's base host URL without any port information
-		kb="http://localhost"
-	}
+# the kb's base host URL -- usually, the application's base host URL without any port information
+  example: kb="http://localhost"
 
-    # SOLR connection string
-    #   - Current values are for locally installed SOLR instance
-    #   - IMPORTANT NOTES FOR THE URL VALUESs BELOW:
-    #     * DO NOT INCLUDE ENDING SLASHES
-    #     * SOLR CONNECTION STRINGS OFTEN END WITH "/solr"
-    #     * USE ABSOLUTE URLs INCLUDING THE PROTOCAL PART, e.g., "HTTP://" OR "HTTPS://" 
-    solr {
+## SOLR
     
         # HOME: the path in the file system where the SOLR instances are located
         home=/Users/paulo/hadatac/solr
