@@ -6,7 +6,7 @@ This is the main configuration file and tells the system.
 
 ## hadatac.conf
 	  
-# the application's base host URL
+### the application's base host URL
   example: host="http://localhost:9000"
 		
 # the url that the application is deployed
