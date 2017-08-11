@@ -6,7 +6,7 @@ This is the main configuration file and tells the system important information a
 
 ### hadatac.conf
 
-If you are a developer using a local copy of HADatAc in your machine, and you do not have any restriction in calling 'http://localhost:9000" to invoke HADatAc, you may not need to change this part of the configuration. 
+If you are a developer using a local copy of HADatAc in your machine, and you do not have any restriction in calling 'http://localhost:9000' to invoke HADatAc, you may not need to change this part of the configuration. 
 
 If you are deploy HADatAc on a server and you expect users to access HADAtAc over the web, you will need the parameters below accordingly to your domain name and to firewall/port restrictions.
 	  
