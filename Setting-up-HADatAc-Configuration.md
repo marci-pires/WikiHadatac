@@ -36,9 +36,9 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 
      default: data="http://127.0.0.1:8983/solr"
 
-### Blazegraph (triplestore) Configuration
+### Blazegraph Configuration
         
-* URL for metadata (RDF triplestore RDF) collection
+* URL used to retrieve content from a Blazegraph repository.  
 
   * For blazegraph in the local
 
@@ -49,6 +49,7 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
     default: triplestore="http://127.0.0.1:8080/bigdata/namespace"
 	    
   * URL for user management collection
+
     default: users="http://127.0.0.1:8983/solr"
 
   * URL for user permission management collection
