@@ -11,15 +11,19 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 ### HADatAc URL Configuration
 
 * the application's base host URL
+
      default: host="http://localhost:9000"
 		
 * the url that the application is deployed
+
      default: host_deploy="http://localhost:9000"
 		
 * the base url that the application uses to send email
+
      default: base_url="127.0.0.1:9000"
 		
 * the kb's base host URL -- usually, the application's base host URL without any port information
+
      default: kb="http://localhost"
 
 ### SOLR Configuration
