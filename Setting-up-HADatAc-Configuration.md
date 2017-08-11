@@ -1,10 +1,8 @@
 Assuming that HADatAc is installed at "[HADatAc]", configuration files are located at "[HADatAc]/conf"
 
-## Setting up hadatac.conf
+* Setting up hadatac.conf
 
 This is the main configuration file and tells the system important information about how the webapp connects to SOLR and Blazegraph repositories, and what is going to be the URL of the webapp once it is deployed.
-
-### hadatac.conf
 
 If you are a developer using a local copy of HADatAc in your machine, and you do not have any restriction in calling 'http://localhost:9000' to invoke HADatAc, you may not need to change this part of the configuration. 
 
