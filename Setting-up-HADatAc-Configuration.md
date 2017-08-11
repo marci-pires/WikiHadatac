@@ -2,9 +2,11 @@ Assuming that HADatAc is installed at "[HADatAc]", configuration files are locat
 
 ## Setting up hadatac.conf
 
-This is the main configuration file and tells the system.
+This is the main configuration file and tells the system important information about how the webapp connects to SOLR and Blazegraph repositories, and what is going to be the URL of the webapp once it is deployed.
 
 ### hadatac.conf
+
+If you are using a local copy of HADatAc, you may not need to change this part of the configuration. However, the values below need to change if you are deploying an installation that is going to be used over the web.
 	  
 #### the application's base host URL
      default: host="http://localhost:9000"
