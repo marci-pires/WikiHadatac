@@ -8,6 +8,8 @@ If you are a developer using a local copy of HADatAc in your machine, and you do
 
 If you are deploy HADatAc on a server and you expect users to access HADAtAc over the web, you will need the parameters below accordingly to your domain name and to firewall/port restrictions.
 	  
+### HADatAc URL Configuration
+
 * the application's base host URL
      default: host="http://localhost:9000"
 		
@@ -20,13 +22,15 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 * the kb's base host URL -- usually, the application's base host URL without any port information
      default: kb="http://localhost"
 
-### SOLR
+### SOLR Configuration
     
 * HOME: the path in the file system where the SOLR instances are located
      default: home=/../hadatac/solr
 
 * URL for data collections
      default: data="http://127.0.0.1:8983/solr"
+
+### Blazegraph (triplestore) Configuration
         
 * URL for metadata (RDF triplestore RDF) collection
 
