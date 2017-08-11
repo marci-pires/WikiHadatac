@@ -62,19 +62,19 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 
 * activity flags are used to verify if HADatAc knowledge base contains 
 
-** concepts essential for supported scientific activities 
+  * concepts essential for supported scientific activities 
 
-** use true for empirical activities involving the use of sensors
+  * use true for empirical activities involving the use of sensors
 
      empirical=true
 
-** use true for computational activities involving computational simulations
+  * use true for computational activities involving computational simulations
 
      computational=false
 
 * properties about community using current HADatAc installation
 
-**  - these properties are used to project customization of HADaAc installations
+  * these properties are used to project customization of HADaAc installations
        
     default: fullname="Child Health Exposure Analysis Repository"
        
