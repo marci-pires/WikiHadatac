@@ -29,9 +29,11 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 ### SOLR Configuration
     
 * HOME: the path in the file system where the SOLR instances are located
+
      default: home=/../hadatac/solr
 
 * URL for data collections
+
      default: data="http://127.0.0.1:8983/solr"
 
 ### Blazegraph (triplestore) Configuration
@@ -39,29 +41,39 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 * URL for metadata (RDF triplestore RDF) collection
 
 ** For blazegraph in the local
+
     default: triplestore="http://127.0.0.1:9999/blazegraph/namespace/store"
+
 ** For blazegraph in the vm
+
     default: triplestore="http://127.0.0.1:8080/bigdata/namespace"
 	    
 ** URL for user management collection
     default: users="http://127.0.0.1:8983/solr"
 
 ** URL for user permission management collection
+
 *** For blazegraph in the local
+
     default: permissions="http://127.0.0.1:9999/blazegraph/namespace/store_users"
+
 *** For blazegraph in the vm
     default: permissions="http://127.0.0.1:8080/bigdata/namespace"
 
 * activity flags are used to verify if HADatAc knowledge base contains 
+
 ** concepts essential for supported scientific activities 
 
 ** use true for empirical activities involving the use of sensors
+
      empirical=true
 
 ** use true for computational activities involving computational simulations
+
      computational=false
 
 * properties about community using current HADatAc installation
+
 **  - these properties are used to project customization of HADaAc installations
        
     default: fullname="Child Health Exposure Analysis Repository"
