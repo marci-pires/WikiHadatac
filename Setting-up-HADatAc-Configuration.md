@@ -8,52 +8,53 @@ If you are a developer using a local copy of HADatAc in your machine, and you do
 
 If you are deploy HADatAc on a server and you expect users to access HADAtAc over the web, you will need the parameters below accordingly to your domain name and to firewall/port restrictions.
 	  
-#### the application's base host URL
+* the application's base host URL
      default: host="http://localhost:9000"
 		
-#### the url that the application is deployed
+* the url that the application is deployed
      default: host_deploy="http://localhost:9000"
 		
-#### the base url that the application uses to send email
+* the base url that the application uses to send email
      default: base_url="127.0.0.1:9000"
 		
-#### the kb's base host URL -- usually, the application's base host URL without any port information
+* the kb's base host URL -- usually, the application's base host URL without any port information
      default: kb="http://localhost"
 
 ### SOLR
     
-#### HOME: the path in the file system where the SOLR instances are located
+* HOME: the path in the file system where the SOLR instances are located
      default: home=/../hadatac/solr
 
-#### URL for data collections
+* URL for data collections
      default: data="http://127.0.0.1:8983/solr"
         
-### URL for metadata (RDF triplestore RDF) collection
-### For blazegraph in the local
+* URL for metadata (RDF triplestore RDF) collection
+
+** For blazegraph in the local
     default: triplestore="http://127.0.0.1:9999/blazegraph/namespace/store"
-### For blazegraph in the vm
+** For blazegraph in the vm
     default: triplestore="http://127.0.0.1:8080/bigdata/namespace"
 	    
-### URL for user management collection
+** URL for user management collection
     default: users="http://127.0.0.1:8983/solr"
 
-### URL for user permission management collection
-### For blazegraph in the local
+** URL for user permission management collection
+*** For blazegraph in the local
     default: permissions="http://127.0.0.1:9999/blazegraph/namespace/store_users"
-### For blazegraph in the vm
+*** For blazegraph in the vm
     default: permissions="http://127.0.0.1:8080/bigdata/namespace"
 
-### activity flags are used to verify if HADatAc knowledge base contains 
-### concepts essential for supported scientific activities 
+* activity flags are used to verify if HADatAc knowledge base contains 
+** concepts essential for supported scientific activities 
 
-#### use true for empirical activities involving the use of sensors
+** use true for empirical activities involving the use of sensors
      empirical=true
 
-#### use true for computational activities involving computational simulations
+** use true for computational activities involving computational simulations
      computational=false
 
-### properties about community using current HADatAc installation
-###  - these properties are used to project customization of HADaAc installations
+* properties about community using current HADatAc installation
+**  - these properties are used to project customization of HADaAc installations
        
     default: fullname="Child Health Exposure Analysis Repository"
        
