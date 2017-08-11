@@ -40,18 +40,18 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
         
 * URL for metadata (RDF triplestore RDF) collection
 
-** For blazegraph in the local
++ For blazegraph in the local
 
     default: triplestore="http://127.0.0.1:9999/blazegraph/namespace/store"
 
-** For blazegraph in the vm
++ For blazegraph in the vm
 
     default: triplestore="http://127.0.0.1:8080/bigdata/namespace"
 	    
-** URL for user management collection
++ URL for user management collection
     default: users="http://127.0.0.1:8983/solr"
 
-** URL for user permission management collection
++ URL for user permission management collection
 
 *** For blazegraph in the local
 
