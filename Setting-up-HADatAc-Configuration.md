@@ -6,7 +6,9 @@ This is the main configuration file and tells the system important information a
 
 ### hadatac.conf
 
-If you are using a local copy of HADatAc, you may not need to change this part of the configuration. However, the values below need to change if you are deploying an installation that is going to be used over the web.
+If you are a developer using a local copy of HADatAc in your machine, and you do not have any restriction in calling 'http://localhost:9000" to invoke HADatAc, you may not need to change this part of the configuration. 
+
+If you are deploy HADatAc on a server and you expect users to access HADAtAc over the web, you will need the parameters below accordingly to your domain name and to firewall/port restrictions.
 	  
 #### the application's base host URL
      default: host="http://localhost:9000"
