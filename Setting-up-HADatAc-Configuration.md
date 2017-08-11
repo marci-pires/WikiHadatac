@@ -91,30 +91,36 @@ You may not need to set up email configuration if you are using HADatAc for deve
 
 # 3. Setting up ___application.conf___
 
-#### Deadbolt
+* Deadbolt
+
  include "play-authenticate/deadbolt.conf"
 
-#### SMTP
+* SMTP
+
  include "play-authenticate/smtp.conf"
 
-#### Play authenticate
+* Play authenticate
+
  include "play-authenticate/mine.conf"
 
-#### HADataC 
+* HADataC 
+
  include "hadatac.conf"
 
-#### Session conf
+* Session conf
+
  session.maxAge=1h
  play.http.session.maxAge=12h
 
-#### java config
+* java config
+
  jvm.memory=-Xmx2048M -Xms2048M
 
 # 4. Setting up ___autoccsv.config___
 
 Raw files and metadata files that are uploaded into HADatAc are managed as part of the overall content of the app. This configuration file tells the app where those files go when are initially uploaded and where they are stored after they are processed.
 
-### Configure the path of csv files
+* Configure the path of csv files
  path_proc=processed_csv/
  path_unproc=unprocessed_csv/
  auto=on
@@ -123,15 +129,17 @@ Raw files and metadata files that are uploaded into HADatAc are managed as part 
 
 # 6. Setting up ___labkey.config___
 
-### Configure the labkey server url
+* Configure the labkey server url
+
  site=https://chear.tw.rpi.edu/labkey/
  folder=CHEAR PRODUCTION
 
-### Configure the key for encryption on LabKey authority
+* Configure the key for encryption on LabKey authority
+
  encryption_key=yourkey
 
-# Setting up ___template.conf___
+# 7. Setting up ___template.conf___
 
 [list and describe the meaning of each property]
 
-## Creating Master user
+# 8. Creating Master user
