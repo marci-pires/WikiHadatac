@@ -63,11 +63,11 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 	   
     default: ont_prefix="heals"
 
-## Setting up email configuration
+# Setting up email configuration
 
 You may not need to set up email configuration if you are using HADatAc for development purpose. This configuration is essential if you are planning to create users, and to have this users to have authenticated access to the system. In this case, the email configuration will enable users to verify their emails and to request password reset.
 
-### application.conf
+# Setting up application.conf
 
 #### Deadbolt
  include "play-authenticate/deadbolt.conf"
@@ -88,7 +88,7 @@ You may not need to set up email configuration if you are using HADatAc for deve
 #### java config
  jvm.memory=-Xmx2048M -Xms2048M
 
-## Setting up autoccsv.config
+# Setting up autoccsv.config
 
 Raw files and metadata files that are uploaded into HADatAc are managed as part of the overall content of the app. This configuration file tells the app where those files go when are initially uploaded and where they are stored after they are processed.
 
@@ -97,9 +97,9 @@ Raw files and metadata files that are uploaded into HADatAc are managed as part 
  path_unproc=unprocessed_csv/
  auto=on
 
-## Setting up namespaces.properties
+# Setting up namespaces.properties
 
-## Setting up labkey.config
+# Setting up labkey.config
 
 ### Configure the labkey server url
  site=https://chear.tw.rpi.edu/labkey/
@@ -108,7 +108,7 @@ Raw files and metadata files that are uploaded into HADatAc are managed as part 
 ### Configure the key for encryption on LabKey authority
  encryption_key=yourkey
 
-## Setting up template.conf
+# Setting up template.conf
 
 [list and describe the meaning of each property]
 
