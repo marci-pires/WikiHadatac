@@ -158,7 +158,9 @@ Users having admin privilege can easily perform backup and recovery operations o
 
 # 7. Using Other HADatAc Products and Related Technologies
 
-MOCCASN
+## 7.1. Data Journey (DJ)
+
+## 7.2. MOCCASN
 
 
 
