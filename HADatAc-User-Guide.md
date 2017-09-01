@@ -14,6 +14,10 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 # 2. Setting Up HADatAc
 
+HADatAc need to be configured so that it can access its corresponding repositories. Lets assume that "/data/hadatac/" is the folder where HADatAc is installed, in this case, configuration files are located at "/data/hadatac/conf". 
+
+Use these configuration instructions to set up HADatAc.
+
 ***
 
 # 3. Concepts
