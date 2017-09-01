@@ -84,8 +84,17 @@ Data Faceted Search
  
 Metadata management including HASNetO-Loader (also available for batch execution)
 
-
 ## 3.4. Data Download
+
+## 3.5. Knowledge Management
+
+### 3.5.1. Ontology Management
+
+#### Main Domain Ontology
+
+#### Supporting Ontologies
+
+### 3.5.2. Knowledge Graph Management
 
 ***
 
