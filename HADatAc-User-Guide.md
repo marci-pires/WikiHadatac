@@ -1,4 +1,4 @@
-### 1. Installing HADatAc
+# 1. Installing HADatAc
 
 On Linux/MacOS
 
