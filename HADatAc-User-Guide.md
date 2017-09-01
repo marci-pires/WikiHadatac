@@ -28,7 +28,7 @@ Use these [configuration instructions](https://github.com/paulopinheiro1234/hada
 
 ***
 
-# 3. Using HADatAC
+# 3. Using HADatAc
 
 ## 3.1. Initial Page
 
