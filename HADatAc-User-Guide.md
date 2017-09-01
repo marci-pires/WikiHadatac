@@ -100,13 +100,15 @@ Metadata management including HASNetO-Loader (also available for batch execution
 
 ## 3.6. Knowledge Management
 
-### 3.6.1. Ontology Management
+### 3.6.1. On the use of URIs
 
-#### Main Domain Ontology
+### 3.6.2. The Human-Aware Science Ontology (HAScO)
 
 #### Supporting Ontologies
 
-### 3.6.2. Knowledge Graph Management
+### 3.6.3. Ontology Management
+
+### 3.6.4. Knowledge Graph Management
 
 ***
 
