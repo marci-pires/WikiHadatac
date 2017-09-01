@@ -23,7 +23,7 @@ Scientific Data
 
 ## 4.1. Data Upload
 
-We call '''data uploading'''  the process of adding content into the data repository, and '''data ingestion''' the process of collecting, organizing, indexing content's metadata, and as important, the process of connecting the newly organized metadata to the content. 
+We call _data uploading_  the process of adding content into the data repository, and _data ingestion_ the process of collecting, organizing, indexing content's metadata, and as important, the process of connecting the newly organized metadata to the content. 
 
 Using traditional databases developers are requires to develop one very large schema to manage both the data content and its associated metadata, and to make sure that content identifiers and corresponding metadata are properly connected.	 
 The use of ontologies to guide the process of organizing metadata alleviates the task of organizing the metadata since the data becomes self-organizing when values are tagged with terms from a common set of ontologies. Furthermore, ontologies also help the process of logically connecting data to newly created graphs inside of the metadata repository.
