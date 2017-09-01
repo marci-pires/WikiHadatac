@@ -49,6 +49,8 @@ Once files are uploaded, they can either be automatically ingested in case the i
 
 ## 3.3. Data Preparation and Ingestion
 
+![](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec3/DataPreparation.png)
+
 The green button next to the file above indicates that HADatAc does not know how to ingest this specific file, and that more information is needed from the data owner to move the data content and its metadata content inside of this particular file into HADatAc repositories.  
 
 The screenshot below shows the workflow for the infrastructure to ingest the data. For instance, under the current configuration of this specific repository, an image may be associated with the following:
@@ -75,7 +77,7 @@ The following screenshot provides more details about how each one of the SDD fie
 
 ## 3.4. Data/Metadata Search
 
-### 3.4.1. Dat Search
+### 3.4.1. Data Search
 
 The screenshot above shows HADatAc’s Data Faceted Search where users go to select interactively select and download HADatAc content for analysis, including the possibility of data owners sharing their data with other users. 
 
