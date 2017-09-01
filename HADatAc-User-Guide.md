@@ -32,6 +32,8 @@ Use these [configuration instructions](https://github.com/paulopinheiro1234/hada
 
 ## 3.1. Initial Page
 
+The main page is composed of two or three vertical blocks of functionalities (three blocks if the user is an administrator). The first block has the functionalities required for a user to search and retrieve content from HADatAc. The second block has the functionalities required to update and maintain content in HADatAc. The third block has the functionalities required for managing underlying knowledge as described in Section 3.6 of this User Guide.  
+
 ## 3.2. Data Upload
 
 We call _data uploading_  the process of adding content into the data repository, and _data ingestion_ the process of collecting, organizing, indexing content's metadata, and as important, the process of connecting the newly organized metadata to the content. 
