@@ -6,7 +6,7 @@ A significant amount of time and effort is often spent organizing data before th
 
 * To setup HADatAc, visit our page [Setting up HADatAc Configuration](/paulopinheiro1234/hadatac/wiki/Setting-up-HADatAc-Configuration). 
 
-*To understand how to use HADatAc, visit our [User Guide Page](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide)
+* To understand how to use HADatAc, visit [HADatAC's User Guide](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide)
 
 * To see the latest technical and logistical issues related to HADatAc development, visit our [Notes Page](/paulopinheiro1234/hadatac/wiki/notes)
 
