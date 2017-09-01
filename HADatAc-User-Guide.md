@@ -4,8 +4,11 @@ On Linux/MacOS
 
 On Windows
 
+***
+
 # 2. Setting Up HADatAc
 
+***
 
 # 3. Concepts
 
@@ -78,3 +81,4 @@ Data and Metadata Preservation
 # 7. Using Other HADataC Products
 
 MOCCASN
+
