@@ -12,7 +12,7 @@ Use these [installation instructions](https://github.com/paulopinheiro1234/hadat
 
 ## 1.3. On MacOS (Development)
 
-Use these installation instructions to install a development HADatAc on MacOs.
+Use these [installation instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-MacOS-(OSX)) to install a development HADatAc on MacOs.
 
 ## 1.4. Using Docker
 
