@@ -4,7 +4,7 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 ## 1.1. On Linux (Production)
 
-Use these installation instructions to install a production HADatAc on Linux.
+Use these [installation instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-Linux-(Production)) install a production HADatAc on Linux.
 
 ## 1.2. On Linux (Development)
 
