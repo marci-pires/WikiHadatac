@@ -91,6 +91,17 @@ Metadata management including HASNetO-Loader (also available for batch execution
 
 # 4. Architecture
 
+HADatAc has a web-based application and an underlying content repository infrastructure. The web-based application is used to manage data security and privacy, to delete and archive existing repository content, to upload new content into the repository, and to provide multiple ways of searching for data and metadata with the use of a collection of faceted searches.  
+
+HADatAc content repository infrastructure is organized as follows:
+
+* Data are stored in Apache SOLR instances, which are highly-scalable no-SQL solutions for managing unstructured, semi-structured and structured data;  
+
+* Metadata are stored in SOLR instances as a knowledge graph, and managed with the use of a Apache JENA-based API. HADatAc may also be based on any other SPARQL-based knowledge graph repository since RESTful SPARQL queries are the way for the web application to communicate with the underlying RDF repository.  
+Metadata stored in HADatAc is composed of concepts and instances, also known as objects. Concepts come from ontologies published on the web and objects, which are concept instances, come from LabKey, which is an open-source, web-based Laboratory Information Management System (LIMS). A combination of concepts and instances related to some scientific activities, e.g., a study, can be described as the knowledge graph of those activities, Thus, HADatAc uses LabKey as its preferred way of inputting and editing knowledge graphs.
+
+After respecting security and privacy policies in place, HADatAc allows advanced users to access data in SOLR with the use of Lucene queries, and to access metadata in SOLR with the use of SPARQL queries. 
+
 ## 4.1. Interactive Web Console functionalities
 
 ## 4.2. Batch automated functionalities
