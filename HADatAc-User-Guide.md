@@ -42,19 +42,20 @@ Data Faceted Search
  
 Metadata management including HASNetO-Loader (also available for batch execution)
 
-[Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
 
 ## 4.4. Data Download
 
 # 5. Architecture
 
-Interactive Web Console functionalities
+## 5.1. Interactive Web Console functionalities
 
-Batch automated functionalities
+## 5.2. Batch automated functionalities
 
-Embedded SOLR repository
+[Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
 
-Embedded Triple Store repository
+## 5.3. Embedded SOLR repository
+
+## 5.4. Embedded Triple Store repository
 
 # 6. Data Governance
 
