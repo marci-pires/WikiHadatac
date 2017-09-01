@@ -59,7 +59,11 @@ The screenshot below shows the workflow for the infrastructure to ingest the dat
     Computer Simulation Models as forms of instruments. Traditional instruments like an MRI machine are instances of 
     Physical Instrument.  
 
-** Semantic Data Dictionaries (SDDs) are use to specify both the meaning of the content of an image as well as to identify how the file is organized. The figure below shows the  example of an SDD where each field of the data dictionary is assigned to a collection of ontological terms identifying what is the type of entity behind of the image, what is the attribute of the entity being measured, what is the unit of measurement, when, where, and at which accuracy the measurement is made. 
+  * Semantic Data Dictionaries (SDDs) are use to specify both the meaning of the content of an image as well as to identify 
+    how the file is organized. The figure below shows the  example of an SDD where each field of the data dictionary is 
+    assigned to a collection of ontological terms identifying what is the type of entity behind of the image, what is the 
+    attribute of the entity being measured, what is the unit of measurement, when, where, and at which accuracy the 
+    measurement is made. 
 
 The following screenshot provides more details about how each one of the SDD fields is edit according to terms coming from an integrated knowledge graph. The tabs on the right allow SDD developers to browse and select terms from the hierarchy of entities, attributes and units. Additional contextual knowledge such as the association of the current field to other temporal and spatial fields is done in the form on the left side of the image.
 
