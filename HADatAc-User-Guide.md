@@ -152,6 +152,8 @@ Users having admin privilege can easily perform backup and recovery operations o
 
 * RPI CASE Air Quality
 
+* UNIFOR/City Of Fortaleza's Smart City Project
+
 *** 
 
 # 7. Using Other HADatAc Products and Related Technologies
