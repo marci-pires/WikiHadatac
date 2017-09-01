@@ -163,6 +163,14 @@ Access to study-level information and corresponding static metadata is public. T
 
 ## 5.3. Data and Metadata Preservation
 
+Data preservation along with their contextual knowledge provides a mechanism for data users to assess whether data have the qualities required for reuse. Moreover, the encoding of the contextual knowledge as metadata allows data users other them the ones responsible for acquiring and uploading in HADatAc to understand the very nature of each data point of a study. For instance, HADatAc searching and browsing mechanisms allows the following:
+
+* to differentiate elicited data from measured data
+
+* to identify the instruments used to measure/elicit the data (e.g., that a thermometer was used to measure the value “78”), the meaning of the quantities in terms of units (e.g., that the value is in “Fahrenheit”)
+
+* to identify the element of interest behind measurements/elicitations (e.g., room’s air at a given location), and properties of interest from the element (e.g., dry bulb temperature).  
+
 ***
 
 # 6. Projects Involved With HADatAc
