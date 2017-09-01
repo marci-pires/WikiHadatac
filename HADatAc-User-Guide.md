@@ -36,6 +36,8 @@ The main page is composed of two or three vertical blocks of functionalities (th
 
 ## 3.2. Data Upload
 
+![](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec3/DatafileManagement.png)
+
 We call _data uploading_  the process of adding content into the data repository, and _data ingestion_ the process of collecting, organizing, indexing content's metadata, and as important, the process of connecting the newly organized metadata to the content. 
 
 Using traditional databases developers are requires to develop one very large schema to manage both the data content and its associated metadata, and to make sure that content identifiers and corresponding metadata are properly connected.	 
