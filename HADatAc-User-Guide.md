@@ -1,8 +1,10 @@
 # 1. Installing HADatAc
 
-On Linux/MacOS
+## 1.1. On Linux (Production)
 
-On Windows
+## 1.2. On Linux (Development)
+
+## 1.3. On MacOS (Development)
 
 ***
 
