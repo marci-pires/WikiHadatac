@@ -1,33 +1,33 @@
-### Installing HADatAc
+### 1. Installing HADatAc
 
 On Linux/MacOS
 
 On Windows
 
-### Setting Up HADatAc
+### 2. Setting Up HADatAc
 
 
-### Concepts
+### 3. Concepts
 
 Static Metadata
 
 Dynamic Metadata
 
-Collected Data (i.e., Measurements and Simulation Data)
-
-Data Collections
+Collected Data
 
 ### Architecture
 
-Web Console
+Interactive Web Console functionalities
 
-Batch functionalities
+Batch automated functionalities
 
 Embedded SOLR repository
 
+Embedded Triple Store repository
+
 ### Data Governance
 
-HADataC Users
+HADatAc Users
 
 Data and Metadata Privacy
 
@@ -35,9 +35,7 @@ Data and Metadata Preservation
 
 ### Using the Web Console
 
-Measurement Faceted Search
-
-Measurement Spatial Search
+Data Faceted Search
 
 [Metadata Browser](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Metadata-Browser)
  
