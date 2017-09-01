@@ -15,7 +15,7 @@ Static Metadata
 
 Dynamic Metadata
 
-Collected Data
+Scientific Data
 
 #### 3.2. Content Ingestion
 
