@@ -28,23 +28,9 @@ Use these [configuration instructions](https://github.com/paulopinheiro1234/hada
 
 ***
 
-# 3. Concepts
+# 3. Using HADatAC
 
-## 3.1. Content Upload
-
-Static Metadata
-
-Dynamic Metadata
-
-Scientific Data
-
-## 3.2. Content Ingestion
-
-***
-
-# 4. Using the Web Console
-
-## 4.1. Data Upload
+## 3.1. Data Upload
 
 We call _data uploading_  the process of adding content into the data repository, and _data ingestion_ the process of collecting, organizing, indexing content's metadata, and as important, the process of connecting the newly organized metadata to the content. 
 
@@ -55,9 +41,9 @@ The screenshot above shows how data files can be uploaded into HADatAc in ways v
 
 Once files are uploaded, they can either be automatically ingested in case the infrastructure’s knowledge base knows how to process the file, or may guide scientists in the process of telling the system how to ingest the data. 
 
-## 4.2. Data Preparation and Ingestion
+## 3.2. Data Preparation and Ingestion
 
-## 4.3. Data Search
+## 3.3. Data Search
 
 The screenshot above shows HADatAc’s Data Faceted Search where users go to select interactively select and download HADatAc content for analysis, including the possibility of data owners sharing their data with other users. 
 
@@ -75,32 +61,35 @@ Data Faceted Search
 Metadata management including HASNetO-Loader (also available for batch execution)
 
 
-## 4.4. Data Download
+## 3.4. Data Download
 
 ***
 
-# 5. Architecture
+# 4. Architecture
 
-## 5.1. Interactive Web Console functionalities
+## 4.1. Interactive Web Console functionalities
 
-## 5.2. Batch automated functionalities
+## 4.2. Batch automated functionalities
 
 [Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
 
-## 5.3. Embedded SOLR repository
+## 4.3. Embedded SOLR repository
 
-## 5.4. Embedded Triple Store repository
+## 4.4. Embedded Triple Store repository
 
-# 6. Data Governance
+***
 
-HADatAc Users
+# 5. Data Governance
 
-Data and Metadata Privacy
+## 5.1. HADatAc Users
 
-Data and Metadata Preservation
+## 5.2. Data and Metadata Privacy
 
+## 5.3. Data and Metadata Preservation
 
-# 7. Using Other HADataC Products
+***
+
+# 6. Using Other HADataC Products
 
 MOCCASN
 
