@@ -30,7 +30,9 @@ Use these [configuration instructions](https://github.com/paulopinheiro1234/hada
 
 # 3. Using HADatAC
 
-## 3.1. Data Upload
+## 3.1. Initial Page
+
+## 3.2. Data Upload
 
 We call _data uploading_  the process of adding content into the data repository, and _data ingestion_ the process of collecting, organizing, indexing content's metadata, and as important, the process of connecting the newly organized metadata to the content. 
 
@@ -41,7 +43,7 @@ The screenshot above shows how data files can be uploaded into HADatAc in ways v
 
 Once files are uploaded, they can either be automatically ingested in case the infrastructure’s knowledge base knows how to process the file, or may guide scientists in the process of telling the system how to ingest the data. 
 
-## 3.2. Data Preparation and Ingestion
+## 3.3. Data Preparation and Ingestion
 
 The green button next to the file above indicates that HADatAc does not know how to ingest this specific file, and that more information is needed from the data owner to move the data content and its metadata content inside of this particular file into HADatAc repositories.  
 
@@ -67,7 +69,9 @@ The screenshot below shows the workflow for the infrastructure to ingest the dat
 
 The following screenshot provides more details about how each one of the SDD fields is edit according to terms coming from an integrated knowledge graph. The tabs on the right allow SDD developers to browse and select terms from the hierarchy of entities, attributes and units. Additional contextual knowledge such as the association of the current field to other temporal and spatial fields is done in the form on the left side of the image.
 
-## 3.3. Data Search
+## 3.4. Data/Metadata Search
+
+### 3.4.1. Dat Search
 
 The screenshot above shows HADatAc’s Data Faceted Search where users go to select interactively select and download HADatAc content for analysis, including the possibility of data owners sharing their data with other users. 
 
@@ -84,17 +88,21 @@ Data Faceted Search
  
 Metadata management including HASNetO-Loader (also available for batch execution)
 
-## 3.4. Data Download
+### 3.4.1. Study Search
 
-## 3.5. Knowledge Management
+### 3.4.2. Metadata Search
 
-### 3.5.1. Ontology Management
+## 3.5. Data Download
+
+## 3.6. Knowledge Management
+
+### 3.6.1. Ontology Management
 
 #### Main Domain Ontology
 
 #### Supporting Ontologies
 
-### 3.5.2. Knowledge Graph Management
+### 3.6.2. Knowledge Graph Management
 
 ***
 
