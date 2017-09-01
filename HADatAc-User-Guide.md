@@ -142,7 +142,23 @@ Users having admin privilege can easily perform backup and recovery operations o
 
 ***
 
-# 6. Using Other HADatAc Products
+# 6. Projects Using HADatAc
+
+* IBM/RPI Jefferson Project on Lake George
+
+* NIH-funded CHEAR 
+
+* Gates Foundation-funded HBGDki
+
+* RPI CASE Air Quality
+
+*** 
+
+# 7. Using Other HADatAc Products and Related Technologies
 
 MOCCASN
+
+
+
+
 
