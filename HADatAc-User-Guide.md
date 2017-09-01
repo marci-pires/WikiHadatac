@@ -110,6 +110,8 @@ Metadata management including HASNetO-Loader (also available for batch execution
 
 ## 4.1. Overview
 
+![](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/architecture.png)
+
 HADatAc has a web-based application and an underlying content repository infrastructure. The web-based application is used to manage data security and privacy, to delete and archive existing repository content, to upload new content into the repository, and to provide multiple ways of searching for data and metadata with the use of a collection of faceted searches.  
 
 HADatAc content repository infrastructure is organized as follows:
