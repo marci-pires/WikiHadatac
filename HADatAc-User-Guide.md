@@ -8,7 +8,7 @@ Use these [installation instructions](https://github.com/paulopinheiro1234/hadat
 
 ## 1.2. On Linux (Development)
 
-Use these installation instructions to install a development HADatAc on Linux.
+Use these [installation instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-Linux-(Developer)) to install a development HADatAc on Linux.
 
 ## 1.3. On MacOS (Development)
 
