@@ -1,10 +1,14 @@
 # 1. Installing HADatAc
 
+HADatAc can be installed for _development_ purposes, or for _production_ purposes. When installed for development, HADatAc does not require the setting of an email service since just one user with full access to the system is created. When installed for production, HADatAc requires access to an email service so that new users and access levels can be created and users can be authenticated through an email verification process.
+
 ## 1.1. On Linux (Production)
 
 ## 1.2. On Linux (Development)
 
 ## 1.3. On MacOS (Development)
+
+## 1.4. Using Docker
 
 ***
 
