@@ -4,11 +4,19 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 ## 1.1. On Linux (Production)
 
+Use these installation instructions to install a production HADatAc on Linux.
+
 ## 1.2. On Linux (Development)
+
+Use these installation instructions to install a development HADatAc on Linux.
 
 ## 1.3. On MacOS (Development)
 
+Use these installation instructions to install a development HADatAc on MacOs.
+
 ## 1.4. Using Docker
+
+Use these installation instructions to install a virtual machine with a development HADatAc.
 
 ***
 
