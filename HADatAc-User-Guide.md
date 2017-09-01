@@ -142,9 +142,9 @@ Users having admin privilege can easily perform backup and recovery operations o
 
 ***
 
-# 6. Projects Using HADatAc
+# 6. Projects Involved With HADatAc
 
-* IBM/RPI Jefferson Project on Lake George
+* RPI/IBM/Fund-For-Lake-George's Jefferson Project on Lake George
 
 * NIH-funded CHEAR 
 
