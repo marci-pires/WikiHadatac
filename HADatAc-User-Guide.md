@@ -1,10 +1,13 @@
-#### Installing HADataC
+### Installing HADatAc
 
 On Linux/MacOS
 
 On Windows
 
-#### Concepts
+### Setting Up HADatAc
+
+
+### Concepts
 
 Static Metadata
 
@@ -14,7 +17,7 @@ Collected Data (i.e., Measurements and Simulation Data)
 
 Data Collections
 
-#### Architecture
+### Architecture
 
 Web Console
 
@@ -22,7 +25,7 @@ Batch functionalities
 
 Embedded SOLR repository
 
-#### Data Governance
+### Data Governance
 
 HADataC Users
 
@@ -30,7 +33,7 @@ Data and Metadata Privacy
 
 Data and Metadata Preservation
 
-#### Using the Web Console
+### Using the Web Console
 
 Measurement Faceted Search
 
@@ -42,6 +45,6 @@ Metadata management including HASNetO-Loader (also available for batch execution
 
 [Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
 
-#### Using Other HADataC Products
+### Using Other HADataC Products
 
 MOCCASN
