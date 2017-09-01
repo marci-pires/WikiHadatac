@@ -53,7 +53,11 @@ The screenshot below shows the workflow for the infrastructure to ingest the dat
  
 * Scoping semantic objects identify which of the SOCs of a study may be associated with the image being loaded. In this case, the scoping objects may be an entire collection requiring the file to contain some form of identifier.   
 
-** Deployments identify how Instruments used to collect data are deployed at a given Platform. The platform may be a laboratory that gives an instrument its necessary operational conditions, and it can also be a person wearing some sensor. It is relevant to note that we consider a very broad notion of instrument since we see Questionnaires and Computer Simulation Models as forms of instruments. Traditional instruments like an MRI machine are instances of Physical Instrument.  
+  * Deployments identify how Instruments used to collect data are deployed at a given Platform. The platform may be a 
+    laboratory that gives an instrument its necessary operational conditions, and it can also be a person wearing some 
+    sensor. It is relevant to note that we consider a very broad notion of instrument since we see Questionnaires and 
+    Computer Simulation Models as forms of instruments. Traditional instruments like an MRI machine are instances of 
+    Physical Instrument.  
 
 ** Semantic Data Dictionaries (SDDs) are use to specify both the meaning of the content of an image as well as to identify how the file is organized. The figure below shows the  example of an SDD where each field of the data dictionary is assigned to a collection of ontological terms identifying what is the type of entity behind of the image, what is the attribute of the entity being measured, what is the unit of measurement, when, where, and at which accuracy the measurement is made. 
 
