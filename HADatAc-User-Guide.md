@@ -91,6 +91,8 @@ Metadata management including HASNetO-Loader (also available for batch execution
 
 # 4. Architecture
 
+## 4.1. Overview
+
 HADatAc has a web-based application and an underlying content repository infrastructure. The web-based application is used to manage data security and privacy, to delete and archive existing repository content, to upload new content into the repository, and to provide multiple ways of searching for data and metadata with the use of a collection of faceted searches.  
 
 HADatAc content repository infrastructure is organized as follows:
@@ -102,15 +104,12 @@ Metadata stored in HADatAc is composed of concepts and instances, also known as 
 
 After respecting security and privacy policies in place, HADatAc allows advanced users to access data in SOLR with the use of Lucene queries, and to access metadata in SOLR with the use of SPARQL queries. 
 
-## 4.1. Interactive Web Console functionalities
+## 4.2. Interactive Web Console functionalities
 
-## 4.2. Batch automated functionalities
+
+## 4.3. Batch automated functionalities
 
 [Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
-
-## 4.3. Embedded SOLR repository
-
-## 4.4. Embedded Triple Store repository
 
 ***
 
