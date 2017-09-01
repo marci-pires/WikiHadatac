@@ -21,6 +21,12 @@ Scientific Data
 
 ### 4. Using the Web Console
 
+#### 4.1. Data Upload
+
+#### 4.2. Data Preparation and Ingestion
+
+#### 4.3. Data Search
+
 Data Faceted Search
 
 [Metadata Browser](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Metadata-Browser)
@@ -28,6 +34,8 @@ Data Faceted Search
 Metadata management including HASNetO-Loader (also available for batch execution)
 
 [Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
+
+#### 4.4. Data Download
 
 ## 5. Architecture
 
