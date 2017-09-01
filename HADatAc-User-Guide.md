@@ -191,7 +191,7 @@ Data preservation along with their contextual knowledge provides a mechanism for
 
 *** 
 
-# 7. Using Other HADatAc Products and Related Technologies
+# 7. Other Products and Technologies Related to HADatAc
 
 ## 7.1. Data Journey (DJ)
 
