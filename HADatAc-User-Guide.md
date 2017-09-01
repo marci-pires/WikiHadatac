@@ -133,7 +133,7 @@ Admin users should fill out the HASNetO agent's spreadsheet with the relevant in
 
 #### Full Registration
 
-#### User Graph and Authentication Backup and Recovery
+### 5.1.2. User Graph and Authentication Backup and Recovery
 Users having admin privilege can easily perform backup and recovery operations on user graph (e.g. user profiles, access levels, etc) and authentication (e.g. accounts, encrypted passwords, security roles, etc) when system upgrade necessitates this. To backup, go to the **Manage Users** page and then you will see an button called **Backup User Authentication** for exporting a **.json** file containing required information for recovering later, and another button called **Backup User Graph** for exporting a **.ttl** file containing the whole user graph. To recover, in the same page, use the file upload panel called **Load User Graph from turtle** first to upload the previously saved **.ttl** file for recovering the user graph and then use another file upload panel called **Load User Authentication from json** to upload the previously saved **.json** file for recovering the user authentication.
 
 ## 5.2. Data and Metadata Privacy
