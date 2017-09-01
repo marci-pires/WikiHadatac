@@ -142,7 +142,7 @@ Users having admin privilege can easily perform backup and recovery operations o
 
 ***
 
-# 6. Using Other HADataC Products
+# 6. Using Other HADatAc Products
 
 MOCCASN
 
