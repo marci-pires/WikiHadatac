@@ -157,6 +157,10 @@ Users having admin privilege can easily perform backup and recovery operations o
 
 ## 5.2. Data and Metadata Privacy
 
+Every data point ingested into HADatAc has an owner. The user who uploaded the data is the owner of the data. The owner is responsible for assigning who can access the data, and can opt to share the data with other HADatAc users and even to make the data publicly available without any access restriction. It is also possible to share the data with _HADatAc users_ restricting data access to anyone who is registered with HADatAc.
+
+Access to study-level information and corresponding static metadata is public. The decision of respecting an embargo period and/or making the data publicly available rest with data owners.
+
 ## 5.3. Data and Metadata Preservation
 
 ***
