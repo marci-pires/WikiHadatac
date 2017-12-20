@@ -87,6 +87,14 @@ If some anomaly occurs during the processing of any files, whether the file is s
 
 ### 3.4.2. Automated Ingestion of Metadata Content
 
+**STD Files**
+
+Used to include one or more study basic information into HADatAc. Information in STD files include things like PI's name and address. Study's aims, short description and long description.
+
+**PID Files**
+
+Used to add one or more human participant to an existing study. The content of this file is mainly about how many subjects are to be added to a given study, and how these subjects are identified in their corresponding studies. For HADatAc, their identification in the study is called _originalID_. Properties about these subjects are often added as study data.
+
 **SDD Files**
 
 SDD files are used to guide the process of ingesting file content into HADatAc databases.
