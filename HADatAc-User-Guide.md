@@ -95,9 +95,17 @@ Used to include one or more study basic information into HADatAc. Information in
 
 Used to add one or more human participant to an existing study. The content of this file is mainly about how many subjects are to be added to a given study, and how these subjects are identified in their corresponding studies. For HADatAc, their identification in the study is called _originalID_. Properties about these subjects are often added as study data.
 
+**SID Files**
+
+Used to add one or more sample to an existing study. The content of this file is mainly about how many samples are to be added to a given study, and how these samples are identified in their corresponding studies. For HADatAc, their identification in the study is called _originalID_. Properties about these samples are often added as study data although an SID file may include some information about samples.
+
+**MAP Files*
+
+Within the scope an study, MAP files are used to assign samples to subjects. For instance, a blood sample added through an SID file may be assigned to be a sample from a human subject added through a PID file. In case a sample included in the MAP file is not available in the study, then it is included. Therefore, MAP files may be used as SID files in case the mapping between subjects and samples is known by the time the MAP file is submitted. 
+
 **SDD Files**
 
-SDD files are used to guide the process of ingesting file content into HADatAc databases.
+Used to guide the process of ingesting file content into HADatAc databases.
 
 A single SDD file can be used to ingest the content from multiple files as long these files share the same content type.
 DA Files
