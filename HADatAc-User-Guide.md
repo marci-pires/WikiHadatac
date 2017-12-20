@@ -75,7 +75,34 @@ The screenshot below shows the workflow for the infrastructure to ingest the dat
 
 The following screenshot provides more details about how each one of the SDD fields is edit according to terms coming from an integrated knowledge graph. The tabs on the right allow SDD developers to browse and select terms from the hierarchy of entities, attributes and units. Additional contextual knowledge such as the association of the current field to other temporal and spatial fields is done in the form on the left side of the image.
 
-## 3.4. Metadata Upload
+## 3.4. Metadata Ingest
+
+Metadata content is added into HADatAc through the use of online forms or through the uploading and ingestion of content files. Content files can further be added manually or automatically.  
+
+Name conventions are required for automated ingestion of content file. Files that do not follow name conventions can only be further processed if manual commands are issued to identify file content as well as any additional information that may be needed to enable a proper ingestion of content files.
+
+If some anomaly occurs during the processing of any files, whether the file is supposed to be processed manually or automatically, the file will be put on hold and an error message will appear in the file log. The log is visible on-line.
+
+### 3.4.1. Manual Ingestion of Metadata Content
+
+### 3.4.2. Automated Ingestion of Metadata Content
+
+SDD Files
+
+SDD files are used to guide the process of ingesting file content into HADatAc databases.
+
+A single SDD file can be used to ingest the content from multiple files as long these files share the same content type.
+DA Files
+‘DA-‘ is the prefix used to identify data files, as opposed to metadata files (i.e., STD, PID, MAP files). 
+
+ACQ Files
+
+In this case, we use ACQ files to identify a common ‘prefix’ that is assigned to a given content type (data files). For instance, if File1.csv and File2.csv both can use SDD-Z.xls, then we can create an ACQ file saying that ‘DA-Z’ is the prefix for SDD-Z.xls. In this case, we could rename File1 into DA-Z-1 and File2 into DA-Z-2 enabling the use of SDD-Z on both files.
+
+ACQ Files are also used to assign files to studies and to a given owner. Thus, we need an ACQ file for each collection of files (including collections of 1 file) that share the same properties:
+* Type of data content
+* Owner
+* Study that it belongs to
 
 ## 3.5. Data/Metadata Search
 
