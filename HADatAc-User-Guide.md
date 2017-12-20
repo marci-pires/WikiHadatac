@@ -75,9 +75,11 @@ The screenshot below shows the workflow for the infrastructure to ingest the dat
 
 The following screenshot provides more details about how each one of the SDD fields is edit according to terms coming from an integrated knowledge graph. The tabs on the right allow SDD developers to browse and select terms from the hierarchy of entities, attributes and units. Additional contextual knowledge such as the association of the current field to other temporal and spatial fields is done in the form on the left side of the image.
 
-## 3.4. Data/Metadata Search
+## 3.4. Metadata Upload
 
-### 3.4.1. Data Search
+## 3.5. Data/Metadata Search
+
+### 3.5.1. Data Search
 
 The screenshot above shows HADatAc’s Data Faceted Search where users go to select interactively select and download HADatAc content for analysis, including the possibility of data owners sharing their data with other users. 
 
@@ -92,23 +94,23 @@ Data Faceted Search
  
 Metadata management including HASNetO-Loader (also available for batch execution)
 
-### 3.4.1. Study Search
+### 3.5.1. Study Search
 
-### 3.4.2. Metadata Search
+### 3.5.2. Metadata Search
 
-## 3.5. Data Download
+## 3.6. Data Download
 
-## 3.6. Knowledge Management
+## 3.7. Knowledge Management
 
-### 3.6.1. On the use of URIs
+### 3.7.1. On the use of URIs
 
-### 3.6.2. The Human-Aware Science Ontology (HAScO)
+### 3.7.2. The Human-Aware Science Ontology (HAScO)
 
 #### Supporting Ontologies
 
-### 3.6.3. Ontology Management
+### 3.7.3. Ontology Management
 
-### 3.6.4. Knowledge Graph Management
+### 3.7.4. Knowledge Graph Management
 
 ***
 
