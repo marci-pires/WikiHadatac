@@ -270,13 +270,13 @@ Admin users should fill out the HASNetO agent's spreadsheet with the relevant in
 
 Users having admin privilege can easily perform backup and recovery operations on user graph (e.g. user profiles, access levels, etc) and authentication (e.g. accounts, encrypted passwords, security roles, etc) when system upgrade necessitates this. To backup, go to the **Manage Users** page and then you will see an button called **Backup User Authentication** for exporting a **.json** file containing required information for recovering later, and another button called **Backup User Graph** for exporting a **.ttl** file containing the whole user graph. To recover, in the same page, use the file upload panel called **Load User Graph from turtle** first to upload the previously saved **.ttl** file for recovering the user graph and then use another file upload panel called **Load User Authentication from json** to upload the previously saved **.json** file for recovering the user authentication.
 
-## 5.2. Data and Metadata Privacy
+## 5.3. Data and Metadata Privacy
 
 Every data point ingested into HADatAc has an owner. The user who uploaded the data is the owner of the data. The owner is responsible for assigning who can access the data, and can opt to share the data with other HADatAc users and even to make the data publicly available without any access restriction. It is also possible to share the data with _HADatAc users_ restricting data access to anyone who is registered with HADatAc.
 
 Access to study-level information and corresponding static metadata is public. The decision of respecting an embargo period and/or making the data publicly available rest with data owners.
 
-## 5.3. Data and Metadata Preservation
+## 5.4. Data and Metadata Preservation
 
 Data preservation along with their contextual knowledge provides a mechanism for data users to assess whether data have the qualities required for reuse. Moreover, the encoding of the contextual knowledge as metadata allows data users other them the ones responsible for acquiring and uploading in HADatAc to understand the very nature of each data point of a study. For instance, HADatAc searching and browsing mechanisms allows the following:
 
