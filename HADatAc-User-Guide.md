@@ -87,7 +87,7 @@ If some anomaly occurs during the processing of any files, whether the file is s
 
 ### 3.4.2. Automated Ingestion of Metadata Content
 
-SDD Files
+**SDD Files**
 
 SDD files are used to guide the process of ingesting file content into HADatAc databases.
 
@@ -95,7 +95,7 @@ A single SDD file can be used to ingest the content from multiple files as long 
 DA Files
 ‘DA-‘ is the prefix used to identify data files, as opposed to metadata files (i.e., STD, PID, MAP files). 
 
-ACQ Files
+**ACQ Files**
 
 In this case, we use ACQ files to identify a common ‘prefix’ that is assigned to a given content type (data files). For instance, if File1.csv and File2.csv both can use SDD-Z.xls, then we can create an ACQ file saying that ‘DA-Z’ is the prefix for SDD-Z.xls. In this case, we could rename File1 into DA-Z-1 and File2 into DA-Z-2 enabling the use of SDD-Z on both files.
 
