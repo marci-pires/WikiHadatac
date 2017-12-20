@@ -236,9 +236,21 @@ After respecting security and privacy policies in place, HADatAc allows advanced
 
 # 5. Data Governance
 
-## 5.1. User Categories and Console Permission Functionalities
+## 5.1. Access Network
 
-Users are either _unregistered_, _pre-registered_, or _registered_. A registered user is one who went through the process of signing up for HADatAc and confirming the authenticity of her/his email address. A registered user is capable of logging into the system and owning data. An admin user has the permission of granting admin permission to any registered user. A user can only sign up to become registered if the user was previously pre-registered into the system by an admin user. 
+Every HADatAc has one access network composed of 
+* access levels and 
+* users
+
+HADatAc’s access networks are initially composed of one default access level called _public_. Every user belongs to one access level, and is an access level on its own. For instance, if the access network is brand new, it only has the access level _public_. Therefore, if a new user _User A_ is added, it is added under _public_. This means that any data added by _User A_ to HADatAc will initially belong to _User A_ who will be the only user capable of accessing that data. If _User A_ needs to share the data, _User A_ can relax the restriction on the data by moving the access to the data to _public_. 
+
+On the same way that users are added to an access network, new access level can also be added. Public is the less restricted level of access in the access network and the further an access level with respect to _public_ the more restricted it the access level.
+
+## 5.2. User Status, Categories and Access Permissions
+
+Users have the status of either _unregistered_, _pre-registered_, or _registered_. A registered user is one who went through the process of signing up for HADatAc and confirming the authenticity of her/his email address. A registered user was capable of going through the registration process because he/she was pre-registered by an administrator. A user is unregistered if s/he is not registered or pre-registered.
+
+Users also have categories that are described below. For instance, a registered user is capable of logging into the system and owning data. An admin user has the permission of granting admin permission to any registered user. 
  
 **Administration (admin) user**: One default administration user is automatically created during a HADataC installation. This is the admin user who can pre-register new users and grant admin status to other registered users. A user is said to be a pre-registered if the user is included into the HADataC metadata repository and has not yet signed up.   
 
@@ -246,7 +258,7 @@ Users are either _unregistered_, _pre-registered_, or _registered_. A registered
 
 **Guest user**: Every user is considered unregistered until the user logs into the system. Unregistered users can access and download publicly available data. Unregistered users cannot upload and own data in the HADataC system.
 
-### 5.1.1. User Registration
+### 5.2.1. User Registration
 
 #### Pre-Registration
 
@@ -254,7 +266,8 @@ Admin users should fill out the HASNetO agent's spreadsheet with the relevant in
 
 #### Full Registration
 
-### 5.1.2. User Graph and Authentication Backup and Recovery
+### 5.2.2. Authentication Backup and Recovery
+
 Users having admin privilege can easily perform backup and recovery operations on user graph (e.g. user profiles, access levels, etc) and authentication (e.g. accounts, encrypted passwords, security roles, etc) when system upgrade necessitates this. To backup, go to the **Manage Users** page and then you will see an button called **Backup User Authentication** for exporting a **.json** file containing required information for recovering later, and another button called **Backup User Graph** for exporting a **.ttl** file containing the whole user graph. To recover, in the same page, use the file upload panel called **Load User Graph from turtle** first to upload the previously saved **.ttl** file for recovering the user graph and then use another file upload panel called **Load User Authentication from json** to upload the previously saved **.json** file for recovering the user authentication.
 
 ## 5.2. Data and Metadata Privacy
