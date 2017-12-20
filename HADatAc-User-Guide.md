@@ -120,6 +120,57 @@ ACQ Files are also used to assign files to studies and to a given owner. Thus, w
 * Owner
 * Study that it belongs to
 
+#### 3.4.2.1. Examples of Content File Uploading for Studies
+
+**A Simple scenario**
+
+Let assume the following for study X: 
+* X has 100 subjects
+* X has 200 samples corresponding to 2 samples per subject
+* A single file is submitted with the EPI data for the 100 subjects
+* A single file is submitted with the Lab data for the 200 samples
+
+This is the summary of data files for X:
+* FileSubject.csv with EPI data about the 100 subjects
+* FileSample.csv with Lab data about the 200 samples
+
+In terms of type of file content:
+* FileSubject.csv‘s type of content conforms to SDD-Subject
+* FileSample.csv’s type of content conforms to SDD-Sample
+
+This is what is needed: 
+* Create one ACQ file (ACQ-X-Subject.csv) that maps the name ‘DA-X-subject’ to SDD-Subject and submit both SDD-Subject and ACQ-X-Subject.csv right away into HADatAc
+* Create another ACQ file that maps the name ‘DA-X-sample’ to SDD-Sample and submit it right away into HADatAc
+* Rename FileSubject.csv to ‘DA-X-subject.cvs’ and submit it into HADatAc after submitting its corresponding ACQ file 
+* Rename FileSample.csv to ‘DA-X-sample.csv’ and submit it into HADatAc after submitting its corresponding ACQ file 
+
+**A more complex scenario** 
+
+Let assume the following for study Y: 
+* Y has 100 subjects
+* Y has 200 samples corresponding to 2 samples per subject
+* A sample is collected from each subject at Visit1 and the second sample is collected from each subject at Visit2
+* Y’s PI decided to submit 2 EPI files, one EPI file with demographic data about the 100 subjects, and the other EPI file with anthropometric  for the same subjects
+
+This is the summary of data files for Y:
+* FileA.csv with demographic data
+* FileB.csv with anthropometric data
+* FileC.csv with Lab data about 100 samples collected during Visit1 of each subject
+* FileD.csv with Lab data about the other 100 samples collected during Visit2 of each subject
+
+In terms of type of file content:
+* Files A and B have different types of content, which conforms to SDD-1 and SDD-3
+* Files C and D have the same type of content, which conforms to SDD-2
+
+This is what is needed: 
+* Create one ACQ file (ACQ1.csv) that maps the name ‘DA-type1’ to SDD-1 and submit both SDD-1 and ACQ1.csv right away into HADatAc
+* Create another ACQ file that maps the name ‘DA-type2’ to SDD-2 and submit it right away into HADatAc
+* Create another ACQ file that maps the name ‘DA-type3’ to SDD-3 and submit it right away into HADatAc
+* Rename File A to ‘DA-type1-A.cvs’ and submit it into HADatAc after 
+* Rename File B to ‘DA-type3-B.csv’
+* Rename File C to ‘DA-type2-C.csv’
+* Rename File D to ‘DA-type2-D.csv’
+
 ## 3.5. Data/Metadata Search
 
 ### 3.5.1. Data Search
