@@ -1,4 +1,4 @@
-###All methods:
+### All methods:
 
 Response object has two fields:
 
@@ -9,34 +9,34 @@ See also the hadatac/utils/ApiUtil.java file
 
 ***
 
-###Response getStudies()
+### Response getStudies()
 
 Access at: /hadatac/api/studies/all
 
 Returns all Study objects in hadatac
 
 
-###Response getStudy(studyuri: String)
+### Response getStudy(studyuri: String)
 
 Access at /hadatac/api/studies/:studyuri
 
 Given the URI of a study, returns the Study object matching that URI if it exists.
 
-###Response getVariablesInStudy(studyuri: String)
+### Response getVariablesInStudy(studyuri: String)
 
 Access at /hadatac/api/studies/variables/:studyuri
 
 Given the URI of a study, returns the variables for which there are measurements in that study.
 NOTE: If the study metadata has been ingested but no data acquisitions exist yet, then this will return 0 variables. This method checks SOLR for measurements first.
 
-###Response getUnitsInStudy(studyuri: String)
+### Response getUnitsInStudy(studyuri: String)
 
 Access at /hadatac/api/studies/units/:studyuri
 
 Given the URI of a Study, returns the URI and label for all units of measure used in measurements in that study.
 NOTE: If the study metadata has been ingested but no data acquisitions exist yet, then this will return 0 units. This method checks SOLR for measurements first.
 
-###Response getOCListInStudy(studyuri: String)
+### Response getOCListInStudy(studyuri: String)
 
 Access at /hadatac/api/studies/objectcollections/:studyuri
 
@@ -44,7 +44,7 @@ Given the URI of a study, returns the URIs and types for all ObjectCollections i
 
 NOTE: The full ObjectCollection object is not returned, in order to avoid an oversized response body that also contains the objects themselves. For the contents of an ObjectCollection, use the below method
 
-###Response getObjectsInCollection(ocuri: String, offset: Integer)
+### Response getObjectsInCollection(ocuri: String, offset: Integer)
 
 Access at /hadatac/api/objectcollections/:ocuri/:offset
 
@@ -54,13 +54,13 @@ NOTE: For the first page, you must provide an offset of 0
 
 NOTE2: Right now, the page size is hard-coded at 250. This can be adjusted as needed for performance.
 
-###Response getVariable(variableuri: String)
+### Response getVariable(variableuri: String)
 
 Access at /hadatac/api/variables/:variableuri
 
 Given the URI of a Variable, returns the DataAcqusisitionSchemaAttribute associated with that Variable.
 
-###Response getOCSize(ocuri: String)
+### Response getOCSize(ocuri: String)
 
 Access at /hadatac/api/objectcollections/size/:ocuri
 
