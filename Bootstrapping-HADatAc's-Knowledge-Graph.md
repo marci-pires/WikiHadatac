@@ -1,6 +1,6 @@
 ## 2.2.1. HADatAc's Knowledge Graph
 
-**No data is expected to be properly ingested in HADatAc if its Knowledge Graph is not properly constructed. **
+No data is expected to be properly ingested in HADatAc if its Knowledge Graph is not properly constructed.
 
 The so-called Bootstrapping process is entirely described in this Section 2.2.1. 
  
