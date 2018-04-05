@@ -50,10 +50,14 @@ A brief note about LabKey: The labkey contains a copy of Hadatac's KG status in 
 
 Verification: verify message about loading main ontology.
 
-Verification: verify if main ontology was loaded by querying the triplestore. Go to blazegraph service / query menu and type the Sparql query: select ?p ?o ?u where {?p ?o ?u . } 	 In this example, you should get 24723 triples as result. 
+Verification: verify if main ontology was loaded by querying the triplestore. Go to blazegraph service / query menu and type the Sparql query: 
 
-Triples before loading from LABKEY: 19982
-Triples after [loading from LABKEY]: 24723   
+	select ?p ?o ?u where {?p ?o ?u . } 	 
+
+In this example, you should get 24723 triples as result. 
+
+	Triples before loading from LABKEY: 19982
+	Triples after [loading from LABKEY]: 24723   
 
 ## 2.2.5. Uploading Knowledge Base
 
@@ -61,7 +65,7 @@ Action: Now you need to "Load Knowledge from Labkey". Hadatac will ask for your 
 
 Click on "Batch Loading Selected Instance Data" button. 
 
-Triples before loading from LABKEY: 24723
-Triples after [loading from LABKEY]: 36420   
+	Triples before loading from LABKEY: 24723
+	Triples after [loading from LABKEY]: 36420   
 
 Msg: Operation [load] complete -- check the results above to see if the parsing of the facts was successful.
