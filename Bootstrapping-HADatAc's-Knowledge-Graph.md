@@ -6,6 +6,19 @@ HADatAc's Knowledge Graph is composed of the content inside both the data reposi
 
 ## 2.2.2. Erase Data and Metadata Repositories 
  
+Clearing the data before beginning the ingestion process of datasets is one way to ensure the exact control over the contents of HADatAc's repositories. 
+
+Action: Clean repositories
+  http://localhost:9000/hadatac/ts/clean?oper=init 
+
+Verification:  After cleaning the Data Repository and Metadata Repository, they should be like this:
+
+Status: OPERATIONAL 
+Data Acquisitions: 0 documents. Data Content: 0 documents. 
+
+Status: OPERATIONAL 
+Metadata Content: 0 triples. User Graph Content: 0 triples.
+
 ## 2.2.3. Uploading Supporting Ontologies
 
 ## 2.2.4. Uploading Domain Ontology From Labkey
