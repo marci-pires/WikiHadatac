@@ -32,6 +32,8 @@ Use these [configuration instructions](https://github.com/paulopinheiro1234/hada
 
 HADatAc can only process data if its supporting knowledge graph has the correct knowledge added to its knowledge base. Use the [bootstrapping instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Bootstrapping-HADatAc's-Knowledge-Graph) to initiate HADatAc's knowledge graph.  
 
+HADatAc should be ready to be used after its software components have been installed (Section 1), the main software components has been configured (Section 2.1), and its knowledge graph has been bootstrapped (Section 2.2).
+
 ***
 
 # 3. Using HADatAc
