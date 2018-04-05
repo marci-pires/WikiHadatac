@@ -1,4 +1,4 @@
-## 2.2.1. HADatAc's Knowledge Graph
+### 2.2.1. HADatAc's Knowledge Graph
 
 > **No data is expected to be properly ingested in HADatAc if its Knowledge Graph is not properly constructed**
 
@@ -10,7 +10,7 @@ HADatAc's Knowledge Graph is composed of the content inside both the data reposi
 1. upload "knowledge graph" that is composed of the instances related to the concepts added in (2) and (3).
 
 
-## 2.2.1.1. Erase Data and Metadata Repositories 
+#### 2.2.1.1. Erase Data and Metadata Repositories 
  
 Clearing the data before beginning the ingestion process of datasets is one way to ensure the exact control over the contents of HADatAc's repositories. 
 
