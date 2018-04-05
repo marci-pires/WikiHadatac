@@ -22,9 +22,15 @@ Use these installation instructions to install a virtual machine with a developm
 
 # 2. Setting Up HADatAc
 
-HADatAc need to be configured so that it can access its corresponding repositories. Lets assume that "/data/hadatac/" is the folder where HADatAc is installed, in this case, configuration files are located at "/data/hadatac/conf". 
+## 2.1. Application Configuration
+
+HADatAc needs to have a correct configuration to access its repositories. Let assume that "/data/hadatac/" is the folder where HADatAc is installed, in this case, configuration files are located at "/data/hadatac/conf". 
 
 Use these [configuration instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Setting-up-HADatAc-Configuration)  to set up HADatAc.
+
+## 2.2. Knowledge Graph Bootstrap
+
+HADatAc can only process data if its supporting knowledge graph has the correct knowledge added to its knowledge base. Use the [bootstrapping instructions] to initiate HADatAc's knowledge graph.  
 
 ***
 
