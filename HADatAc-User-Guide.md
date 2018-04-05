@@ -83,9 +83,11 @@ Name conventions are required for automated ingestion of content file. Files tha
 
 If some anomaly occurs during the processing of any files, whether the file is supposed to be processed manually or automatically, the file will be put on hold and an error message will appear in the file log. The log is visible on-line.
 
-### 3.4.1. Manual Ingestion of Metadata Content
+### 3.4.1. Inserting Metadata Content Manually
 
 ### 3.4.2. Automated Ingestion of Metadata Content
+
+### 3.4.2.1 Types of Metadata Content Files
 
 **STD Files**
 
@@ -120,7 +122,7 @@ ACQ Files are also used to assign files to studies and to a given owner. Thus, w
 * Owner
 * Study that it belongs to
 
-#### 3.4.2.1. Examples of Content File Uploading for Studies
+#### 3.4.2.2. Examples of Content File Uploading for Studies
 
 **A Simple scenario**
 
@@ -170,6 +172,18 @@ This is what is needed:
 * Rename File B to ‘DA-type3-B.csv’
 * Rename File C to ‘DA-type2-C.csv’
 * Rename File D to ‘DA-type2-D.csv’
+
+### 3.4.2.3 Ingestion Workflow
+
+The exact way files are fed into HADatAc may vary by application. Below, we describe a partial order of events that must be observed:
+
+* STD files can be submitted any time
+* SDD files can be submitted any time
+* PID files can be submitted before all the STD of studies listed in the file have been submitted and ingested (it is normally easy to have one PID file feeding PIDs of subjects from a single study) 
+* SID files can be submitted before all the STD of studies listed in the file have been submitted and ingested (it is normally easy to have one SID file feeding SIDs of samples from a single study)
+* MAP files can be submitted after all the PIDs and SIDs listed inside the file have been submitted and ingested
+* ACQ files can be submitted after the following: STD of associated DA file have been submitted and ingested; SDD of associated DA file have been submitted and ingested
+* DA files can be submitted after corresponding ACQ file have been submitted and ingested   
 
 ## 3.5. Data/Metadata Search
 
