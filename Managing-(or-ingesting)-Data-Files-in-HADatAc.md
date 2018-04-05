@@ -9,7 +9,7 @@ By using hadatac on the menu entry “Manage Data Files”, we usually process t
 
 Note: after clicking on “Manage Data Files”, and before starting the ingestion process you might need to click "Start Auto-Annotator" button, on the top of the screen.
 
-## Load STD file for a given testing study
+### Load STD file for a given testing study
 
 	Verification: Go to "home" > "manage studies" and inspect the list of studies and look for an entry for the study in STD.
 
