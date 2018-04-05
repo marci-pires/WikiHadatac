@@ -36,7 +36,7 @@ Verification (b):  verify if supporting ontologies were loaded by querying the t
 
 	select ?p ?o ?u where {?p ?o ?u . } 	
 
-You should get 19982 triples as result. 
+In the case of this example, you should get 19982 triples as result. 
 
 ## 2.2.4. Uploading Domain Ontology
 
@@ -48,9 +48,9 @@ Note that you have two options to upload the main ontology: (a) to use labkey to
 
 A brief note about LabKey: The labkey contains a copy of Hadatac's KG status in the form of tables. Each table is either a concept table or an instance table. The first column of each table is always a hasUri. The second column is either a rdfs: subclassOf or a rdf: type (represented in RDF also by an 'a'). If the second column is a rdfs: subclassOf, then the table is for concepts, otherwise it is for instances. The concept table set represents the "ontology" that is loaded from Labkey. The set of instance tables are all instances of Hadatac. KG is the set of ontology + instances.
 
-Verification: verify message about loading main ontology 
+Verification: verify message about loading main ontology.
 
-Verification: verify if main ontology was loaded by querying the triplestore. Go to blazegraph service / query menu and type the Sparql query: select ?p ?o ?u where {?p ?o ?u . } 	 You should get 24723 triples as result. 
+Verification: verify if main ontology was loaded by querying the triplestore. Go to blazegraph service / query menu and type the Sparql query: select ?p ?o ?u where {?p ?o ?u . } 	 In this example, you should get 24723 triples as result. 
 
 Triples before loading from LABKEY: 19982
 Triples after [loading from LABKEY]: 24723   
