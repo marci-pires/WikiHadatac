@@ -56,3 +56,12 @@ Triples before loading from LABKEY: 19982
 Triples after [loading from LABKEY]: 24723   
 
 ## 2.2.5. Uploading Knowledge Base
+
+Action: Now you need to "Load Knowledge from Labkey". Hadatac will ask for your username and password in labkey. Then you click on "view" on your specific labkey folder.  Click on "Select All" checkbox. 
+
+Click on "Batch Loading Selected Instance Data" button. 
+
+Triples before loading from LABKEY: 24723
+Triples after [loading from LABKEY]: 36420   
+
+Msg: Operation [load] complete -- check the results above to see if the parsing of the facts was successful.
