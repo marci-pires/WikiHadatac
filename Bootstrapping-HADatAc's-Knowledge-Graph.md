@@ -25,7 +25,7 @@ Verification:  After cleaning the Data Repository and Metadata Repository, they 
     Status: OPERATIONAL 
     Metadata Content: 0 triples. User Graph Content: 0 triples.
 
-## 2.2.1.2. Uploading Supporting Ontologies
+#### 2.2.1.2. Uploading Supporting Ontologies
 
 HADatAc associated/supporting ontologies provide the concepts required for the framework to acquire and manage scientific data. Those ontologies may be loaded straight from the web, or may be cached locally in case they need to be reloaded afterward, when connectivity may be unavailable. 
   
@@ -44,7 +44,7 @@ Verification (b):  verify if supporting ontologies were loaded by querying the t
 
 In the case of this example, you should get 19982 triples as result. 
 
-## 2.2.1.3. Uploading Domain Ontology
+#### 2.2.1.3. Uploading Domain Ontology
 
 Action: Now you need to "Load Ontology from Labkey". Hadatac will ask for your username and password in labkey.  Then you click on "view" on your specific labkey folder. 
 
@@ -65,7 +65,7 @@ In this example, you should get 24723 triples as result.
 	Triples before loading from LABKEY: 19982
 	Triples after [loading from LABKEY]: 24723   
 
-## 2.2.1.4. Uploading Knowledge Base
+#### 2.2.1.4. Uploading Knowledge Base
 
 Action: Now you need to "Load Knowledge from Labkey". Hadatac will ask for your username and password in labkey. Then you click on "view" on your specific labkey folder.  Click on "Select All" checkbox. 
 
