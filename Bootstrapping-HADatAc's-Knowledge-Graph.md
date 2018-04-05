@@ -13,11 +13,11 @@ Action: Clean repositories
 
 Verification:  After cleaning the Data Repository and Metadata Repository, they should be like this:
 
-Status: OPERATIONAL 
-Data Acquisitions: 0 documents. Data Content: 0 documents. 
+   Status: OPERATIONAL 
+   Data Acquisitions: 0 documents. Data Content: 0 documents. 
 
-Status: OPERATIONAL 
-Metadata Content: 0 triples. User Graph Content: 0 triples.
+   Status: OPERATIONAL 
+   Metadata Content: 0 triples. User Graph Content: 0 triples.
 
 ## 2.2.3. Uploading Supporting Ontologies
 
