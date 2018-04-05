@@ -4,13 +4,10 @@
 
 HADatAc's Knowledge Graph is composed of the content inside both the data repository (SOLR) and the metadata repository (Blazegraph). The so-called __Bootstrapping process__, which is entirely described in this Section 2.2.1, entirely erases any data and metadata content inside of HADatAc (only information about users is preserved). No bootstrapping should occur on HADatAc instance that has already been bootstrapped. __Bootstrapping process__ consists of these steps:
 
- *(a) erase any previous data, 
-
- *(b) upload the supporting ontology, 
-
- *(c) upload them main project ontology, and 
-
- *(d) upload "knowledge graph" that is composed of the instances related to the concepts added in (b) and (c).
+*  (a) erase any previous data, 
+*  (b) upload the supporting ontology, 
+*  (c) upload them main project ontology, and 
+*  (d) upload "knowledge graph" that is composed of the instances related to the concepts added in (b) and (c).
 
 
 ## 2.2.1.1. Erase Data and Metadata Repositories 
