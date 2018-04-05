@@ -1,6 +1,6 @@
 Assuming that HADatAc is installed at "[HADatAc]", configuration files are located at "[HADatAc]/conf"
 
-# 1. Setting up ___hadatac.conf___
+# 2.1.1. Setting up ___hadatac.conf___
 
 This is the main configuration file and tells the system important information about how the webapp connects to SOLR and Blazegraph repositories, and what is going to be the URL of the webapp once it is deployed.
 
@@ -85,11 +85,11 @@ If you are deploy HADatAc on a server and you expect users to access HADAtAc ove
 	   
     default: ont_prefix="heals"
 
-# 2. Setting up email configuration
+# 2.1.2. Setting up email configuration
 
 You may not need to set up email configuration if you are using HADatAc for development purpose. This configuration is essential if you are planning to create users, and to have this users to have authenticated access to the system. In this case, the email configuration will enable users to verify their emails and to request password reset.
 
-# 3. Setting up ___application.conf___
+# 2.1.3. Setting up ___application.conf___
 
 * Deadbolt
 
@@ -116,7 +116,7 @@ You may not need to set up email configuration if you are using HADatAc for deve
 
  jvm.memory=-Xmx2048M -Xms2048M
 
-# 4. Setting up ___autoccsv.config___
+# 2.1.4. Setting up ___autoccsv.config___
 
 Raw files and metadata files that are uploaded into HADatAc are managed as part of the overall content of the app. This configuration file tells the app where those files go when are initially uploaded and where they are stored after they are processed.
 
@@ -125,9 +125,9 @@ Raw files and metadata files that are uploaded into HADatAc are managed as part 
  path_unproc=unprocessed_csv/
  auto=on
 
-# 5. Setting up ___namespaces.properties___
+# 2.1.5. Setting up ___namespaces.properties___
 
-# 6. Setting up ___labkey.config___
+# 2.1.6. Setting up ___labkey.config___
 
 * Configure the labkey server url
 
@@ -138,8 +138,8 @@ Raw files and metadata files that are uploaded into HADatAc are managed as part 
 
  encryption_key=yourkey
 
-# 7. Setting up ___template.conf___
+# 2.1.7. Setting up ___template.conf___
 
 [list and describe the meaning of each property]
 
-# 8. Creating Master user
+# 2.1.8. Creating Master user
