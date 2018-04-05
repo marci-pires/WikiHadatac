@@ -218,23 +218,11 @@ Metadata management including HASNetO-Loader (also available for batch execution
 
 ## 3.6. Data Download
 
-## 3.7. Knowledge Management
-
-### 3.7.1. On the use of URIs
-
-### 3.7.2. The Human-Aware Science Ontology (HAScO)
-
-#### Supporting Ontologies
-
-### 3.7.3. Ontology Management
-
-### 3.7.4. Knowledge Graph Management
-
 ***
 
 # 4. Architecture
 
-## 4.1. Overview
+## 4.1. Software Components
 
 ![](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec4/architecture.png)
 
@@ -249,12 +237,13 @@ Metadata stored in HADatAc is composed of concepts and instances, also known as 
 
 After respecting security and privacy policies in place, HADatAc allows advanced users to access data in SOLR with the use of Lucene queries, and to access metadata in SOLR with the use of SPARQL queries. 
 
-## 4.2. Interactive Web Console functionalities
+## 4.2. Knowledge Components
 
+### 4.2.1. On the use of URIs
 
-## 4.3. Batch automated functionalities
+### 4.2.2. The Human-Aware Science Ontology (HAScO)
 
-[Data management](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Data-Management) including HADataC-Loader (also available for batch execution)
+#### Supporting Ontologies
 
 ***
 
