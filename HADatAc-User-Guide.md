@@ -175,7 +175,7 @@ This is what is needed:
 
 ### 3.4.2.3 Ingestion Workflow
 
-The exact way files are fed into HADatAc may vary by application. Below, we describe a partial order of events that must be observed:
+The exact way metadata files are fed into HADatAc may vary by application. Below, we describe a partial order of events that must be observed in automated workflows feeding metadata content into HADatAc:
 
 * STD files can be submitted any time
 * SDD files can be submitted any time
@@ -184,6 +184,8 @@ The exact way files are fed into HADatAc may vary by application. Below, we desc
 * MAP files can be submitted after all the PIDs and SIDs listed inside the file have been submitted and ingested
 * ACQ files can be submitted after the following: STD of associated DA file have been submitted and ingested; SDD of associated DA file have been submitted and ingested
 * DA files can be submitted after corresponding ACQ file have been submitted and ingested   
+
+In the tasks above, it is said that files need to be submitted and ingested meaning that automated workflows should be able to verify that the ingestion of a given metadata file submitted into HADatAc was successful. This verification is accomplished through the use of the RESTFul service described below. 
 
 ## 3.5. Data/Metadata Search
 
