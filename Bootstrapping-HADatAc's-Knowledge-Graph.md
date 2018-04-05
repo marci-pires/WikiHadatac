@@ -14,10 +14,9 @@ HADatAc's Knowledge Graph is composed of the content inside both the data reposi
  
 Clearing the data before beginning the ingestion process of datasets is one way to ensure the exact control over the contents of HADatAc's repositories. 
 
-Action: Clean repositories
-  http://localhost:9000/hadatac/ts/clean?oper=init 
+**Action**: Clean repositories. Go to "Repository Management". Select the following buttons, one button a time: "Clean Data", "Clean Data Acquisitions" and "Clean Metadata"
 
-Verification:  After cleaning the Data Repository and Metadata Repository, they should be like this:
+**Verification**:  After cleaning the Data Repository and Metadata Repository, they should be like this:
 
     Status: OPERATIONAL 
     Data Acquisitions: 0 documents. Data Content: 0 documents. 
