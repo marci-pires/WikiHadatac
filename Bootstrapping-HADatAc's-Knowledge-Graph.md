@@ -27,7 +27,7 @@ Action:  To upload supporting ontologies, use options "Load cached ontologies" o
 
 Verification (a):  verify message about loading supporting ontologies. All the ontologies should result in some triples being added to the triplestore. After loading the supporting ontologies: 19982 triples (numbers will vary as the case may be.)
 
-    	Triples before [loadOntologies]: 0
+	Triples before [loadOntologies]: 0
 	Triples after [loadOntologies]: 19982
 
 Obs. The "user graph content" should have some triples. Those are the registration of your account with HADatAc.
