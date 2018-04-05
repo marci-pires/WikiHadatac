@@ -37,32 +37,25 @@ HADatAc associated/supporting ontologies provide the concepts required for the f
 	Triples before [loadOntologies]: 0
 	Triples after [loadOntologies]: (more than 15,000 triples)
 
-Verification (b):  verify if supporting ontologies were loaded by querying the triplestore.  Go to blazegraph service / query menu and type the Sparql query: 
+**Verification** (b):  one can alternatively verify if supporting ontologies were loaded by querying the triplestore.  Go to blazegraph service (see the exact address in HADatAc's configuration file), and then to the query menu. Onc there, type the following SPARQL query: 
 
 	select ?p ?o ?u where {?p ?o ?u . } 	
 
-In the case of this example, you should get 19982 triples as result. 
+In the case of this example, you should get +15,000 triples as result. 
 
 #### 2.2.1.3. Uploading Domain Ontology
 
-Action: Now you need to "Load Ontology from Labkey". Hadatac will ask for your username and password in labkey.  Then you click on "view" on your specific labkey folder. 
-
-Click on "Batch Loading Concepts" button. 
+**Action**: Go through the following steps: 
+* Go to "HADatAc Home > Load Ontology from Labkey"
+* If you are logging into LabKey for the first time during the current session, HADatAc will ask for your username and password in Labkey
+* Once you provide your credentials, you need to select the "view" button of the specific LabKey folder that you are going to upload you data from 
+* Press the "Batch Loading Concepts" button at the bottom of the page 
 
 Note that you have two options to upload the main ontology: (a) to use labkey to feed your main ontology ("Load Ontology from LabKey"), or (b) to upload an ontology itself by using the "Upload Additional Knowledge".
 
-A brief note about LabKey: The labkey contains a copy of Hadatac's KG status in the form of tables. Each table is either a concept table or an instance table. The first column of each table is always a hasUri. The second column is either a rdfs: subclassOf or a rdf: type (represented in RDF also by an 'a'). If the second column is a rdfs: subclassOf, then the table is for concepts, otherwise it is for instances. The concept table set represents the "ontology" that is loaded from Labkey. The set of instance tables are all instances of Hadatac. KG is the set of ontology + instances.
+A brief note about LabKey: LabKey contains a copy of Hadatac's Knowledge Graph state encoded as a collection of tables. Each table is either a concept table or an instance list. The first column of each table is always hasUri. The second column is either a rdfs:subClassOf or a rdf:type (represented in RDF also by an 'a'). If the second column is the rdfs:subClassOf predicate, then the table is for concepts, otherwise it is for instances. The complete set of concept tables represents the "ontology" that is loaded from Labkey. The set of instance tables are all instances of HADatAc. KG is the set of ontology + instances + values from the data repository.
 
-Verification: verify message about loading main ontology.
-
-Verification: verify if main ontology was loaded by querying the triplestore. Go to blazegraph service / query menu and type the Sparql query: 
-
-	select ?p ?o ?u where {?p ?o ?u . } 	 
-
-In this example, you should get 24723 triples as result. 
-
-	Triples before loading from LABKEY: 19982
-	Triples after [loading from LABKEY]: 24723   
+**Verification**: verify the message generated after selecting "Batch Loading Concepts". It should have say the the concepts were loaded successfully. If the loading fail, it will show the line of the exact TTL file that was generated from LabKey and indicate the number of the line in the TTL file that prevented content to be added into HADatAc. In that case, you need to locate and fix the content of your LabKey repository that corresponds to the error message.  
 
 #### 2.2.1.4. Uploading Knowledge Base
 
