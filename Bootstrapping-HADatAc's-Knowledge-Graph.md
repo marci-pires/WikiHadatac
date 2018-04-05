@@ -14,7 +14,7 @@ HADatAc's Knowledge Graph is composed of the content inside both the data reposi
  
 Clearing the data before beginning the ingestion process of datasets is one way to ensure the exact control over the contents of HADatAc's repositories. 
 
-**Action**: Clean repositories. Go to "Repository Management". Select the following buttons, one button a time: "Clean Data", "Clean Data Acquisitions" and "Clean Metadata"
+**Action**: Clean repositories. Go to "HADatAc Home > Repository Management". Select the following buttons, one button a time: "Clean Data", "Clean Data Acquisitions" and "Clean Metadata"
 
 **Verification**:  After cleaning the Data Repository and Metadata Repository, they should be like this:
 
@@ -24,18 +24,18 @@ Clearing the data before beginning the ingestion process of datasets is one way 
     Status: OPERATIONAL 
     Metadata Content: 0 triples. User Graph Content: 0 triples.
 
+Note: The "user graph content" should have some triples corresponding to knowledge about user accounts within HADatAc. There is no option in HADatAc itself to erase the user graph because erasing user-related triples would prevent one of staying logged or logging into HADatAc.
+
 #### 2.2.1.2. Uploading Supporting Ontologies
 
 HADatAc associated/supporting ontologies provide the concepts required for the framework to acquire and manage scientific data. Those ontologies may be loaded straight from the web, or may be cached locally in case they need to be reloaded afterward, when connectivity may be unavailable. 
   
-Action:  To upload supporting ontologies, use options "Load cached ontologies" or "Load ontologies from the web" (http://localhost:9000/hadatac/ts/loadont?oper=init).
+**Action**:  Go to "HADatAc Home > Upload Supporting Ontologies > Load Ontologies from the Web". By loading ontologies from the web you are also caching them locally. In case you already have cached ontologies, you can also used the "Load cached ontologies" to upload the content of these ontologies into the metadata repository.
 
-Verification (a):  verify message about loading supporting ontologies. All the ontologies should result in some triples being added to the triplestore. After loading the supporting ontologies: 19982 triples (numbers will vary as the case may be.)
+**Verification**: (a) verify message about loading supporting ontologies. All the ontologies should result in some triples being added into the metadata repository (i.e., the triplestore). After loading the supporting ontologies the number of triples should increase to +15,000. The exact numbers of triples may vary as the content of these ontologies, which are maintained by thrid-party entities, may vary over time.
 
 	Triples before [loadOntologies]: 0
-	Triples after [loadOntologies]: 19982
-
-Obs. The "user graph content" should have some triples. Those are the registration of your account with HADatAc.
+	Triples after [loadOntologies]: (more than 15,000 triples)
 
 Verification (b):  verify if supporting ontologies were loaded by querying the triplestore.  Go to blazegraph service / query menu and type the Sparql query: 
 
