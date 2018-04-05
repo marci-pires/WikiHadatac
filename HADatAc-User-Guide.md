@@ -30,7 +30,7 @@ Use these [configuration instructions](https://github.com/paulopinheiro1234/hada
 
 ## 2.2. Knowledge Graph Bootstrap
 
-HADatAc can only process data if its supporting knowledge graph has the correct knowledge added to its knowledge base. Use the [bootstrapping instructions] to initiate HADatAc's knowledge graph.  
+HADatAc can only process data if its supporting knowledge graph has the correct knowledge added to its knowledge base. Use the [bootstrapping instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Bootstrapping-HADatAc's-Knowledge-Graph) to initiate HADatAc's knowledge graph.  
 
 ***
 
