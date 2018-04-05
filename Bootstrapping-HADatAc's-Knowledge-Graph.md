@@ -33,7 +33,9 @@ Verification (a):  verify message about loading supporting ontologies. All the o
 Obs. The "user graph content" should have some triples. Those are the registration of your account with HADatAc.
 
 Verification (b):  verify if supporting ontologies were loaded by querying the triplestore.  Go to blazegraph service / query menu and type the Sparql query: 
+
 	select ?p ?o ?u where {?p ?o ?u . } 	
+
 You should get 19982 triples as result. 
 
 ## 2.2.4. Uploading Domain Ontology From Labkey
