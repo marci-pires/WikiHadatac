@@ -21,14 +21,14 @@ Verification:  After cleaning the Data Repository and Metadata Repository, they 
 
 ## 2.2.3. Uploading Supporting Ontologies
 
-HADatAc associated/supporting ontologies provide the concepts required for the framework to acquire and manage scientific data. Those ontologies may be loaded straight from the web, or may be cached locally in case they need to be reloaded afterwards, when connectivity may be unavailable. 
+HADatAc associated/supporting ontologies provide the concepts required for the framework to acquire and manage scientific data. Those ontologies may be loaded straight from the web, or may be cached locally in case they need to be reloaded afterward, when connectivity may be unavailable. 
   
 Action:  To upload supporting ontologies, use options "Load cached ontologies" or "Load ontologies from the web" (http://localhost:9000/hadatac/ts/loadont?oper=init).
 
-Verification (a):  verify message about loading supporting ontologies. All the ontologies should result in some triples being added to the triplestore. After loading the supporting ontologies: 19982 triples
+Verification (a):  verify message about loading supporting ontologies. All the ontologies should result in some triples being added to the triplestore. After loading the supporting ontologies: 19982 triples (numbers will vary as the case may be.)
 
     	Triples before [loadOntologies]: 0
-		Triples after [loadOntologies]: 19982
+	Triples after [loadOntologies]: 19982
 
 Obs. The "user graph content" should have some triples. Those are the registration of your account with HADatAc.
 
