@@ -22,7 +22,7 @@ Use these installation instructions to install a virtual machine with a developm
 
 # 2. Setting Up HADatAc
 
-## 2.1. Application Configuration
+## 2.1. Software Configuration
 
 HADatAc needs to have a correct configuration to access its repositories. Let assume that "/data/hadatac/" is the folder where HADatAc is installed, in this case, configuration files are located at "/data/hadatac/conf". 
 
