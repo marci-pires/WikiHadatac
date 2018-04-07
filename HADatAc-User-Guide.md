@@ -87,113 +87,14 @@ The following screenshot provides more details about how each one of the SDD fie
 
 Metadata content is added into HADatAc through the use of online forms or through the uploading and ingestion of content files. Content files can further be added manually or automatically.  
 
-Name conventions are required for automated ingestion of content file. Files that do not follow name conventions can only be further processed if manual commands are issued to identify file content as well as any additional information that may be needed to enable a proper ingestion of content files.
-
-If some anomaly occurs during the processing of any files, whether the file is supposed to be processed manually or automatically, the file will be put on hold and an error message will appear in the file log. The log is visible on-line.
-
 ### 3.4.1. Inserting Metadata Content Manually
+
+This section describes how to use on-line forms to add/edit metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries.
 
 ### 3.4.2. Automated Ingestion of Metadata Content
 
-### 3.4.2.1 Types of Metadata Content Files
+This section describes how to construct and submit templates to add metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries. These templates are used in lieu of on-line forms since they can be automatically fed and processed into HADatAc. 
 
-**STD Files**
-
-Used to include one or more study basic information into HADatAc. Information in STD files include things like PI's name and address. Study's aims, short description and long description.
-
-**PID Files**
-
-Used to add one or more human participant to an existing study. The content of this file is mainly about how many subjects are to be added to a given study, and how these subjects are identified in their corresponding studies. For HADatAc, their identification in the study is called _originalID_. Properties about these subjects are often added as study data.
-
-**SID Files**
-
-Used to add one or more sample to an existing study. The content of this file is mainly about how many samples are to be added to a given study, and how these samples are identified in their corresponding studies. For HADatAc, their identification in the study is called _originalID_. Properties about these samples are often added as study data although an SID file may include some information about samples.
-
-**MAP Files**
-
-Within the scope an study, MAP files are used to assign samples to subjects. For instance, a blood sample added through an SID file may be assigned to be a sample from a human subject added through a PID file. In case a sample included in the MAP file is not available in the study, then it is included. Therefore, MAP files may be used as SID files in case the mapping between subjects and samples is known by the time the MAP file is submitted. 
-
-**SDD Files**
-
-Used to guide the process of ingesting file content into HADatAc databases.
-
-A single SDD file can be used to ingest the content from multiple files as long these files share the same content type.
-DA Files
-‘DA-‘ is the prefix used to identify data files, as opposed to metadata files (i.e., STD, PID, MAP files). 
-
-**ACQ Files**
-
-In this case, we use ACQ files to identify a common ‘prefix’ that is assigned to a given content type (data files). For instance, if File1.csv and File2.csv both can use SDD-Z.xls, then we can create an ACQ file saying that ‘DA-Z’ is the prefix for SDD-Z.xls. In this case, we could rename File1 into DA-Z-1 and File2 into DA-Z-2 enabling the use of SDD-Z on both files.
-
-ACQ Files are also used to assign files to studies and to a given owner. Thus, we need an ACQ file for each collection of files (including collections of 1 file) that share the same properties:
-* Type of data content
-* Owner
-* Study that it belongs to
-
-#### 3.4.2.2. Examples of Content File Uploading for Studies
-
-**A Simple scenario**
-
-Let assume the following for study X: 
-* X has 100 subjects
-* X has 200 samples corresponding to 2 samples per subject
-* A single file is submitted with the EPI data for the 100 subjects
-* A single file is submitted with the Lab data for the 200 samples
-
-This is the summary of data files for X:
-* FileSubject.csv with EPI data about the 100 subjects
-* FileSample.csv with Lab data about the 200 samples
-
-In terms of type of file content:
-* FileSubject.csv‘s type of content conforms to SDD-Subject
-* FileSample.csv’s type of content conforms to SDD-Sample
-
-This is what is needed: 
-* Create one ACQ file (ACQ-X-Subject.csv) that maps the name ‘DA-X-subject’ to SDD-Subject and submit both SDD-Subject and ACQ-X-Subject.csv right away into HADatAc
-* Create another ACQ file that maps the name ‘DA-X-sample’ to SDD-Sample and submit it right away into HADatAc
-* Rename FileSubject.csv to ‘DA-X-subject.cvs’ and submit it into HADatAc after submitting its corresponding ACQ file 
-* Rename FileSample.csv to ‘DA-X-sample.csv’ and submit it into HADatAc after submitting its corresponding ACQ file 
-
-**A more complex scenario** 
-
-Let assume the following for study Y: 
-* Y has 100 subjects
-* Y has 200 samples corresponding to 2 samples per subject
-* A sample is collected from each subject at Visit1 and the second sample is collected from each subject at Visit2
-* Y’s PI decided to submit 2 EPI files, one EPI file with demographic data about the 100 subjects, and the other EPI file with anthropometric  for the same subjects
-
-This is the summary of data files for Y:
-* FileA.csv with demographic data
-* FileB.csv with anthropometric data
-* FileC.csv with Lab data about 100 samples collected during Visit1 of each subject
-* FileD.csv with Lab data about the other 100 samples collected during Visit2 of each subject
-
-In terms of type of file content:
-* Files A and B have different types of content, which conforms to SDD-1 and SDD-3
-* Files C and D have the same type of content, which conforms to SDD-2
-
-This is what is needed: 
-* Create one ACQ file (ACQ1.csv) that maps the name ‘DA-type1’ to SDD-1 and submit both SDD-1 and ACQ1.csv right away into HADatAc
-* Create another ACQ file that maps the name ‘DA-type2’ to SDD-2 and submit it right away into HADatAc
-* Create another ACQ file that maps the name ‘DA-type3’ to SDD-3 and submit it right away into HADatAc
-* Rename File A to ‘DA-type1-A.cvs’ and submit it into HADatAc after 
-* Rename File B to ‘DA-type3-B.csv’
-* Rename File C to ‘DA-type2-C.csv’
-* Rename File D to ‘DA-type2-D.csv’
-
-### 3.4.2.3 Ingestion Workflow
-
-The exact way metadata files are fed into HADatAc may vary by application. Below, we describe a partial order of events that must be observed in automated workflows feeding metadata content into HADatAc:
-
-* STD files can be submitted any time
-* SDD files can be submitted any time
-* PID files can be submitted before all the STD of studies listed in the file have been submitted and ingested (it is normally easy to have one PID file feeding PIDs of subjects from a single study) 
-* SID files can be submitted before all the STD of studies listed in the file have been submitted and ingested (it is normally easy to have one SID file feeding SIDs of samples from a single study)
-* MAP files can be submitted after all the PIDs and SIDs listed inside the file have been submitted and ingested
-* ACQ files can be submitted after the following: STD of associated DA file have been submitted and ingested; SDD of associated DA file have been submitted and ingested
-* DA files can be submitted after corresponding ACQ file have been submitted and ingested   
-
-In the tasks above, it is said that files need to be submitted and ingested meaning that automated workflows should be able to verify that the ingestion of a given metadata file submitted into HADatAc was successful. This verification is accomplished through the use of the RESTFul service described below. 
 
 ## 3.5. Data/Metadata Search
 
