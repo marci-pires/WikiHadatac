@@ -8,7 +8,7 @@ Index
   3.1. [Initial Page]()  
   3.2. [Data Upload]()  
   3.3. [Data Preparation and Ingestion]()  
-  3.4. [Metadata Ingest]()  
+  3.4. [Metadata Ingest](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest)  
   3.5. [Data Search]()  
   3.6. [Metadata Search]()  
   3.7. [API]()  
