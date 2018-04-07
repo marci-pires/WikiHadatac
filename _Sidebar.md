@@ -6,7 +6,7 @@ Index
   2.2. [Knowledge Graph Bootstrap]()  
 3. [Using HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac)  
   3.1. [Initial Page]()  
-  3.2. [Data Upload]()  
+  3.2. [Data Upload](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Data-Upload)  
   3.3. [Data Preparation and Ingestion](https://github.com/paulopinheiro1234/hadatac/wiki/3.3.-Data-Preparation-and-Ingestion)  
   3.4. [Metadata Ingest](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest)  
   3.5. [Data Search]()  
