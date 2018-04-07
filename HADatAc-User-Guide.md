@@ -57,31 +57,9 @@ Once files are uploaded, they can either be automatically ingested in case the i
 
 ## 3.3. Data Preparation and Ingestion
 
-![](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec3/DataPreparation.png)
+Once data files are uploaded into HADatAc, they are going to stay in the unprocessed folder of HADatAc until the application has information enough to ingest the file's content (i.e., parse, annotate and copy the file's content into appropriate data and metadata repositories). [This section]() describes how to manually provide HADatAc the information needed for the application to be able to ingest the file's content.
 
-The green button next to the file above indicates that HADatAc does not know how to ingest this specific file, and that more information is needed from the data owner to move the data content and its metadata content inside of this particular file into HADatAc repositories.  
-
-The screenshot below shows the workflow for the infrastructure to ingest the data. For instance, under the current configuration of this specific repository, an image may be associated with the following:
-
-* A Study identification provides a high level contextual justification for the image to be. For instance, a given image or image collection may be the result of a formal observational or experimental study, or may be the exam results during the process of assessing a patient  
-
-* Semantic Object Collections (SOCs) identify how entities involved with a study are organized as collections of tangible objects (e.g., subjects, samples) and collections of contextual objects (e.g., categories, time events, locations). The figure below shows how SOCs are defined and managed in our infrastructure.
- 
-* Scoping semantic objects identify which of the SOCs of a study may be associated with the image being loaded. In this case, the scoping objects may be an entire collection requiring the file to contain some form of identifier.   
-
-  * Deployments identify how Instruments used to collect data are deployed at a given Platform. The platform may be a 
-    laboratory that gives an instrument its necessary operational conditions, and it can also be a person wearing some 
-    sensor. It is relevant to note that we consider a very broad notion of instrument since we see Questionnaires and 
-    Computer Simulation Models as forms of instruments. Traditional instruments like an MRI machine are instances of 
-    Physical Instrument.  
-
-  * Semantic Data Dictionaries (SDDs) are use to specify both the meaning of the content of an image as well as to identify 
-    how the file is organized. The figure below shows the  example of an SDD where each field of the data dictionary is 
-    assigned to a collection of ontological terms identifying what is the type of entity behind of the image, what is the 
-    attribute of the entity being measured, what is the unit of measurement, when, where, and at which accuracy the 
-    measurement is made. 
-
-The following screenshot provides more details about how each one of the SDD fields is edit according to terms coming from an integrated knowledge graph. The tabs on the right allow SDD developers to browse and select terms from the hierarchy of entities, attributes and units. Additional contextual knowledge such as the association of the current field to other temporal and spatial fields is done in the form on the left side of the image.
+For automated preparation of data file's ingestion, please consider the use of the OAS metadata file described in Section 3.4.
 
 ## 3.4. Metadata Ingest
 
