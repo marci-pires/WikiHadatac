@@ -212,11 +212,13 @@ Data Faceted Search
  
 Metadata management including HASNetO-Loader (also available for batch execution)
 
-### 3.5.1. Study Search
+### 3.5.2. Study Search
 
-### 3.5.2. Metadata Search
+### 3.5.3. Metadata Search
 
-## 3.6. Data Download
+## 3.6. Using the API 
+
+## 3.7. Using the Faceted Search Data Download
 
 ***
 
