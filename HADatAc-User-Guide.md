@@ -44,7 +44,7 @@ The main page is composed of two or three vertical blocks of functionalities (th
 
 ## 3.2. File Upload
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest#341-inserting-metadata-content-manually) describes how to use on-line forms to add/edit metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries.
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes how to use on-line forms to add/edit metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries.
 
 
 
