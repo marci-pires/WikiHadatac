@@ -1,9 +1,9 @@
 Index
 
-# [Installation](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#1-installing-hadatac)
-# [Setting Up](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#2-setting-up-hadatac)
-# [Using HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac)
-# [Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-architecture)
+## [Installation](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#1-installing-hadatac)
+## [Setting Up](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#2-setting-up-hadatac)
+## [Using HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac)
+## [Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-architecture)
 * [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#5-data-governance)
 * [Projects Involving HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#6-projects-involved-with-hadatac)
 * [Related Technologies](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#7-other-products-and-technologies-related-to-hadatac) 
