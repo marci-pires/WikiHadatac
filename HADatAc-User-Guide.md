@@ -89,11 +89,11 @@ Metadata content is added into HADatAc through the use of online forms or throug
 
 ### 3.4.1. Inserting Metadata Content Manually
 
-This section describes how to use on-line forms to add/edit metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries.
+[This section]() describes how to use on-line forms to add/edit metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries.
 
 ### 3.4.2. Automated Ingestion of Metadata Content
 
-This section describes how to construct and submit templates to add metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries. These templates are used in lieu of on-line forms since they can be automatically fed and processed into HADatAc. 
+[This section]() describes how to construct and submit templates to add metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries. These templates are used in lieu of on-line forms since they can be automatically fed and processed into HADatAc. 
 
 
 ## 3.5. Data/Metadata Search
