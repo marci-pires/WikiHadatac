@@ -12,7 +12,7 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 ## 1.3. On MacOS (Development)
 
-Use these [installation instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-MacOS-(OSX)) to install a development HADatAc on MacOs.
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) is the MacOS (OSX) development version of the instructions for Linux in Section 1.2.
 
 ***
 
