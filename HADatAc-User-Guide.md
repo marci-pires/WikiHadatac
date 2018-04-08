@@ -116,7 +116,7 @@ Every data point ingested into HADatAc has an owner. The user who uploaded the d
 
 * [The Jefferson Project at Lake George](http://jeffersonproject.rpi.edu/) — "a collaboration between Rensselaer Polytechnic Institute, IBM Research, and The FUND for Lake George—is a sophisticated technological approach to studying fresh water, with a goal of understanding the impact of human activity on fresh water, and how to mitigate those effects."
 
-* NIH-funded CHEAR 
+* [Children’s Health Exposure Analysis Resource (CHEAR)](https://www.niehs.nih.gov/research/supported/exposure/chear/) - NIH's "NIEHS is establishing an infrastructure, CHEAR, to provide the extramural research community access to laboratory and data analyses that add or expand the inclusion of environmental exposures in children’s health research."
 
 * Gates Foundation-funded HBGDki
 
