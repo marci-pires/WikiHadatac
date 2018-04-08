@@ -114,7 +114,7 @@ Every data point ingested into HADatAc has an owner. The user who uploaded the d
 
 # 6. Projects Involved With HADatAc
 
-* RPI/IBM/Fund-For-Lake-George's Jefferson Project on Lake George
+* [The Jefferson Project at Lake George]() — "a collaboration between Rensselaer Polytechnic Institute, IBM Research, and The FUND for Lake George—is a sophisticated technological approach to studying fresh water, with a goal of understanding the impact of human activity on fresh water, and how to mitigate those effects."
 
 * NIH-funded CHEAR 
 
