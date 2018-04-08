@@ -40,7 +40,7 @@ HADatAc should be ready to be used after its software components have been insta
 
 ## 3.1. Initial Page
 
-[This section]() describes the organization and functionalities available on its main page.
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.1.-Initial-Page) describes the organization and functionalities available on its main page.
 
 ## 3.2. File Upload
 
