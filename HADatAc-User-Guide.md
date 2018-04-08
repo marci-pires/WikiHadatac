@@ -75,13 +75,13 @@ The screenshot above shows HADatAc’s Data Faceted Search where users go to sel
 **Detail Panels**: It provides more in-depth explanation about information that can be found on the facets and in the Scientific Data Panel, and such detailed information may contain links to actual external documents that enable a quick investigation from users on whether the current selection of the search corresponds to the actual data to downloaded from the repository of if further refinement/relaxation of the selection criteria is necessary.
 Data Faceted Search
 
-[Metadata Browser](https://github.com/paulopinheiro1234/hadatac/wiki/HADataC-User-Guide:--Metadata-Browser)
- 
-Metadata management including HASNetO-Loader (also available for batch execution)
-
 ## 3.6. Metadata Browser and Search
 
+Metadata stored in HADatAc can be browsed and searched through the app. This section describes these capabilities in detail. 
+
 ## 3.7. API 
+
+Data and metadata stored in HADAtAc can also be retrieved programmatically. [This section]() describes a list of RESTful services, which compose the __Tetherless World Knowledge Exchange API__. Data visualization frameworks, visual analytical frameworks and dashboards with a back end HADatAc support are expected to use the API to retrieve content from the app.  
 
 ## 3.8. Data Download
 
