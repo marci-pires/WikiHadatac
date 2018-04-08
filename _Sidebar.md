@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/hadatac-logo.png" width="180">
+<img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/hadatac-logo.png" width="220">
 
 Index
 
