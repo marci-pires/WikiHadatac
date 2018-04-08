@@ -1,3 +1,9 @@
+# Getting Started
+
+Section 3 provides a gradual set of instruction once HADatAc is ready to be use. But before one can actually use the app, one needs to install it, according to Section 1, and set it up, according to Section 2.
+
+We strongly recommend starting with a development version of HADatAc that can run on either Linux or MacOS.
+
 # 1. Installing HADatAc
 
 HADatAc can be installed for _development_ purposes, or for _production_ purposes. When installed for development, HADatAc does not require the setting of an email service since just one user with full access to the system is created. When installed for production, HADatAc requires access to an email service so that new users and access levels can be created and users can be authenticated through an email verification process.
