@@ -26,7 +26,7 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 ## 2.1. Software Configuration
 
-Correct configuration is required for HADatAc to access its repositories, the ontology repository, to connect to users through email, to adjust to operating system requirements, etc. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/Setting-up-HADatAc-Configuration) describes the many configuration files of HADatAc and how they may be used.
+Correct configuration is required for HADatAc to access its repositories, the ontology repository, to connect to users through email, to adjust to operating system requirements, etc. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.1.-Software-Configuration) describes the many configuration files of HADatAc and how they may be used.
 
 ## 2.2. Knowledge Graph Bootstrap
 
