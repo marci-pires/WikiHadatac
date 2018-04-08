@@ -95,11 +95,7 @@ HADatAc is implemented as a web application. [This section](https://github.com/p
 
 ## 4.2. Knowledge Components
 
-### 4.2.1. On the use of URIs
 
-### 4.2.2. The Human-Aware Science Ontology (HAScO)
-
-#### Supporting Ontologies
 
 ***
 
