@@ -64,10 +64,7 @@ Metadata content is added into HADatAc through the use of online forms or throug
 
 [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest#342-inserting-metadata-content-automatically) describes how to construct and submit templates to add metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries. These templates are used in lieu of on-line forms since they can be automatically fed and processed into HADatAc. 
 
-
-## 3.5. Data/Metadata Search
-
-### 3.5.1. Data Search
+## 3.5. Data Search
 
 The screenshot above shows HADatAc’s Data Faceted Search where users go to select interactively select and download HADatAc content for analysis, including the possibility of data owners sharing their data with other users. 
 
@@ -82,13 +79,11 @@ Data Faceted Search
  
 Metadata management including HASNetO-Loader (also available for batch execution)
 
-### 3.5.2. Study Search
+## 3.6. Metadata Browser and Search
 
-### 3.5.3. Metadata Search
+## 3.7. API 
 
-## 3.6. Using the API 
-
-## 3.7. Using the Faceted Search Data Download
+## 3.8. Data Download
 
 ***
 
