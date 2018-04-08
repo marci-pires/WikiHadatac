@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/hadatac-logo.ng" width="80">
+
 Index
 
 1. [Installation](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#1-installing-hadatac)  
