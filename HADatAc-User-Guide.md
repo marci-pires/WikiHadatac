@@ -8,7 +8,7 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 ## 1.2. On Linux (Development)
 
-Use these [installation instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-Linux-(Developer)) to install a development HADatAc on Linux.
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.2.-Installing-for-Linux-(Developer)) provides installation instructions for HADatAc on Linux. This DEVELOPMENT installation is much simpler than the production installation but is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
 
 ## 1.3. On MacOS (Development)
 
