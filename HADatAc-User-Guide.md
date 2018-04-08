@@ -120,7 +120,7 @@ Every data point ingested into HADatAc has an owner. The user who uploaded the d
 
 * [Healthy Birth, Growth, and Development Knowledge Integration (HBGDki)](http://hbgdki.org/) - Bill & Melinda Gates Foundation's "HBGDki aims to leverage knowledge to ensure that all children can have the opportunity to lead a healthy and productive life and maximize their potential."
 
-* RPI CASE Air Quality
+* [RPI/CASE Ecosystem of Systems](http://www.case.rpi.edu/page/project.php?pageid=13) - "CASE is proposing a live testing unit the Built Environment Ecosystem unit (BEE Unit) to evaluate multiple environmental conditions alongside human health indicators in order to establish relationships between environmental factors."
 
 * UNIFOR/City Of Fortaleza's Smart City Project
 
