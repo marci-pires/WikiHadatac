@@ -66,7 +66,7 @@ Metadata content is added into HADatAc through the use of online forms or throug
 
 ## 3.5. Data Search
 
-
+HADatAc's data faceted search is the mechanism to understand at harmonized value-level, what is the actual overall content of the framework, and of selecting this content across studies and instruments. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search) describes how to understand available content, and to select the content for eventual downloads.
 
 ## 3.6. Metadata Browser and Search
 
