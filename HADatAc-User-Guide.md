@@ -77,7 +77,7 @@ Data Faceted Search
 
 ## 3.6. Metadata Browser and Search
 
-Metadata stored in HADatAc can be browsed and searched through the app. This section describes these capabilities in detail. 
+Metadata stored in HADatAc can be browsed and searched through the app. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search) describes these capabilities in detail. 
 
 ## 3.7. API 
 
