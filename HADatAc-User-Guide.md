@@ -40,7 +40,7 @@ HADatAc should be ready to be used after its software components have been insta
 
 ## 3.1. Initial Page
 
-The main page is composed of two or three vertical blocks of functionalities (three blocks if the user is an administrator). The first block has the functionalities required for a user to search and retrieve content from HADatAc. The second block has the functionalities required to update and maintain content in HADatAc. The third block has the functionalities required for managing underlying knowledge as described in Section 3.6 of this User Guide.  
+[This section]() describes the organization and functionalities available on its main page.
 
 ## 3.2. File Upload
 
