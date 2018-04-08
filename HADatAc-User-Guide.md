@@ -94,13 +94,7 @@ HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge
 
 ## 5.1. Access Network
 
-Every HADatAc has one access network composed of 
-* access levels and 
-* users
-
-HADatAc’s access networks are initially composed of one default access level called _public_. Every user belongs to one access level, and is an access level on its own. For instance, if the access network is brand new, it only has the access level _public_. Therefore, if a new user _User A_ is added, it is added under _public_. This means that any data added by _User A_ to HADatAc will initially belong to _User A_ who will be the only user capable of accessing that data. If _User A_ needs to share the data, _User A_ can relax the restriction on the data by moving the access to the data to _public_. 
-
-On the same way that users are added to an access network, new access level can also be added. Public is the less restricted level of access in the access network and the further an access level with respect to _public_ the more restricted it the access level.
+ Communities of data users behind each HADatAc installation have their own rules on who can do what in terms of accessing, using and managing data. HADatAc uses an access network to capture and enforce these rules. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Access-Network) provides the instructions for a HADatAc administrator to build and maintain an access network.
 
 ## 5.2. User Status, Categories and Access Permissions
 
