@@ -52,7 +52,7 @@ HADatAc content can be composed of data files (starting with a **DA** prefix) or
 
 Once data files are uploaded into HADatAc, they are going to stay in the unprocessed folder of HADatAc until the application has information enough to ingest the file's content (i.e., parse, annotate and copy the file's content into appropriate data and metadata repositories). [This section]() describes how to manually provide HADatAc the information needed for the application to be able to ingest the file's content.
 
-For automated preparation of data file's ingestion, please consider the use of the OAS metadata file described in Section 3.4.
+For automated preparation of data file's ingestion, please consider the use of the OAS metadata file described in Section 3.4.2.
 
 ## 3.4. Metadata Ingest
 
