@@ -76,6 +76,8 @@ Data and metadata stored in HADAtAc can also be retrieved programmatically. [Thi
 
 ## 3.8. Data Download
 
+At any moment during the use of a faceted search, users are allowed to download the content related to the current search. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.8.-Data-Download) describes the many options on how to download the data selected under the current search.
+
 ***
 
 # 4. Architecture
