@@ -4,7 +4,7 @@
 
 We strongly recommend starting with a development version of HADatAc that can run on either [Linux](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#12-on-linux-development) or [MacOS](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#13-on-macos-development).
 
-# 1. Installing HADatAc ![](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/linux.jpeg)
+# 1. Installing HADatAc ![[height = 100px]](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/linux.jpeg)
 
 HADatAc can be installed for _development_ purposes, or for _production_ purposes. When installed for development, HADatAc does not require the setting of an email service since just one user with full access to the system is created. When installed for production, HADatAc requires access to an email service so that new users and access levels can be created and users can be authenticated through an email verification process.
 
@@ -18,7 +18,7 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 ## 1.3. On MacOS (Development)
 
-[[This section | height = 100px ]](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) provides installation instructions for HADatAc on MacOS (OSX). This DEVELOPMENT installation is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) provides installation instructions for HADatAc on MacOS (OSX). This DEVELOPMENT installation is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
 
 ***
 
