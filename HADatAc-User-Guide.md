@@ -122,7 +122,7 @@ Every data point ingested into HADatAc has an owner. The user who uploaded the d
 
 * [RPI/CASE Ecosystem of Systems](http://www.case.rpi.edu/page/project.php?pageid=13) - "CASE is proposing a live testing unit the Built Environment Ecosystem unit (BEE Unit) to evaluate multiple environmental conditions alongside human health indicators in order to establish relationships between environmental factors."
 
-* UNIFOR/City Of Fortaleza's Smart City Project
+* [Fortaleza Dados Abertos](http://dados.fortaleza.ce.gov.br/portal/) - City Of Fortaleza-Brazil's Smart City Project
 
 *** 
 
