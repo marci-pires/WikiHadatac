@@ -98,23 +98,7 @@ HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge
 
 ## 5.2. User Status, Categories and Access Permissions
 
-Users have the status of either _unregistered_, _pre-registered_, or _registered_. A registered user is one who went through the process of signing up for HADatAc and confirming the authenticity of her/his email address. A registered user was capable of going through the registration process because he/she was pre-registered by an administrator. A user is unregistered if s/he is not registered or pre-registered.
-
-Users also have categories that are described below. For instance, a registered user is capable of logging into the system and owning data. An admin user has the permission of granting admin permission to any registered user. 
- 
-**Administration (admin) user**: One default administration user is automatically created during a HADataC installation. This is the admin user who can pre-register new users and grant admin status to other registered users. A user is said to be a pre-registered if the user is included into the HADataC metadata repository and has not yet signed up.   
-
-**Data owner**: Every registered user is considered a data owner, whether the user actually owns or not any data in the data repository. A data owner is capable of the following: uploading data and metadata into the system; recording deployment metadata; annotating data with metadata; setting the permission of who has the right of accessing their data; deleting their data from the system.  
-
-**Guest user**: Every user is considered unregistered until the user logs into the system. Unregistered users can access and download publicly available data. Unregistered users cannot upload and own data in the HADataC system.
-
-### 5.2.1. User Registration
-
-#### Pre-Registration
-
-Admin users should fill out the HASNetO agent's spreadsheet with the relevant information about HADataC users including the list of organizations associated with users and relationship between associated organizations. An admin user should upload the spreadsheet into the system by using the metadata loader, which will transfer all the agent information into the knowledge base. Agent information added into the system includes all the relevant user pre-registration information.
-
-#### Full Registration
+Different users may have different permissions according to their roles (categories) and their current standing in terms of being registered or not with a HADatAc instance. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/5.2.-User-Status,-Categories-and-Access-Permissions) describes the possible status and categories of users, how they are pre-registered, and how they are granted access permissions.
 
 ### 5.2.2. Authentication Backup and Recovery
 
