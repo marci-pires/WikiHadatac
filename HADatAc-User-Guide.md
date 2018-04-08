@@ -80,7 +80,7 @@ At any moment during the use of a faceted search, users are allowed to download 
 
 ***
 
-# 4. Architecture
+# 4. Software Architecture and Knowledge Specification
 
 ## 4.1. Software Components
 
@@ -89,6 +89,8 @@ HADatAc is implemented as a web application. [This section](https://github.com/p
 ## 4.2. Knowledge Components
 
 HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge base with many instances of concepts defined in the ontologies, and data values semantically annotated to concepts and their instances. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-Knowledge-Components) describes these core ontologies, how they are organized, and how their concepts are connected. 
+
+## 4.3. Metadata Specification (SSD, OAS, SDD)
 
 ***
 
