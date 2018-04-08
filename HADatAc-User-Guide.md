@@ -44,7 +44,7 @@ The main page is composed of two or three vertical blocks of functionalities (th
 
 ## 3.2. File Upload
 
-File Upload is used as an initial stage for feeding content into HADatAc. HADatAc content can be composed of data files (starting with a **DA** prefix) or metadata files (staring with any of the following prefixes: **STD, SSD, PID, SID, MAP, ACQ, OAS, or SDD**). [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes how to manually upload any file into HADatAc, making the file locally available for ingestion as described in Section 3.3. for data files and Section 3.4 for metadata files.
+File Upload is used as an initial stage for feeding content into HADatAc. HADatAc content can be composed of data files (starting with a **DA** prefix) or metadata files (staring with any of the following prefixes: **STD, **SSD**, **PID**, **SID**, **MAP**, **ACQ**, **OAS**, or **SDD**). [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes how to manually upload any file into HADatAc, making the file locally available for ingestion as described in Section 3.3. for data files and Section 3.4 for metadata files.
 
 ## 3.3. Data Preparation and Ingestion
 
