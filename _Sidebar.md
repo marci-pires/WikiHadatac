@@ -19,6 +19,6 @@ Index
 5. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#5-data-governance)  
   5.1. [Access Network](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Access-Network)  
   5.2. [User Status, Categories and Access Permissions](https://github.com/paulopinheiro1234/hadatac/wiki/5.2.-User-Status,-Categories-and-Access-Permissions)  
-  5.3. [Data and Metadata Privacy]()  
+  5.3. [Data and Metadata Privacy](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Data-and-Metadata-Privacy)  
 6. [Projects Involving HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#6-projects-involved-with-hadatac)  
 7. [Related Technologies](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#7-other-products-and-technologies-related-to-hadatac) 
