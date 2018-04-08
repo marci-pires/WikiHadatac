@@ -3,7 +3,7 @@ Index
 1. [Installation](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#1-installing-hadatac)  
 2. [Setting Up](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#2-setting-up-hadatac)  
   2.1. [Software Configuration](https://github.com/paulopinheiro1234/hadatac/wiki/Setting-up-HADatAc-Configuration)  
-  2.2. [Knowledge Graph Bootstrap]()  
+  2.2. [Knowledge Graph Bootstrap](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap)  
 3. [Using HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac)  
   3.1. [Initial Page]()  
   3.2. [File Upload](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload)  
