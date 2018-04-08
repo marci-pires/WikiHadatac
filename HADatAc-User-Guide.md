@@ -30,7 +30,7 @@ Correct configuration is required for HADatAc to access its repositories, the on
 
 ## 2.2. Knowledge Graph Bootstrap
 
-HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage files and their content. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/Bootstrapping-HADatAc's-Knowledge-Graph) describes the KG's boostrapping process required to initiate the KG. HADatAc should be ready to be used after its software components have been installed (Section 1), the main software components has been configured (Section 2.1), and its knowledge graph has been bootstrapped (Section 2.2).
+HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage files and their content. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap) describes the KG's boostrapping process required to initiate the KG. HADatAc should be ready to be used after its software components have been installed (Section 1), the main software components has been configured (Section 2.1), and its knowledge graph has been bootstrapped (Section 2.2).
 
 ***
 
