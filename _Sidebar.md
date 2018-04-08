@@ -17,7 +17,7 @@ Index
   4.1. [Software Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components)   
   4.2. [Knowledge Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-Knowledge-Components)  
 5. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#5-data-governance)  
-  5.1. [Access Network]()  
+  5.1. [Access Network](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Access-Network)  
   5.2. [User Status, Categories and Access Permissions]()  
   5.3. [Data and Metadata Privacy]()  
 6. [Projects Involving HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#6-projects-involved-with-hadatac)  
