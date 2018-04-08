@@ -14,7 +14,7 @@ Index
   3.7. [API](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-API)  
   3.8. [Data Download]()  
 4. [Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-architecture)  
-  4.1. [Software Components]()   
+  4.1. [Software Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components)   
   4.2. [Knowledge Components]()  
 5. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#5-data-governance)  
   5.1. [Access Network]()  
