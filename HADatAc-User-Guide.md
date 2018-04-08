@@ -118,7 +118,7 @@ Every data point ingested into HADatAc has an owner. The user who uploaded the d
 
 * [Children’s Health Exposure Analysis Resource (CHEAR)](https://www.niehs.nih.gov/research/supported/exposure/chear/) - NIH's "NIEHS is establishing an infrastructure, CHEAR, to provide the extramural research community access to laboratory and data analyses that add or expand the inclusion of environmental exposures in children’s health research."
 
-* Gates Foundation-funded HBGDki
+* [Healthy Birth, Growth, and Development Knowledge Integration (HBGDki)](http://hbgdki.org/) - Bill & Melinda Gates Foundation's "HBGDki aims to leverage knowledge to ensure that all children can have the opportunity to lead a healthy and productive life and maximize their potential."
 
 * RPI CASE Air Quality
 
