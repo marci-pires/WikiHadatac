@@ -92,6 +92,8 @@ HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge
 
 ## 4.3. Metadata Specification (SSD, OAS, SDD)
 
+Semantic metadata is used to build the part of HADatA's knowledge graph in support of a specific study. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.3.-Metadata-Specification-(SSD,-OAS,-SDD)) describes the three kinds of semantic metadata specifications used in HADatAc: Semantic Study Design, Object Access Specification, and Semantic Data Dictionaries.
+
 ***
 
 # 5. Data Governance
