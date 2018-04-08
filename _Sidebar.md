@@ -12,7 +12,7 @@ Index
   3.5. [Data Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search)  
   3.6. [Metadata Browser and Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search)  
   3.7. [API](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-API)  
-  3.8. [Data Download]()  
+  3.8. [Data Download](https://github.com/paulopinheiro1234/hadatac/wiki/3.8.-Data-Download)  
 4. [Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-architecture)  
   4.1. [Software Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components)   
   4.2. [Knowledge Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-Knowledge-Components)  
