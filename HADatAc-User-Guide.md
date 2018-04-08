@@ -91,7 +91,7 @@ Data and metadata stored in HADAtAc can also be retrieved programmatically. [Thi
 
 ## 4.1. Software Components
 
-
+HADatAc is implemented as a web application. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components) describe how the main website is built in terms of software components. The section also describe what data repositories are used for managing data and metadata content, and what infrastructure(s) is/are used to manage evolving ontologies.  
 
 ## 4.2. Knowledge Components
 
