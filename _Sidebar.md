@@ -16,7 +16,7 @@ Index
 4. [Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-architecture)  
   4.1. [Software Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components)   
   4.2. [Knowledge Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-Knowledge-Components)  
-  4.3. [Metadata Specification (SSD, OAS, SDD)]()  
+  4.3. [Metadata Specification (SSD, OAS, SDD)](https://github.com/paulopinheiro1234/hadatac/wiki/4.3.-Metadata-Specification-(SSD,-OAS,-SDD))  
 5. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#5-data-governance)  
   5.1. [Access Network](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Access-Network)  
   5.2. [User Status, Categories and Access Permissions](https://github.com/paulopinheiro1234/hadatac/wiki/5.2.-User-Status,-Categories-and-Access-Permissions)  
