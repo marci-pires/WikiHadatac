@@ -10,7 +10,7 @@ Index
   3.3. [Data Preparation and Ingestion](https://github.com/paulopinheiro1234/hadatac/wiki/3.3.-Data-Preparation-and-Ingestion)  
   3.4. [Metadata Ingest](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest)  
   3.5. [Data Search]()  
-  3.6. [Metadata Browser and Search]()  
+  3.6. [Metadata Browser and Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search)  
   3.7. [API]()  
   3.8. [Data Download]()  
 4. [Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-architecture)  
