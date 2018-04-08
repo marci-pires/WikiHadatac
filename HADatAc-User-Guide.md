@@ -42,9 +42,11 @@ HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage fi
 
 ## 3.2. File Upload
 
-File Upload is used as the first of a two-stage process for feeding content into HADatAc. The second stage is the __content ingestion__ that is described below in Section 3.3. for data files and in Section 3.4. for matadata files. 
+File Upload is used as the first of a two-stage process for feeding content into HADatAc. The second stage is the __content ingestion__ stage that is described below in Section 3.3. for data files and in Section 3.4. for metadata files. 
 
-HADatAc content can be composed of data files (starting with a **DA** prefix) or metadata files (staring with any of the following prefixes: **STD**, **SSD**, **PID**, **SID**, **MAP**, **ACQ**, **OAS**, or **SDD**). [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes how to manually upload any file into HADatAc, making the file locally available for ingestion as described in Section 3.3. for data files and Section 3.4 for metadata files.
+HADatAc content can be composed of data files (starting with a **DA** prefix) or metadata files (files with names starting with any of the following prefixes: **STD**, **SSD**, **PID**, **SID**, **MAP**, **ACQ**, **OAS**, or **SDD**). 
+
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes how to manually upload any file into HADatAc, making the file locally available for content ingestion. 
 
 ## 3.3. Data Preparation and Ingestion
 
