@@ -14,10 +14,6 @@ Use these [installation instructions](https://github.com/paulopinheiro1234/hadat
 
 Use these [installation instructions](https://github.com/paulopinheiro1234/hadatac/wiki/Installing-for-MacOS-(OSX)) to install a development HADatAc on MacOs.
 
-## 1.4. Using Docker
-
-Use these installation instructions to install a virtual machine with a development HADatAc.
-
 ***
 
 # 2. Setting Up HADatAc
