@@ -81,7 +81,7 @@ Metadata stored in HADatAc can be browsed and searched through the app. This sec
 
 ## 3.7. API 
 
-Data and metadata stored in HADAtAc can also be retrieved programmatically. [This section]() describes a list of RESTful services, which compose the __Tetherless World Knowledge Exchange API__. Data visualization frameworks, visual analytical frameworks and dashboards with a back end HADatAc support are expected to use the API to retrieve content from the app.  
+Data and metadata stored in HADAtAc can also be retrieved programmatically. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-API) describes a list of RESTful services, which compose the __Tetherless World Knowledge Exchange API__. Data visualization frameworks, visual analytical frameworks and dashboards with a back end HADatAc support are expected to use the API to retrieve content from the app.  
 
 ## 3.8. Data Download
 
