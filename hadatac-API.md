@@ -67,3 +67,15 @@ Access at /hadatac/api/objectcollections/size/:ocuri
 Given the URI of an ObjectCollection, returns the size of that ObjectCollection. 
 
 NOTE: If the collection is expected to exist but currently contains 0 objects, isSuccessful will return "true" with a body of "0". If no collection exists with that URI, then isSuccessful returns "false".
+
+### Response getMeasurements(studyuri: String, variableuri: String)
+
+Access at /hadatac/api/measurements/:studyuri/:variableuri
+
+Given the URI of the study and variable, returns all relevant measurement values in Solr. Included fields: measurementuri, studyuri, studyobjecturi, variableuri, value, unituri.
+
+### Response getIndicatorTypes()
+
+Access at /hadatac/api/indicators/all
+
+Returns the URIs for all indicator types included in all studies in hadatac.
