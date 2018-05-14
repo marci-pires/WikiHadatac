@@ -20,6 +20,10 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 [This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) provides installation instructions for HADatAc on MacOS (OSX). This DEVELOPMENT installation is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
 
+## 1.4. Deploying on Docker 
+
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) provides deployment instructions for HADatAc on a Docker container. 
+
 ***
 
 # 2. Setting Up HADatAc
