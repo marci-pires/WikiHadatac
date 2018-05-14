@@ -22,7 +22,7 @@ HADatAc can be installed for _development_ purposes, or for _production_ purpose
 
 ## 1.4. Deploying on Docker 
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) provides deployment instructions for HADatAc on a Docker container. 
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.4.-Deploying-on-Docker) provides deployment instructions for HADatAc on a Docker container. 
 
 ***
 
