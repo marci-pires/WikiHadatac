@@ -6,7 +6,7 @@ Index
   1.1. [Installing for Linux (Production)](https://github.com/paulopinheiro1234/hadatac/wiki/1.1.-Installing-for-Linux-(Production))  
   1.2. [Installing for Linux (Development)](https://github.com/paulopinheiro1234/hadatac/wiki/1.2.-Installing-for-Linux-(Developer))  
   1.3. [Installing for MacOS (Development)](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX))  
-  1.4. [Deploying with Docker (Production)](https://github.com/paulopinheiro1234/hadatac/wiki/1.4.-Deploying-on-Docker)  
+  1.4. [Deploying with Docker (Production)](https://github.com/paulopinheiro1234/hadatac/wiki/1.4.-Deploying-with-Docker-(Production))  
 2. [Setting Up](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#2-setting-up-hadatac)  
   2.1. [Software Configuration](https://github.com/paulopinheiro1234/hadatac/wiki/2.1.-Software-Configuration)  
   2.2. [Knowledge Graph Bootstrap](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap)  
