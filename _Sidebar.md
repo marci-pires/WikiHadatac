@@ -30,3 +30,4 @@ Index
   5.3. [Data and Metadata Privacy](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Data-and-Metadata-Privacy)  
 6. [Projects Involving HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#6-projects-involved-with-hadatac)  
 7. [Related Technologies](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#7-other-products-and-technologies-related-to-hadatac) 
+8. [Glossary](https://github.com/paulopinheiro1234/hadatac/wiki/8.-Glossary)
