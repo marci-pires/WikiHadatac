@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/hadatac-logo.png" width="220">
 
-Index
+[User Guide](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide)
 
 1. [Installation](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#1-installing-hadatac)  
    1.1. [Installing for Linux (Production)](https://github.com/paulopinheiro1234/hadatac/wiki/1.1.-Installing-for-Linux-(Production))  
