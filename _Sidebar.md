@@ -23,7 +23,6 @@ Index
 4. [Software Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-software-architecture-and-knowledge-specification)  
    4.1. [Software Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components)   
    4.2. [Knowledge Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-Knowledge-Components)   
-Specification-(OAS))   
 5. [Metadata Files](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files)     
    5.3. [Semantic Study Design (SSD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Semantic-Study-Design-(SSD))     
    5.4. [Semantic Data Dictionary (SDD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Semantic-Data-Dictionary-(SDD))  
