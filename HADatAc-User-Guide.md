@@ -109,7 +109,7 @@ Semantic metadata is used to build the part of HADatA's knowledge graph in suppo
 
 ## 4.5. Object Access Specification (OAS) 
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.3.-Object-Access-Specification-(OAS)) describes Object Access Specifications. 
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.5.-Object-Access-Specification-(OAS)) describes Object Access Specifications. 
 
 ***
 
