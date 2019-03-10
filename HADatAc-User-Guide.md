@@ -113,23 +113,23 @@ Semantic metadata is used to build the part of HADatA's knowledge graph in suppo
 
 ***
 
-# 5. Data Governance
+# 6. Data Governance
 
-## 5.1. Access Network
+## 6.1. Access Network
 
-Communities of data users behind each HADatAc installation have their own rules on who can do what in terms of accessing, using and managing data. HADatAc uses an access network to capture and enforce these rules. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Access-Network) provides the instructions for a HADatAc administrator to build and maintain an access network.
+Communities of data users behind each HADatAc installation have their own rules on who can do what in terms of accessing, using and managing data. HADatAc uses an access network to capture and enforce these rules. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/6.1.-Access-Network) provides the instructions for a HADatAc administrator to build and maintain an access network.
 
-## 5.2. User Status, Categories and Access Permissions
+## 6.2. User Status, Categories and Access Permissions
 
-Different users may have different permissions according to their roles (categories) and their current standing in terms of being registered or not with a HADatAc instance. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/5.2.-User-Status,-Categories-and-Access-Permissions) describes the possible status and categories of users, how they are pre-registered, and how they are granted access permissions.
+Different users may have different permissions according to their roles (categories) and their current standing in terms of being registered or not with a HADatAc instance. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/6.2.-User-Status,-Categories-and-Access-Permissions) describes the possible status and categories of users, how they are pre-registered, and how they are granted access permissions.
 
-## 5.3. Data and Metadata Privacy
+## 6.3. Data and Metadata Privacy
 
-Every data point ingested into HADatAc has an owner. The user who uploaded the data is the owner of the data. The owner is responsible for assigning who can access the data, and can opt to share the data with other HADatAc users and even to make the data publicly available without any access restriction. It is also possible to share the data with _HADatAc users_ restricting data access to anyone who is registered with HADatAc. [This page](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Data-and-Metadata-Privacy) provides the instructions for data owners and administrators to manage access to data.  
+Every data point ingested into HADatAc has an owner. The user who uploaded the data is the owner of the data. The owner is responsible for assigning who can access the data, and can opt to share the data with other HADatAc users and even to make the data publicly available without any access restriction. It is also possible to share the data with _HADatAc users_ restricting data access to anyone who is registered with HADatAc. [This page](https://github.com/paulopinheiro1234/hadatac/wiki/6.3.-Data-and-Metadata-Privacy) provides the instructions for data owners and administrators to manage access to data.  
 
 ***
 
-# 6. Projects Involved With HADatAc
+# 7. Projects Involved With HADatAc
 
 * [The Jefferson Project at Lake George](http://jeffersonproject.rpi.edu/) — "a collaboration between Rensselaer Polytechnic Institute, IBM Research, and The FUND for Lake George—is a sophisticated technological approach to studying fresh water, with a goal of understanding the impact of human activity on fresh water, and how to mitigate those effects."
 
@@ -143,13 +143,15 @@ Every data point ingested into HADatAc has an owner. The user who uploaded the d
 
 *** 
 
-# 7. Other Products and Technologies Related to HADatAc
+# 8. Other Products and Technologies Related to HADatAc
 
-## 7.1. Data Journey (DJ)
+## 8.1. Data Journey (DJ)
 
-## 7.2. MOCCASN
+## 8.2. MOCCASN
 
+# 9. Glossary
 
+Description of main acronyms used in HADatAc.
 
 
 
