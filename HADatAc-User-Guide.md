@@ -100,8 +100,12 @@ HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge
 
 # 5. Metadata Files
 
-[This section] describes the three semantic metadata specifications used to describe a study's data content: Semantic Study Design (SSD), Object Access Specification (OAS), and Semantic Data Dictionary (SDD). 
-
+[This section](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files) describes the five kinds of semantic metadata specifications used to describe a study's data content: 
+* Deployment Description (DPL); 
+* Study Description (STD);
+* Semantic Study Design (SSD); 
+* Semantic Data Dictionary (SDD); and 
+* Object Access Specification (OAS).
 
 ***
 
