@@ -97,19 +97,11 @@ HADatAc is implemented as a web application. [This section](https://github.com/p
 ## 4.2. Knowledge Components
 
 HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge base with many instances of concepts defined in the ontologies, and data values semantically annotated to concepts and their instances. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-Knowledge-Components) describes these core ontologies, how they are organized, and how their concepts are connected. 
-This section describes the three semantic metadata specifications used to describe a study's data content: Semantic Study Design (SSD), Object Access Specification (OAS), and Semantic Data Dictionary (SDD). 
 
-## 4.3. Semantic Study Design (SSD)
+# 5. Metadata Files
 
-Semantic metadata is used to build the part of HADatA's knowledge graph in support of a specific study. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.3.-Semantic-Study-Design-(SSD)) describes Semantic Study Designs. 
+[This section] describes the three semantic metadata specifications used to describe a study's data content: Semantic Study Design (SSD), Object Access Specification (OAS), and Semantic Data Dictionary (SDD). 
 
-## 4.4. Semantic Data Dictionary (SDD)
-
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.4.-Semantic-Data-Dictionary-(SDD)) describes Semantic Data Dictionaries. 
-
-## 4.5. Object Access Specification (OAS) 
-
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.5.-Object-Access-Specification-(OAS)) describes Object Access Specifications. 
 
 ***
 
