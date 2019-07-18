@@ -1,1 +1,1 @@
-This is HADataC.org's Human-Aware Data Collection Framework.
+This is HADatAc.org's Human-Aware Data Acquisition Framework.
