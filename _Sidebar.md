@@ -25,7 +25,7 @@
    4.1. [Software Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components)   
    4.2. [The Human-Aware Science Ontology (HAScO)](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-The-Human-Aware-Science-Ontology-(HAScO))   
 5. [Metadata Files](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files)  
-   5.1. [Deployment File (DPL)](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Deployment-File-(DPL)   
+   5.1. [Deployment File (DPL)](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Deployment-File-(DPL))       
    5.2. [Semantic Study Design (SSD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.2.-Semantic-Study-Design-(SSD))   
    5.3. [Semantic Data Dictionary (SDD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Semantic-Data-Dictionary-(SDD))   
    5.4. [Object Access Specification (OAS)](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Object-Access-Specification-(OAS))       
