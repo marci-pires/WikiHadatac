@@ -40,6 +40,8 @@ HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage fi
 
 A "version" link is available at the bottom of HADatAc's homepage. This link provides information about the current installation including version of the deployed code and properties of the base ontology. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.3.-Config-Verification) provides more details about the information shown in the link.
 
+***
+
 # 3. Using HADatAc
 
 ## 3.1. Initial Page
@@ -100,6 +102,8 @@ HADatAc is implemented as a web application. [This section](https://github.com/p
 
 HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge base with many instances of concepts defined in the ontologies. A collection of foundational ontologies along with the definition of key concepts that are used to align key concepts of the combined vocabulary of these ontologies is embedded into the Human-Aware Science Ontology described in [this section](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-The-Human-Aware-Science-Ontology-(HAScO)).  
 
+***
+
 # 5. Metadata Files
 
 [This section](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files) describes the five kinds of semantic metadata specifications used to describe a study's data content: 
@@ -111,23 +115,27 @@ HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge
 
 ***
 
-# 6. Data Governance
+# 6. Content Evolution
 
-## 6.1. Access Network
+***
+
+# 7. Data Governance
+
+## 7.1. Access Network
 
 Communities of data users behind each HADatAc installation have their own rules on who can do what in terms of accessing, using and managing data. HADatAc uses an access network to capture and enforce these rules. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/6.1.-Access-Network) provides the instructions for a HADatAc administrator to build and maintain an access network.
 
-## 6.2. User Status, Categories and Access Permissions
+## 7.2. User Status, Categories and Access Permissions
 
 Different users may have different permissions according to their roles (categories) and their current standing in terms of being registered or not with a HADatAc instance. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/6.2.-User-Status,-Categories-and-Access-Permissions) describes the possible status and categories of users, how they are pre-registered, and how they are granted access permissions.
 
-## 6.3. Data and Metadata Privacy
+## 7.3. Data and Metadata Privacy
 
 Every data point ingested into HADatAc has an owner. The user who uploaded the data is the owner of the data. The owner is responsible for assigning who can access the data, and can opt to share the data with other HADatAc users and even to make the data publicly available without any access restriction. It is also possible to share the data with _HADatAc users_ restricting data access to anyone who is registered with HADatAc. [This page](https://github.com/paulopinheiro1234/hadatac/wiki/6.3.-Data-and-Metadata-Privacy) provides the instructions for data owners and administrators to manage access to data.  
 
 ***
 
-# 7. Projects Involved With HADatAc
+# 8. Projects Involved With HADatAc
 
 * [The Jefferson Project at Lake George](http://jeffersonproject.rpi.edu/) — "a collaboration between Rensselaer Polytechnic Institute, IBM Research, and The FUND for Lake George—is a sophisticated technological approach to studying fresh water, with a goal of understanding the impact of human activity on fresh water, and how to mitigate those effects."
 
@@ -141,13 +149,15 @@ Every data point ingested into HADatAc has an owner. The user who uploaded the d
 
 *** 
 
-# 8. Other Products and Technologies Related to HADatAc
+# 9. Other Products and Technologies Related to HADatAc
 
-## 8.1. Data Journey (DJ)
+## 9.1. Data Journey (DJ)
 
-## 8.2. MOCCASN
+## 9.2. MOCCASN
 
-# 9. Glossary
+***
+
+# 10. Glossary
 
 Description of main acronyms used in HADatAc.
 
