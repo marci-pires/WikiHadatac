@@ -38,7 +38,7 @@ HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage fi
 
 ## 2.3. Config Verification
 
-A "version" link is available at the bottom of HADatAc's homepage. This link provides information about the current installation including version of the deployed code and properties of the base ontology. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap) provides more details about the information shown in the link.
+A "version" link is available at the bottom of HADatAc's homepage. This link provides information about the current installation including version of the deployed code and properties of the base ontology. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.3.-Config-Verification) provides more details about the information shown in the link.
 
 # 3. Using HADatAc
 
