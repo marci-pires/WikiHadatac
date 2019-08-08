@@ -1,1 +1,1 @@
-This is HADatAc.org's Human-Aware Data Acquisition Framework.
+Copyright (c) 2019, [HADatAc.org](http://hadatac.org)
