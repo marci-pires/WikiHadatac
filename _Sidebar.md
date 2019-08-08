@@ -21,7 +21,7 @@
    3.4. [Metadata Ingest](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest)  
    3.5. [Data Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search)  
         3.5.1. [Data Faceted Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.1-Data-Faceted-Search)  
-        3.5.2. [Data Spatial Search]()   
+        3.5.2. [Data Spatial Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.2.-Data-Spatial-Search)     
    3.6. [Metadata Browser and Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search)  
    3.7. [API](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-API)  
    3.8. [Data Download](https://github.com/paulopinheiro1234/hadatac/wiki/3.8.-Data-Download)  
