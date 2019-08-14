@@ -38,7 +38,7 @@
    5.1. [Deployment File (DPL)](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Deployment-File-(DPL))       
    5.2. [Semantic Study Design (SSD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.2.-Semantic-Study-Design-(SSD))   
    5.3. [Semantic Data Dictionary (SDD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Semantic-Data-Dictionary-(SDD))   
-        5.3.1. [SDD Editor]()   
+        5.3.1. [SDD Editor](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.1.-SDD-Editor)   
         5.3.2. [DD Editor]()   
    5.4. [Object Access Specification (OAS)](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Object-Access-Specification-(OAS))       
 6. [Content Evolution](https://github.com/paulopinheiro1234/hadatac/wiki/6.-Content-Evolution)
