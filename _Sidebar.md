@@ -42,6 +42,7 @@
         5.3.2. [DD Editor](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.2.-Data-Dictionary-Editor)   
    5.4. [Object Access Specification (OAS)](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Object-Access-Specification-(OAS))       
 6. [Content Evolution](https://github.com/paulopinheiro1234/hadatac/wiki/6.-Content-Evolution)  
+   6.1. [Namespace List Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.1.-Namespace-List-Update)
    6.2. [Ontology Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.2.-Ontology-Update)  
 7. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#5-data-governance)  
    7.1. [Access Network](https://github.com/paulopinheiro1234/hadatac/wiki/7.1.-Access-Network)  
