@@ -15,7 +15,7 @@
 3. [Using HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac)  
    3.1. [Initial Page](https://github.com/paulopinheiro1234/hadatac/wiki/3.1.-Initial-Page)  
    3.2. [File Ingestion](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion)      
-        3.2.1. [Manual File Ingestion]()      
+        3.2.1. [Manual File Ingestion](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#321-manual-data-file-ingest)      
         3.2.1. [Automatic File Ingestion]()  
    3.3. [Manage Working Files](https://github.com/paulopinheiro1234/hadatac/wiki/3.3.-Manage-Working-Files)  
    3.4. [Manage Metadata](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest)  
