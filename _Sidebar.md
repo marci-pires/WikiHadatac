@@ -40,7 +40,7 @@
    5.3. [Semantic Data Dictionary (SDD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Semantic-Data-Dictionary-(SDD))   
         5.3.1. [SDD Editor](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.1.-SDD-Editor)   
         5.3.2. [DD Editor](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.2.-Data-Dictionary-Editor)   
-   5.4. [Object Access Specification (OAS)](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Object-Access-Specification-(OAS))       
+   5.4. [Stream Specification (STR)](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Stream-Specification-(STR))       
 6. [Content Evolution](https://github.com/paulopinheiro1234/hadatac/wiki/6.-Content-Evolution)  
    6.1. [Namespace List Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.1.-Namespace-List-Update)   
    6.2. [Ontology Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.2.-Ontology-Update)  
