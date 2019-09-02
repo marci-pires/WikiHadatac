@@ -8,13 +8,11 @@ We strongly recommend starting with a development version of HADatAc that can ru
 
 ## Setting Up HADatAc
 
-## Software Configuration
-
 Correct configuration is required for HADatAc to access its repositories, the ontology repository, to connect to users through email, to adjust to operating system requirements, etc. [Section 2.1.](https://github.com/paulopinheiro1234/hadatac/wiki/2.1.-Software-Configuration) describes the many configuration files of HADatAc and how they may be used.
 
-## Knowledge Graph Bootstrap
+HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage files and their content. [Section 2.2.](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap) describes the KG's boostrapping process required to initiate the KG. 
 
-HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage files and their content. [Section 2.2.](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap) describes the KG's boostrapping process required to initiate the KG. HADatAc should be ready to be used after its software components have been installed (Section 1), the main software components has been configured (Section 2.1), and its knowledge graph has been bootstrapped (Section 2.2).
+HADatAc should be ready to be used after its software components have been installed, the main software components has been configured, and its knowledge graph has been bootstrapped.
 
 ***
 
