@@ -1,6 +1,6 @@
 # Getting Started
 
-This page provides a set of instruction and links on how to use HADatAc once the infrastructure. This set of instructions progress from installing and setting up the infrastructure to understanding its initial page, to uploading data and metadata, to searching the data, and to eventually selecting and downloading the data. 
+This page provides a set of instruction and links on how to use HADatAc once the infrastructure is operational. This set of instructions progress from installing and setting up the infrastructure to understanding its initial page, to submitting data and metadata for ingestion, to searching the data, and to eventually selecting and downloading data and metadata. 
 
 ## Installing HADatAc
 
