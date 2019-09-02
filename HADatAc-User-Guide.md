@@ -42,90 +42,39 @@ A "version" link is available at the bottom of HADatAc's homepage. This link pro
 
 ***
 
-# 3. Using HADatAc
+# Using HADatAc
 
-## 3.1. Initial Page
+## Getting Data and Metadata In
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.1.-Initial-Page) describes the organization and functionalities available on its main page.
+Data files (i.e., files starting with a **DA-** prefix), data messages (i.e., broadcasted over the web through an IP adress), and metadata files (files with names starting with any of the following prefixes: **DPL**, **STD**, **SSD**, **SDD** or **STR**) are used to fed content inside HADatAc. [Section 3.2.](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes a basic way of manually submit files for ingestion. 
 
-## 3.2. File Upload
+## Searching and Browsing the Knowledge Graph
 
-File Upload is used as the first of a two-stage process for feeding content into HADatAc. The second stage is the __content ingestion__ stage that is described below in Section 3.3. for data files and in Section 3.4. for metadata files. 
+HADatAc's data faceted search is a main mechanism to inspect the actual overall content of the infrastructure, and of selecting this content across studies and instruments. [Section 3.5.](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search) describes how to understand available content, and to select the content for eventual downloads.
 
-HADatAc content can be composed of data files (starting with a **DA** prefix) or metadata files (files with names starting with any of the following prefixes: **STD**, **SSD**, **PID**, **SID**, **MAP**, **ACQ**, **OAS**, or **SDD**). 
+Metadata stored in HADatAc can be browsed and searched through the app. [Section 3.6.](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search) describes these capabilities. 
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes how to manually upload any file into HADatAc, making the file locally available for content ingestion. 
+## Getting Data and Metadata Out
 
-## 3.3. Data Preparation and Ingestion
+At any moment during the use of a faceted search, users are allowed to download the content related to the current search. [Section 3.8.](https://github.com/paulopinheiro1234/hadatac/wiki/3.8.-Data-Download) describes the many options on how to download the data selected under the current search.
 
-Once data files are uploaded into HADatAc, they are going to stay in the unprocessed folder of HADatAc until the application has information enough to ingest the file's content (i.e., parse, annotate and copy the file's content into appropriate data and metadata repositories). [This section]() describes how to manually provide HADatAc the information needed for the application to be able to ingest the file's content.
+Data and metadata stored in HADAtAc can also be retrieved programmatically. [Section 3.7.](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-API) describes a list of RESTful services. Data visualization frameworks, visual analytical frameworks and dashboards with a back end HADatAc support are expected to use the API to retrieve content from the app.  
 
-For automated preparation of data file's ingestion, please consider the use of the OAS metadata file described in Section 3.4.2.
+## Further reading: 
 
-## 3.4. Metadata Ingest
+### Software Architecture and Knowledge Specification
 
-Metadata content is added into HADatAc through the use of online forms or through the uploading and ingestion of content files. Content files can further be added manually or automatically.  
+HADatAc is implemented as a web application. [Section 4.1.](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components) describe how the main website is built in terms of software components. The section also describe what data repositories are used for managing data and metadata content, and what infrastructure(s) is/are used to manage evolving ontologies.  
 
-### 3.4.1. Inserting Metadata Content Manually
+HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge base with many instances of concepts defined in the ontologies. A collection of foundational ontologies along with the definition of key concepts that are used to align key concepts of the combined vocabulary of these ontologies is embedded into the Human-Aware Science Ontology described in [Section 4.2.](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-The-Human-Aware-Science-Ontology-(HAScO)).  
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest#341-inserting-metadata-content-manually) describes how to use on-line forms to add/edit metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries.
+### Metadata Files
 
-### 3.4.2. inserting Metadata Content Automatically
-
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest#342-inserting-metadata-content-automatically) describes how to construct and submit templates to add metadata content into HADatAc including description of studies, study objects, semantic study designs and semantic data dictionaries. These templates are used in lieu of on-line forms since they can be automatically fed and processed into HADatAc. 
-
-## 3.5. Data Search
-
-HADatAc's data faceted search is the mechanism to understand at harmonized value-level, what is the actual overall content of the framework, and of selecting this content across studies and instruments. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search) describes how to understand available content, and to select the content for eventual downloads.
-
-## 3.6. Metadata Browser and Search
-
-Metadata stored in HADatAc can be browsed and searched through the app. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search) describes these capabilities in detail. 
-
-## 3.7. API 
-
-Data and metadata stored in HADAtAc can also be retrieved programmatically. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-API) describes a list of RESTful services, which compose the __Tetherless World Knowledge Exchange API__. Data visualization frameworks, visual analytical frameworks and dashboards with a back end HADatAc support are expected to use the API to retrieve content from the app.  
-
-## 3.8. Data Download
-
-At any moment during the use of a faceted search, users are allowed to download the content related to the current search. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/3.8.-Data-Download) describes the many options on how to download the data selected under the current search.
-
-***
-
-# 4. Software Architecture and Knowledge Specification
-
-## 4.1. Software Components
-
-HADatAc is implemented as a web application. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components) describe how the main website is built in terms of software components. The section also describe what data repositories are used for managing data and metadata content, and what infrastructure(s) is/are used to manage evolving ontologies.  
-
-## 4.2. The Human Aware Science Ontology (HAScO)
-
-HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge base with many instances of concepts defined in the ontologies. A collection of foundational ontologies along with the definition of key concepts that are used to align key concepts of the combined vocabulary of these ontologies is embedded into the Human-Aware Science Ontology described in [this section](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-The-Human-Aware-Science-Ontology-(HAScO)).  
-
-***
-
-# 5. Metadata Files
-
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files) describes the five kinds of semantic metadata specifications used to describe a study's data content: 
+[Section 5](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files) describes the five kinds of semantic metadata specifications used to describe a study's data content: 
 * Deployment Description (DPL); 
 * Study Description (STD);
 * Semantic Study Design (SSD); 
 * Semantic Data Dictionary (SDD); and 
-* Object Access Specification (OAS).
-
-***
-
-# 6. Content Evolution
-
-***
-
-
-
-# 9. Other Products and Technologies Related to HADatAc
-
-## 9.1. Data Journey (DJ)
-
-## 9.2. MOCCASN
-
+* Stream Specification (STR).
 
 
