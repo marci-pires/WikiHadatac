@@ -22,6 +22,10 @@ HADatAc should be ready to be used after its software components have been insta
 
 Data files (i.e., files starting with a **DA-** prefix), data messages (i.e., broadcasted over the web through an IP adress), and metadata files (files with names starting with any of the following prefixes: **DPL**, **STD**, **SSD**, **SDD** or **STR**) are used to fed content inside HADatAc. [Section 3.2.](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-File-Upload) describes a basic way of manually submit files for ingestion. 
 
+As already described above, there are many distinct types of content that can be submitted for ingestion into HADatAc. However, when submitting content for ingestion, the content needs to follow a partial order of file types specified in the __ingestion workflow__, which is described in [Section 3.4.](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest).
+
+Once study content has been ingested into the knowledge graph, the infrastructure can be use to search and browse the content of the knowledge graph as described in the next section.
+
 ## Searching and Browsing the Knowledge Graph
 
 HADatAc's data faceted search is a main mechanism to inspect the actual overall content of the infrastructure, and of selecting this content across studies and instruments. [Section 3.5.](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search) describes how to understand available content, and to select the content for eventual downloads.
