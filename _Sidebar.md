@@ -33,7 +33,7 @@
         3.5.1. [Data Faceted Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.1-Data-Faceted-Search)  
         3.5.2. [Data Spatial Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.2.-Data-Spatial-Search)     
    3.6. [Metadata Browser and Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search)  
-   3.7. [Knowledge Graph Browser]()  
+   3.7. [Knowledge Graph Browser](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-Knowledge-Graph-Browser)  
    3.8. [API](https://github.com/paulopinheiro1234/hadatac/wiki/3.8.-API)  
    3.9. [Data Download](https://github.com/paulopinheiro1234/hadatac/wiki/3.9.-Data-Download)  
 4. [Software Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-software-architecture-and-knowledge-specification)  
