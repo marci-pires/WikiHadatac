@@ -50,7 +50,7 @@
    6.1. [Namespace List Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.1.-Namespace-List-Update)   
    6.2. [Ontology Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.2.-Ontology-Update)  
    6.5. [SDD Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.5.-SDD-Update)   
-7. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#5-data-governance)  
+7. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#7-data-governance)  
    7.1. [Access Network](https://github.com/paulopinheiro1234/hadatac/wiki/7.1.-Access-Network)  
    7.2. [User Status, Categories and Access Permissions](https://github.com/paulopinheiro1234/hadatac/wiki/7.2.-User-Status,-Categories-and-Access-Permissions)  
    7.3. [Data and Metadata Privacy](https://github.com/paulopinheiro1234/hadatac/wiki/7.3.-Data-and-Metadata-Privacy)  
