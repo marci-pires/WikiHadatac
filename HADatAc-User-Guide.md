@@ -28,7 +28,7 @@ Once study content has been ingested into the knowledge graph, the infrastructur
 
 ## Searching and Browsing the Knowledge Graph
 
-HADatAc's data faceted search is a main mechanism to inspect the actual overall content of the infrastructure, and of selecting this content across studies and instruments. [Section 3.5.](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search) describes how to understand available content, and to select the content for eventual downloads. Data faceted search is described in [Section 3.5.1.](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.1-Data-Faceted-Search). Data spatial search is also available when ingested data is semantically annotated with spatial properties. Data spatial search is described in [Section]().  
+HADatAc's data faceted search is a main mechanism to inspect the actual overall content of the infrastructure, and of selecting this content across studies and instruments. [Section 3.5.](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search) describes how to understand available content, and to select the content for eventual downloads. Data faceted search is described in [Section 3.5.1.](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.1-Data-Faceted-Search). Data spatial search is also available when ingested data is semantically annotated with spatial properties. Data spatial search is described in [Section 3.5.2.](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.2.-Data-Spatial-Search).  
 
 Metadata stored in HADatAc can be browsed and searched through the app. [Section 3.6.](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search) describes these capabilities. 
 
