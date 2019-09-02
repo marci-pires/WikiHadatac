@@ -1,6 +1,6 @@
 # Getting Started
 
-[Section 3](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac) provides a set instruction on how to use HADatAc once the infrastructure is ready to use. This set of instructions progress from understanding its initial page to uploading data and metadata to searching the data to eventually selecting and downloading the data. But before one can actually use the app, one needs to install HADatAc, according to [Section 1](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#1-installing-hadatac), and set it up, according to [Section 2](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#2-setting-up-hadatac).
+This page provides a set of instruction and links on how to use HADatAc once the infrastructure. This set of instructions progress from installing and setting up the infrastructure to understanding its initial page, to uploading data and metadata, to searching the data, and to eventually selecting and downloading the data. 
 
 ## Installing HADatAc
 
