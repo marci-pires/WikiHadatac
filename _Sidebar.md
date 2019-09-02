@@ -12,7 +12,7 @@
    2.1. [Software Configuration](https://github.com/paulopinheiro1234/hadatac/wiki/2.1.-Software-Configuration)  
    2.2. [Knowledge Graph Bootstrap](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap)   
         2.2.1. [Knowledge Graph](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap#221-hadatac-knowledge-graph-kg)   
-        2.2.2. [Bootstrap without Labkey]()   
+        2.2.2. [Bootstrap without Labkey](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap#222-bootstrap-without-labkey)   
         2.2.3. [Bootstrap with Labkey]()   
    2.3. [Config Verification](https://github.com/paulopinheiro1234/hadatac/wiki/2.3.-Config-Verification)  
 3. [Using HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac)  
