@@ -4,41 +4,41 @@
 
 We strongly recommend starting with a development version of HADatAc that can run on either [Linux](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#12-on-linux-development) or [MacOS](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#13-on-macos-development).
 
-# 1. Installing HADatAc 
+# Installing HADatAc 
 
 HADatAc can be installed for _development_ purposes, or for _production_ purposes. When installed for development, HADatAc does not require the setting of an email service since just one user with full access to the system is created. When installed for production, HADatAc requires access to an email service so that new users and access levels can be created and users can be authenticated through an email verification process.
 
-## 1.1. On Linux (Production) <img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/linux.jpeg" width="38">
+## On Linux (Production) <img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/linux.jpeg" width="38">
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.1.-Installing-for-Linux-(Production)) provides the installation instructions for HADatAc on Linux. This PRODUCTION installation is based on a distribution package and requires comprehensive configuration of the app including connection to an emailer. Production installation is required when the installation is expected to be **used by multiple users**, and the app is **regularly upgraded** by an upgrade script.
+[Section 1.1.](https://github.com/paulopinheiro1234/hadatac/wiki/1.1.-Installing-for-Linux-(Production)) provides the installation instructions for HADatAc on Linux. This PRODUCTION installation is based on a distribution package and requires comprehensive configuration of the app including connection to an emailer. Production installation is required when the installation is expected to be **used by multiple users**, and the app is **regularly upgraded** by an upgrade script.
 
-## 1.2. On Linux (Development) <img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/linux.jpeg" width="42">
+## On Linux (Development) <img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/linux.jpeg" width="42">
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.2.-Installing-for-Linux-(Developer)) provides installation instructions for HADatAc on Linux. This DEVELOPMENT installation is much simpler than the production installation but is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
+[Section 1.2.](https://github.com/paulopinheiro1234/hadatac/wiki/1.2.-Installing-for-Linux-(Developer)) provides installation instructions for HADatAc on Linux. This DEVELOPMENT installation is much simpler than the production installation but is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
 
-## 1.3. On MacOS (Development) <img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/macos.png" width="38">
+## On MacOS (Development) <img src="https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/Sec1/macos.png" width="38">
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) provides installation instructions for HADatAc on MacOS (OSX). This DEVELOPMENT installation is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
+[Section 1.3.](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX)) provides installation instructions for HADatAc on MacOS (OSX). This DEVELOPMENT installation is designed to allow just one main user to use the system. In this version, you work from a folder in your local filesystem that is connected to git.  
 
-## 1.4. Deploying on Docker 
+## Deploying on Docker 
 
-[This section](https://github.com/paulopinheiro1234/hadatac/wiki/1.4.-Deploying-on-Docker) provides deployment instructions for HADatAc on a Docker container. 
+[Section 1.4.](https://github.com/paulopinheiro1234/hadatac/wiki/1.4.-Deploying-on-Docker) provides deployment instructions for HADatAc on a Docker container. 
 
 ***
 
-# 2. Setting Up HADatAc
+# Setting Up HADatAc
 
-## 2.1. Software Configuration
+## Software Configuration
 
-Correct configuration is required for HADatAc to access its repositories, the ontology repository, to connect to users through email, to adjust to operating system requirements, etc. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.1.-Software-Configuration) describes the many configuration files of HADatAc and how they may be used.
+Correct configuration is required for HADatAc to access its repositories, the ontology repository, to connect to users through email, to adjust to operating system requirements, etc. [Section 2.1.](https://github.com/paulopinheiro1234/hadatac/wiki/2.1.-Software-Configuration) describes the many configuration files of HADatAc and how they may be used.
 
-## 2.2. Knowledge Graph Bootstrap
+## Knowledge Graph Bootstrap
 
-HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage files and their content. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap) describes the KG's boostrapping process required to initiate the KG. HADatAc should be ready to be used after its software components have been installed (Section 1), the main software components has been configured (Section 2.1), and its knowledge graph has been bootstrapped (Section 2.2).
+HADatAc's Knowledge Graph (KG) is the main element allowing the app to manage files and their content. [Section 2.2.](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap) describes the KG's boostrapping process required to initiate the KG. HADatAc should be ready to be used after its software components have been installed (Section 1), the main software components has been configured (Section 2.1), and its knowledge graph has been bootstrapped (Section 2.2).
 
-## 2.3. Config Verification
+## Config Verification
 
-A "version" link is available at the bottom of HADatAc's homepage. This link provides information about the current installation including version of the deployed code and properties of the base ontology. [This section](https://github.com/paulopinheiro1234/hadatac/wiki/2.3.-Config-Verification) provides more details about the information shown in the link.
+A "version" link is available at the bottom of HADatAc's homepage. This link provides information about the current installation including version of the deployed code and properties of the base ontology. [Section 2.3.](https://github.com/paulopinheiro1234/hadatac/wiki/2.3.-Config-Verification) provides more details about the information shown in the link.
 
 ***
 
