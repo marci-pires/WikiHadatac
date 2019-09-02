@@ -32,7 +32,7 @@ HADatAc's data faceted search is a main mechanism to inspect the actual overall 
 
 Metadata stored in HADatAc can be browsed and searched through the app. [Section 3.6.](https://github.com/paulopinheiro1234/hadatac/wiki/3.6.-Metadata-Browser-and-Search) describes these capabilities. 
 
-The actual knowledge graph of the infrastructure can be graphically inspected using the Browse Knowledge Graph capability described in [Section](). 
+The actual knowledge graph of the infrastructure can be graphically inspected using the Browse Knowledge Graph capability described in [Section 3.7.](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-Knowledge-Graph-Browser). 
 
 ## Getting Data and Metadata Out
 
