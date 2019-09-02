@@ -54,6 +54,6 @@
    7.1. [Access Network](https://github.com/paulopinheiro1234/hadatac/wiki/7.1.-Access-Network)  
    7.2. [User Status, Categories and Access Permissions](https://github.com/paulopinheiro1234/hadatac/wiki/7.2.-User-Status,-Categories-and-Access-Permissions)  
    7.3. [Data and Metadata Privacy](https://github.com/paulopinheiro1234/hadatac/wiki/7.3.-Data-and-Metadata-Privacy)  
-8. [Projects Involving HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#8-projects-involved-with-hadatac)  
+8. [HADatAc-Supported Projects](https://github.com/paulopinheiro1234/hadatac/wiki/8.-HADatAc-Supported-Projects)  
 9. [Related Technologies](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#9-other-products-and-technologies-related-to-hadatac) 
 10. [Glossary](https://github.com/paulopinheiro1234/hadatac/wiki/10.-Glossary)
