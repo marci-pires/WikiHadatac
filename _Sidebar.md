@@ -21,7 +21,7 @@
    3.4. [Manage Metadata](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest)  
         3.4.1. [Manage Instrument Infrastructure](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.1.-Manage-Instrument-Infarstructure)  
         3.4.2. [Manage Deployments](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.2.-Manage-Deployments)  
-        3.4.3. [Manage Streams]()  
+        3.4.3. [Manage Streams](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.3.-Manage-Streams)  
         3.4.4. [Manage Data Dictionaries]()  
         3.4.5. [Manage Indicators]()  
    3.5. [Data Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search)  
