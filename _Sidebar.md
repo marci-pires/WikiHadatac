@@ -44,7 +44,7 @@
 5. [Metadata Files](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files)  
    5.1. [Deployment File (DPL)](https://github.com/paulopinheiro1234/hadatac/wiki/5.1.-Deployment-File-(DPL))       
    5.2. [Study File (STD)]()   
-   5.3. [Semantic Study Design (SSD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.2.-Semantic-Study-Design-(SSD))   
+   5.3. [Semantic Study Design (SSD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Semantic-Study-Design-(SSD))   
    5.4. [Semantic Data Dictionary (SDD)](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Semantic-Data-Dictionary-(SDD))   
    5.5. [Stream Specification (STR)](https://github.com/paulopinheiro1234/hadatac/wiki/5.5.-Stream-Specification-(STR))       
 6. [Content Evolution](https://github.com/paulopinheiro1234/hadatac/wiki/6.-Content-Evolution)  
