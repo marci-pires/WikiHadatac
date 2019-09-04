@@ -48,7 +48,7 @@ Data and metadata stored in HADAtAc can also be retrieved programmatically. [Sec
 
 HADatAc is implemented as a web application. [Section 4.1.](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components) describe how the main website is built in terms of software components. The section also describe what data repositories are used for managing data and metadata content, and what infrastructure(s) is/are used to manage evolving ontologies.  
 
-HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge base with many instances of concepts defined in the ontologies. A collection of foundational ontologies along with the definition of key concepts that are used to align key concepts of the combined vocabulary of these ontologies is embedded into the Human-Aware Science Ontology described in [Section 4.2.](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-The-Human-Aware-Science-Ontology-(HAScO)).  
+HADatAc's knowledge graph is composed by a collection of ontologies, a knowledge base with many instances of concepts defined in the ontologies. A collection of foundational ontologies along with the definition of key concepts that are used to align key concepts of the combined vocabulary of these ontologies is embedded into the Human-Aware Science Ontology described in [Section 4.2.](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-The-Human-Aware-Science-Ontology-(HAScO))  
 
 ## Metadata Files
 
