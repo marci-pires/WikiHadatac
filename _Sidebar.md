@@ -30,7 +30,7 @@
         3.4.3. [Manage Studies](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.3.-Manage-Studies)   
         3.4.4. [Manage Object Collections]()   
         3.4.5. [Manage Streams](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.5.-Manage-Streams)  
-        3.4.6. [Manage Semantic Data Dictionaries]()  
+        3.4.6. [Manage Semantic Data Dictionaries](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.6.-Manage-Semantic-Data-Dictionaries)  
         3.4.7. [Manage Indicators]()  
    3.5. [Data Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.-Data-Search)  
         3.5.1. [Data Faceted Search](https://github.com/paulopinheiro1234/hadatac/wiki/3.5.1-Data-Faceted-Search)  
