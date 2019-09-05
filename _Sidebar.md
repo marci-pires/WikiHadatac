@@ -54,8 +54,8 @@
 6. [Content Evolution](https://github.com/paulopinheiro1234/hadatac/wiki/6.-Content-Evolution)  
    6.1. [Namespace List Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.1.-Namespace-List-Update)   
    6.2. [Ontology Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.2.-Ontology-Update)
-   6.3. [DPL Update]
-   6.4. [SSD Update]  
+   6.3. [DPL Update]    
+   6.4. [SSD Update]   
    6.5. [SDD Update](https://github.com/paulopinheiro1234/hadatac/wiki/6.5.-SDD-Update)   
 7. [Data Governance](https://github.com/paulopinheiro1234/hadatac/wiki/7.-Data-Governance)  
    7.1. [Access Network](https://github.com/paulopinheiro1234/hadatac/wiki/7.1.-Access-Network)  
