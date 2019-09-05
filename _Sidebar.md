@@ -24,7 +24,7 @@
         3.2.2. [Automatic Submission of Files](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#322-automatic-submission-of-data-file-for-ingestion)  
         3.2.3. [Data File Operations](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#323-data-file-operations)
    3.3. [Manage Working Files](https://github.com/paulopinheiro1234/hadatac/wiki/3.3.-Manage-Working-Files) 
-        3.3.1. [Create Empty Semantic File from Template]()    
+        3.3.1. [Create Empty Semantic File from Template]    
         3.3.2. [SDD Editor](https://github.com/paulopinheiro1234/hadatac/wiki/3.3.2.-SDD-Editor)   
         3.3.3. [DD Editor](https://github.com/paulopinheiro1234/hadatac/wiki/3.3.3.-Data-Dictionary-Editor)   
    3.4. [Manage Metadata](https://github.com/paulopinheiro1234/hadatac/wiki/3.4.-Metadata-Ingest)  
