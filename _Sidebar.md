@@ -42,7 +42,7 @@
    3.7. [Knowledge Graph Browser](https://github.com/paulopinheiro1234/hadatac/wiki/3.7.-Knowledge-Graph-Browser)  
    3.8. [API](https://github.com/paulopinheiro1234/hadatac/wiki/3.8.-API)  
    3.9. [Data Download](https://github.com/paulopinheiro1234/hadatac/wiki/3.9.-Data-Download)  
-4. [Software Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#4-software-architecture-and-knowledge-specification)  
+4. [Software Architecture](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#software-architecture-and-knowledge-specification)  
    4.1. [Software Components](https://github.com/paulopinheiro1234/hadatac/wiki/4.1.-Software-Components)   
    4.2. [The Human-Aware Science Ontology (HAScO)](https://github.com/paulopinheiro1234/hadatac/wiki/4.2.-The-Human-Aware-Science-Ontology-(HAScO))   
 5. [Metadata Files](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files)  
