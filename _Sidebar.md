@@ -19,6 +19,8 @@
    2.3. [Config Verification](https://github.com/paulopinheiro1234/hadatac/wiki/2.3.-Config-Verification)  
 3. [Using HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#3-using-hadatac)  
    3.1. [Initial Page](https://github.com/paulopinheiro1234/hadatac/wiki/3.1.-Initial-Page)  
+        3.1.1. [Home]()   
+        3.1.2. [Sandbox Mode]()   
    3.2. [File Ingestion](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion)      
         3.2.1. [Manual Submission of Files](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#321-manual-submission-of-data-file-for-ingestion)      
         3.2.2. [Automatic Submission of Files](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#322-automatic-submission-of-data-file-for-ingestion)  
