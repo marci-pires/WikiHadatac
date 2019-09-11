@@ -2,6 +2,13 @@
 
 ### Learning Outcomes:
 
+* Install and setup HADatAc in development
+* Bootstrap knowledge graph
+* Submit study data/metadata into HADatAc
+* Search data
+* Download data
+* Using the API
+
 ### Target Audience:
 
 * Data User
