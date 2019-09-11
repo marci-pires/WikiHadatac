@@ -2,6 +2,12 @@
 
 ### Learning Outcomes:
 
+### Target Audience:
+
+* Data User
+* Data Owner
+* Project manager
+
 ### Module Script: 
 
 ### Resources: 
@@ -10,9 +16,19 @@
 
 ### Learning Outcomes:
 
+### Target Audience:
+
+* Data Owner
+* Project Manager
+
 ### Module Script:
 
 ## Module 3 - Ingesting the Data/Metadata from your second own study
+
+### Target Audience:
+
+* Data Owner
+* Project Manager
 
 ### Learning Outcomes:
 
