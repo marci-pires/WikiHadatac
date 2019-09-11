@@ -28,6 +28,14 @@
 
 ### Learning Outcomes:
 
+* Build a namespace.properties
+* Register instruments
+* Create and manage deployments and streams
+* Create studies
+* Create semantic study designs
+* Understand data dictionaries including code books
+* Derive semantic data dictionaries from data dictionaries
+
 ### Target Audience:
 
 * Data Owner
