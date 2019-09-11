@@ -24,7 +24,9 @@
 
 ## Module 2 - Getting Your First Study In
 
-### Short Description: - Ingesting the Data/Metadata from your own study
+### Short Description:
+
+* Ingesting the Data/Metadata from your own study
 
 ### Learning Outcomes:
 
@@ -45,7 +47,9 @@
 
 ## Module 3 - Getting All Your Studies In
 
-### Short Description: Ingesting the Data/Metadata from your second own study
+### Short Description
+
+* Ingesting the Data/Metadata from your second own study
 
 ### Target Audience:
 
