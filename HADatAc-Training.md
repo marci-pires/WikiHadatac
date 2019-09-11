@@ -54,5 +54,10 @@
 
 ### Learning Outcomes:
 
+* Manage users including authentication
+* Manage repositories
+* Use HADatAc sandbox mode
+* Evolve existing knowledge graph
+
 ### Module Script:
 
