@@ -1,7 +1,7 @@
 ## Module 1 - Get HADatAc Up and Running
 
 ### Short Description: 
-*  Use data/metadata from provided study
+*  Learn how to use data/metadata from a provided study
 
 ### Learning Outcomes:
 
