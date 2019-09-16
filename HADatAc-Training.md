@@ -1,4 +1,4 @@
-## Module 1 - Get HADatAc Up and Running
+# Module 1 - Get HADatAc Up and Running
 
 ### Short Description: 
 *  Use data/metadata from provided study
