@@ -10,7 +10,7 @@
    1.5. [Deploying with Docker (Development)](https://github.com/paulopinheiro1234/hadatac/wiki/1.5.-Deploying-with-Docker-(Development))  
    1.6. [Installing for Vagrant under Windows]()   
    1.7. [Upgrading](https://github.com/paulopinheiro1234/hadatac/wiki/1.7.-Upgrading)  
-   1.8. [Starting HADatAc]()   
+   1.8. [Starting HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/Restarting-Hadatac-After-Install)   
    1.9. [Stopping HADatAc]()   
 2. [Setting Up](https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#2-setting-up-hadatac)  
    2.1. [Software Configuration](https://github.com/paulopinheiro1234/hadatac/wiki/2.1.-Software-Configuration)  
