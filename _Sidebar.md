@@ -8,7 +8,7 @@
    1.3. [Installing for MacOS (Development)](https://github.com/paulopinheiro1234/hadatac/wiki/1.3.-Installing-for-MacOS-(OSX))  
    1.4. [Deploying with Docker (Production)](https://github.com/paulopinheiro1234/hadatac/wiki/1.4.-Deploying-with-Docker-(Production))  
    1.5. [Deploying with Docker (Development)](https://github.com/paulopinheiro1234/hadatac/wiki/1.5.-Deploying-with-Docker-(Development))  
-   1.6. [Installing for Vagrant under Windows]()   
+   1.6. [Installing for Vagrant under Windows](https://github.com/paulopinheiro1234/hadatac/wiki/Installing-HADATAC-for-Windows-Using-Vagrant)   
    1.7. [Upgrading](https://github.com/paulopinheiro1234/hadatac/wiki/1.7.-Upgrading)  
    1.8. [Starting HADatAc](https://github.com/paulopinheiro1234/hadatac/wiki/Restarting-Hadatac-After-Install)   
    1.9. [Stopping HADatAc]()   
