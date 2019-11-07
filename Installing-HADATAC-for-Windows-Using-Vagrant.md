@@ -36,6 +36,8 @@ cd hadatacVM
 To Create the config file of VM of Ubuntu 16.04LTS, run in console:
 `vagrant init ubuntu/xenial64`
 
+Run `curl https://raw.githubusercontent.com/paulopinheiro1234/hadatac/master/Vagrantfile > Vagrantfile` in the command line to get the modified vagrant file needed for compatibility with HADATAC.
+
 Next, go back to console, navigate to the VM Directory, and run:
 `vagrant up`
 
