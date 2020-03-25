@@ -24,7 +24,7 @@
         3.1.1. [Home Button](https://github.com/paulopinheiro1234/hadatac/wiki/3.1.-Initial-Page#311-hadatac-home)   
         3.1.2. [Sandbox Mode Button](https://github.com/paulopinheiro1234/hadatac/wiki/3.1.-Initial-Page#312-sandbox-mode)   
    3.2. [File Ingestion](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion)      
-        3.2.1. [Ingesting Study Content]
+        3.2.1. [Ingesting Study Content]   
         3.2.2. [Manual Submission of Files](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#321-manual-submission-of-data-file-for-ingestion)      
         3.2.3. [Automatic Submission of Files](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#322-automatic-submission-of-data-file-for-ingestion)  
         3.2.4. [Data File Operations](https://github.com/paulopinheiro1234/hadatac/wiki/3.2.-Manage-Data-File-Ingestion#323-data-file-operations)    
