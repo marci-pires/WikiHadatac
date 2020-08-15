@@ -17,7 +17,6 @@
 * [3.7.-Knowledge-Graph-Browser](3.7.-knowledge-graph-browser.md)
 * [3.8.-API](3.8.-api.md)
 * [5.5.-Stream-Specification-\(STR\)](5.5.-stream-specification-str.md)
-* [9.-Derived-Products-and-Technologies](9.-derived-products-and-technologies.md)
 * [6.5.-SDD-Update](6.5.-sdd-update.md)
 * [7.1.-Access-Network](7.1.-access-network.md)
 * [5.4.-Semantic-Data-Dictionary-\(SDD\)](5.4.-semantic-data-dictionary-sdd.md)
@@ -70,4 +69,5 @@
 * [1.5.-Deploying-with-Docker-\(Development\)](1.5.-deploying-with-docker-development.md)
 * [3.6.-Metadata-Browser-and-Search](3.6.-metadata-browser-and-search.md)
 * [4.1.-Software-Components](4.1.-software-components.md)
+* [9.-Derived-Products-and-Technologies](9.-derived-products-and-technologies.md)
 
