@@ -75,6 +75,5 @@
   * [\[OLD 2015\]HADatAc-User-Guide:-Parsing-a-Static-Metadata-Spreadsheet](old/hadatac-user-guide-parsing-a-static-metadata-spreadsheet.md)
   * [\[OLD\] Human-Aware-Data-Acquisition-\(HADatAc\)-Framework](old/human-aware-data-acquisition-hadatac-framework-old.md)
   * [\[OLD 2015\]Metadata-Quality-Heuristics](old/metadata-quality-heuristics.md)
-* [HADatAc-Training](hadatac-training.md)
 * [Installing-HADATAC-for-Windows-Using-Vagrant](installing-hadatac-for-windows-using-vagrant.md)
 
