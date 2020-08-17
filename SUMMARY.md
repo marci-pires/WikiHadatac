@@ -67,7 +67,6 @@
 * [9. Derived Products and Technologies](9.-derived-products-and-technologies.md)
 * [10. Glossary](10.-glossary.md)
 * [Managing-\(or-ingesting\)-Data-Files-in-HADatAc](managing-or-ingesting-data-files-in-hadatac.md)
-* [\_Footer](_footer.md)
 * [Metadata-Quality-Heuristics](metadata-quality-heuristics.md)
 * [HADatAc-User-Guide:-Static-Metadata-Spreadsheet](hadatac-user-guide-static-metadata-spreadsheet.md)
 * [HADatAc-User-Guide:--Data-Management](hadatac-user-guide-data-management.md)
