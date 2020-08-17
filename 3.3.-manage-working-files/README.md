@@ -8,7 +8,7 @@ The working file has a single folder hierarchy where users are allowed from any 
 
 ## Generic Operations
 
-* **Blank Metadata File** is described in [Section 3.3.1](3.3.-manage-working-files.md)    
+* **Blank Metadata File** is described in [Section 3.3.1](./)    
 * **Create Folder**
 * **Delete Current Folder**
 
