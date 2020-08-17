@@ -69,6 +69,7 @@
 * [8. HADatAc Supported Projects](8.-hadatac-supported-projects.md)
 * [9. Derived Products and Technologies](9.-derived-products-and-technologies.md)
 * [10. Glossary](10.-glossary.md)
+* [11. TESTING](11.-testing.md)
 * [\[OLD\]](old/README.md)
   * [\[OLD 2015\]HADatAc-User-Guide:-Static-Metadata-Spreadsheet](old/hadatac-user-guide-static-metadata-spreadsheet.md)
   * [\[OLD 2015\] - HADatAc-User-Guide:--Data-Management](old/hadatac-user-guide-data-management.md)
