@@ -1,0 +1,60 @@
+# 5. METADATA FILES
+
+HADatAc uses five types of metadata files listed below. For each one of metadata file types, it is listed below their name convention, description, and possible error messages generated during their ingestion. Error messages during the ingestion of metadata files are written in the file's log, which are displayed when selecting the "log" button next to the file in the Manage Data File Ingestion option \(HADatAc Home &gt; Manage Data File Ingestion\).
+
+## Deployment File \(DPL\)
+
+**Name convention**: Starts with: "**DPL-**" and ends with "**.xlsx**"  
+**Ingestion restriction**: Can be ingested any time  
+**Download template**:  
+**Download example**:
+
+Used to include platform, instrument, detector and deployment information into HADatAc. The information in this kind of file tends to be study independent in the sense that platforms, instruments and detectors can be used in multiple studies.
+
+## Study File \(STD\)
+
+**Name convention**: Starts with: "**STD-**" and ends with "**.xlsx**" or "**.csv**"  
+**Ingestion restriction**: Can be ingested any time **Download template**:  
+**Download example**:
+
+Used to include one or more study basic information into HADatAc. Information in STD files include things like PI's name and address. Study's aims, short description and long description.
+
+## Semantic Study Design File \(SSD\)
+
+**Name convention**: Starts with: "**SSD-**" and ends with "**.xlsx**"  
+**Ingestion restriction**: Needs to be ingested after its corresponding STD file has been ingested **Download template**:  
+**Download example**:
+
+Used to specify and identify object collections related to studies. Subjects and samples are examples of such collections. Inter-relationship among object collections are also specified in SSD files. For example, if the main group of subjects are infants, and the group of parents is another group, SSD can specify the objects in both collections, and specify how parents are mapped to infants. We suggest following \[this instruction\]\([https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Semantic-Study-Design-\(SSD](https://github.com/paulopinheiro1234/hadatac/wiki/5.3.-Semantic-Study-Design-%28SSD)\)\) to generate SSD files.
+
+## Semantic Data Dictionary File \(SDD\)
+
+**Name convention**: Starts with: "**SSD-**" and ends with "**.xlsx**"  
+**Ingestion restriction**: Can be ingested any time  
+**Download template**:  
+**Download example**:
+
+Used to guide the process of ingesting file content into HADatAc databases. A single SDD file can be used to ingest the content from multiple files as long these files share the same content type. We suggest following \[this instruction\]\([https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Semantic-Data-Dictionary-\(SDD](https://github.com/paulopinheiro1234/hadatac/wiki/5.4.-Semantic-Data-Dictionary-%28SDD)\)\) to create SDD files.
+
+## Stream Specification \(STR\) Files
+
+**Name convention**: Starts with: **STR-** and ends with "**.xlsx**" or "**.csv**"  
+**Ingestion restriction**: Needs to be ingested after associated STD, SDD and DPL files have been ingested  
+**Download template**:  
+**Download example**:
+
+An STR file identifies all the following about a given data file:
+
+* What is the associated study \(from a study coming from an STD file\);
+* Which SDD is going to be used to ingest the content of the file \(from an SDD file\);
+* What is the associated deployment \(from a deployment coming from a DPL file\) 
+* Which objects from associated study are associated with the values in the data file;
+* Who is the owner of the file; and
+* Who should have access to the file.
+
+We suggest following \[this instruction\]\([https://github.com/paulopinheiro1234/hadatac/wiki/5.5.-Stream-Specification-\(STR](https://github.com/paulopinheiro1234/hadatac/wiki/5.5.-Stream-Specification-%28STR)\)\) to create STR files.
+
+Error messages:
+
+* **"Error in DataAcquisitionGenerator: The specified owner email admin@hadatac.org is not a valid user!"**: this means that the email in the STR file does not match the email address of any user registered in HADatAc as described in Section 5.2.3.
+

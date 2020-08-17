@@ -9,3 +9,5 @@ Enjoy!
 
 HADatAc.org Team
 
+Copyright \(c\) 2019, [HADatAc.org](http://hadatac.org)
+

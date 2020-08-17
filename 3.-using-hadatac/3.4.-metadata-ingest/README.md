@@ -1,0 +1,26 @@
+# 3.4. Metadata Ingest
+
+Metadata content is added into HADatAc either through the ingestion of metadata files or through the use of online forms.
+
+For each one of the metadata files below, we will identify their name convention, description, and possible error messages generated during their ingestion. Error messages are in the file's log that is displayed when selecting the "log" button on "HADatAc Home &gt; File Management".
+
+## Types of Metadata Files
+
+Five types of metadata files are used in HADatAc. A description on how how these files are structured, how they are named, and how they are constructed is available in [Section 5](https://github.com/paulopinheiro1234/hadatac/wiki/5.-Metadata-Files).
+
+## Data and Metadata Ingestion Workflow
+
+The exact way metadata files are fed into HADatAc may vary by study. Files can only be submitted into the infrastructure after its knowledge graph \(KG\) has been bootstraped \(see [Sec. 2.2](https://github.com/paulopinheiro1234/hadatac/wiki/2.2.-Knowledge-Graph-Bootstrap)\). Below, we describe a partial order of file submission into the infrastructure that must be observed during the ingestion of the data and metadata files of a study:
+
+* DPL files can be submitted any time after KG bootstrap 
+* STD files can be submitted any time after KG bootstrap
+* SDD files can be submitted any time after KG bootstrap
+* An SSD file can only be submitted after its corresponding STD has been ingested 
+* An STR file can only be submitted after its corresponding DPL, STD, SSD and SDD files have been ingested
+
+It is important to note the following about data files \(i.e., DA files\):
+
+* A DA file can only be submitted after its corresponding STR file has been ingested 
+
+In the tasks above, it is said that files are submitted and ingested meaning that automated workflows should be able to verify that the ingestion of a given metadata file submitted into HADatAc was successful. This verification can be done pro grammatically through the use of a RESTFul service.
+
