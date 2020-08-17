@@ -1,7 +1,5 @@
 # HADatAc User Guide
 
-
-
 ## Getting Started
 
 This page provides instructions and links on how to use HADatAc for the first time. This set of instructions progress from installing and setting up the infrastructure to understanding its initial page, to submitting data and metadata for ingestion, to searching ingested data, and to eventually selecting and downloading data and metadata.

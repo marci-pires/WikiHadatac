@@ -1,4 +1,4 @@
-# \_Sidebar
+# Summary
 
 ![](https://raw.githubusercontent.com/paulopinheiro1234/hadatac-screenshots/master/hadatac-logo.png)
 
