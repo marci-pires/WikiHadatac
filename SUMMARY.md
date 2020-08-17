@@ -12,6 +12,7 @@
   * [1.6 - Installing HADATAC for Windows Using Vagrant](1.-installation/1.6-installing-hadatac-for-windows-using-vagrant.md)
   * [1.7.-Upgrading](1.-installation/1.7.-upgrading.md)
   * [1.8 Starting HADATAC](1.-installation/1.8-starting-hadatac.md)
+  * [1.9 Stopping HADATAC](1.-installation/1.9-stopping-hadatac.md)
 * [2. SETTING UP](2.-setting-up/README.md)
   * [2.1.-Software-Configuration](2.-setting-up/2.1.-software-configuration.md)
   * [2.2.-Knowledge-Graph-Bootstrap](2.-setting-up/2.2.-knowledge-graph-bootstrap.md)
